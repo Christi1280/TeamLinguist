@@ -91,4 +91,18 @@ public class NPC : MonoBehaviour, IInteractable
         dialoguePanel.SetActive(false);
         //unpause game, add later when we have a game manager or something to handle that
     }
+
+    public void RightAnswer() //add script to right answer button
+    {
+        //add functionality for right answer for dialogue choices
+        NextLine();
+    }
+
+    public void WrongAnswer() //add script to wrong answer button
+    {
+        //repeat line
+        if (dialogueIndex > 0)
+            dialogueIndex--;
+        NextLine();
+    }
 }
