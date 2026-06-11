@@ -24,6 +24,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1092960509, guid: d3cbdadf041309b4f987e0e59a19cca5, type: 3}
+    - target: {fileID: 3535722160659152631, guid: 2bd6076c8438875458104d64fb9427d0, type: 3}
+      propertyPath: ID
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3535722160659152631, guid: 2bd6076c8438875458104d64fb9427d0, type: 3}
+      propertyPath: Name
+      value: Coffee
+      objectReference: {fileID: 0}
     - target: {fileID: 6240639187830947560, guid: 2bd6076c8438875458104d64fb9427d0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
