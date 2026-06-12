@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30d76daee4cf2114a941827c5e2208b5, type: 3}
   m_Name: OldManDialogue
   m_EditorClassIdentifier: 
-  npcName: 
-  npcPortrait: 
-  dialogueLines: []
-  typingSpeed: 0.05
-  voiceSound: {fileID: 0}
-  voicePitch: 1
-  autoProgressLines: 
+  npcName: Old Man
+  npcPortrait: {fileID: 21300000, guid: c1b3d7cb4b37a0442a1f5d96a599a92c, type: 3}
+  dialogueLines:
+  - '!Hola, jovencito!'
+  - Como esta hoy?
+  autoProgressLines: 0100
   autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 8300000, guid: 900e38d687d83fc49b6f07885439cdea, type: 3}
+  voicePitch: 1
