@@ -17,8 +17,17 @@ MonoBehaviour:
   dialogueLines:
   - '!Hola, jovencito!'
   - Como esta hoy?
+  - "Me alegra mucho o\xEDr eso."
+  - Espero que te sientas mejor pronto.
   autoProgressLines: 0100
+  endDialogueLines: 00000101
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 8300000, guid: 900e38d687d83fc49b6f07885439cdea, type: 3}
   voicePitch: 1
+  choices:
+  - dialogueIndex: 1
+    choices:
+    - Estoy bien!
+    - No estoy bien
+    nextDialogueIndex: 0200000003000000
