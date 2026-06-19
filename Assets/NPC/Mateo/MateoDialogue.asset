@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30d76daee4cf2114a941827c5e2208b5, type: 3}
+  m_Name: MateoDialogue
+  m_EditorClassIdentifier: 
+  npcName: Mateo
+  npcPortrait: {fileID: 21300000, guid: c1b3d7cb4b37a0442a1f5d96a599a92c, type: 3}
+  dialogueLines:
+  - "\xA1Hola! Bienvenido a nuestro pueblo."
+  - "Me llamo Mateo. \xBFC\xF3mo te llamas t\xFA?"
+  - "\xA1Mucho gusto, Justin!"
+  - "Es un placer conocerte. \xBFDe d\xF3nde eres?"
+  - "\xA1Casi! En espa\xF1ol puedes decir:"
+  - "\u201CHola, me llamo Justin.\u201D"
+  - "\xA1Genial! Me alegra que est\xE9s aqu\xED."
+  - "\xBFNecesitas ayuda? Puedo decirte d\xF3nde est\xE1n las tiendas, la biblioteca,
+    el restaurante, la granja y la escuela."
+  - Para empezar, vamos al restaurante.
+  - "El restaurante est\xE1 cerca del parque."
+  - "\xBFEntendiste? \xBFD\xF3nde est\xE1 el restaurante?"
+  - "\xA1Muy bien!"
+  - "\xA1Perfecto! Ahora puedes ir al restaurante."
+  - "Recuerda: \u201CHola\u201D, \u201Cme llamo\u201D, \u201C\xBFd\xF3nde est\xE1?\u201D
+    y \u201Cgracias\u201D te van a servir mucho."
+  - "\xA1De nada! Nos vemos pronto. \xA1Divi\xE9rtete explorando!"
+  - "\xA1Casi! En espa\xF1ol decimos \u201CSoy de Jamaica\u201D o \u201CVengo de
+    Jamaica\u201D."
+  - "\xA1Buen intento!"
+  - "Casi. El restaurante est\xE1 cerca del parque."
+  - "Int\xE9ntalo otra vez."
+  autoProgressLines: 00000000000000000000000000000000000000
+  endDialogueLines: 000000000000000000000000000001000000
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 8300000, guid: 900e38d687d83fc49b6f07885439cdea, type: 3}
+  voicePitch: 1
+  choices:
+  - dialogueIndex: 1
+    choices:
+    - Hola, me llamo Justin.
+    - Hello, my name is Justin.
+    nextDialogueIndex: 0200000004000000
+  - dialogueIndex: 3
+    choices:
+    - Soy de Jamaica.
+    - Vengo de Jamaica.
+    - I am from Jamaica.
+    nextDialogueIndex: 06000000060000000f000000
+  - dialogueIndex: 10
+    choices:
+    - Cerca del parque.
+    - "Detr\xE1s de la escuela."
+    - Al lado de la biblioteca.
+    nextDialogueIndex: 0b0000001100000011000000
+  - dialogueIndex: 13
+    choices:
+    - Gracias, Mateo.
+    nextDialogueIndex: 0e000000
+  - dialogueIndex: 5
+    choices:
+    - Hola, me llamo Justin.
+    nextDialogueIndex: 02000000
+  - dialogueIndex: 16
+    choices:
+    - Soy de Jamaica.
+    - Vengo de Jamaica.
+    nextDialogueIndex: 0600000006000000
+  - dialogueIndex: 18
+    choices:
+    - Cerca del parque.
+    - "Detr\xE1s de la escuela."
+    - Al lado de la biblioteca.
+    nextDialogueIndex: 0b0000001100000011000000

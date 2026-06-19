@@ -816,7 +816,7 @@ GameObject:
   - component: {fileID: 234559893}
   - component: {fileID: 234559892}
   m_Layer: 0
-  m_Name: NPC
+  m_Name: Mateo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -944,8 +944,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 234559886}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.9715524, y: -1.5562708, z: 0.10396516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -958,7 +958,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 234559886}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc0df5bda06675c4b91c76c1339d1c27, type: 3}
   m_Name: 
@@ -11074,7 +11074,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &573728063
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13617,7 +13617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1245259025}
   m_Layer: 0
-  m_Name: OldManNPC
+  m_Name: MateoNPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13632,7 +13632,7 @@ Transform:
   m_GameObject: {fileID: 1245259024}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5415525, y: 5.196271, z: -0.10396516}
+  m_LocalPosition: {x: 5.09, y: -1.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15740,7 +15740,7 @@ Transform:
   m_GameObject: {fileID: 1972532343}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5415525, y: 5.196271, z: -0.10396516}
+  m_LocalPosition: {x: -3.5415525, y: 21.57, z: -0.10396516}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
