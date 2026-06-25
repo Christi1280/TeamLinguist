@@ -47,6 +47,19 @@ public class NPC : MonoBehaviour, IInteractable
         DisplayCurrentLine();   
     }
 
+    void PlayDialogueAudio()
+    {
+        if (dialogueData.dialogueAudioClips == null) return;
+        if (dialogueIndex < 0 || dialogueIndex >= dialogueData.dialogueAudioClips.Length) return;
+
+        AudioClip clip = dialogueData.dialogueAudioClips[dialogueIndex];
+        if (clip == null) return;
+
+        dialogueUI.dialogueAudioSource.Stop();
+        dialogueUI.dialogueAudioSource.clip = clip;
+        dialogueUI.dialogueAudioSource.Play();
+    }
+
     void NextLine()
     {
         if (isTyping)
@@ -125,11 +138,13 @@ public class NPC : MonoBehaviour, IInteractable
     void DisplayCurrentLine()
     {
         StopAllCoroutines();
+        PlayDialogueAudio();
         StartCoroutine(TypeLine());
     }
     public void EndDialogue()
     {
         StopAllCoroutines();
+        dialogueUI.dialogueAudioSource.Stop();
         isDialogueActive = false;
         dialogueUI.SetDialogueText("");
         dialogueUI.ShowDialogueUI(false);
