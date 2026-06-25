@@ -43,6 +43,26 @@ MonoBehaviour:
   typingSpeed: 0.05
   voiceSound: {fileID: 8300000, guid: 900e38d687d83fc49b6f07885439cdea, type: 3}
   voicePitch: 1
+  dialogueAudioClips:
+  - {fileID: 8300000, guid: 7d997dcd95b6f4d469a0d4cca5e9a875, type: 3}
+  - {fileID: 8300000, guid: 771dd7712bc2dfb46b330f87c39524cf, type: 3}
+  - {fileID: 8300000, guid: 646416e8205ae7d4385ce6b9f88fcab7, type: 3}
+  - {fileID: 8300000, guid: b0742ac0e132c2f4db050eb96b91eb7e, type: 3}
+  - {fileID: 8300000, guid: e8c463642d18cc5478a7ff294a583c18, type: 3}
+  - {fileID: 8300000, guid: 4df3f37150767eb408b2e2d647404b29, type: 3}
+  - {fileID: 8300000, guid: e534159814e83054282ffdc6c7703ccc, type: 3}
+  - {fileID: 8300000, guid: 6e8adfe1839e09e4ea311949ab958b2e, type: 3}
+  - {fileID: 8300000, guid: c97d023c016c4284b8e651981f65cb45, type: 3}
+  - {fileID: 8300000, guid: bc3677b66fc417f4487e167706fdce1c, type: 3}
+  - {fileID: 8300000, guid: 5fc37262c03a7e3409496699783fb216, type: 3}
+  - {fileID: 8300000, guid: 94b60f158eb4e1940b03bc586c8021de, type: 3}
+  - {fileID: 8300000, guid: 13ec728b65d33484cb42266b51f6e705, type: 3}
+  - {fileID: 8300000, guid: ff090bb06c1ea484f87ed4bb779eae35, type: 3}
+  - {fileID: 8300000, guid: 3b9bfbf573d9a31479123902b1e20bf4, type: 3}
+  - {fileID: 8300000, guid: 89c232d8c8314d04e85f9d0947753355, type: 3}
+  - {fileID: 8300000, guid: 224dd5cc83c329043adb08f0395c0d13, type: 3}
+  - {fileID: 8300000, guid: 2b9874b5d26f42145b82d82bbede8359, type: 3}
+  - {fileID: 8300000, guid: 3a5a21503c8ca3448bc24c1cf2594739, type: 3}
   choices:
   - dialogueIndex: 1
     choices:
