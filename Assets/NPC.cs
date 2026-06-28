@@ -44,7 +44,7 @@ public class NPC : MonoBehaviour, IInteractable
         dialogueUI.ShowDialogueUI(true);
         PauseController.SetPause(true);
 
-        DisplayCurrentLine();   
+        DisplayCurrentLine();
     }
 
     void PlayDialogueAudio()
@@ -81,7 +81,7 @@ public class NPC : MonoBehaviour, IInteractable
         }
 
         //Check if choices and display
-        foreach(DialogueChoice dialogueChoice in dialogueData.choices)
+        foreach (DialogueChoice dialogueChoice in dialogueData.choices)
         {
             if (dialogueChoice.dialogueIndex == dialogueIndex)
             {
@@ -89,12 +89,13 @@ public class NPC : MonoBehaviour, IInteractable
                 return;
             }
         }
-        
-        
+
+
         if (++dialogueIndex < dialogueData.dialogueLines.Length)
         {
             DisplayCurrentLine();
-        } else
+        }
+        else
         {
             EndDialogue();
         }
@@ -105,7 +106,7 @@ public class NPC : MonoBehaviour, IInteractable
         isTyping = true;
         dialogueUI.SetDialogueText("");
 
-        foreach(char letter in dialogueData.dialogueLines[dialogueIndex])
+        foreach (char letter in dialogueData.dialogueLines[dialogueIndex])
         {
             dialogueUI.SetDialogueText(dialogueUI.dialogueText.text += letter);
             yield return new WaitForSeconds(dialogueData.typingSpeed);
@@ -121,16 +122,35 @@ public class NPC : MonoBehaviour, IInteractable
 
     void DisplayChoices(DialogueChoice choice)
     {
+
         for (int i = 0; i < choice.choices.Length; i++)
         {
+            int choiceIndex = i;
             int nextIndex = choice.nextDialogueIndex[i];
-            dialogueUI.CreateChoiceButton(choice.choices[i], () => ChooseOption(nextIndex));
+            dialogueUI.CreateChoiceButton(choice.choices[i], () => ChooseOption(choice, choiceIndex, nextIndex));
         }
     }
 
-    void ChooseOption(int nextIndex)
+    void ChooseOption(DialogueChoice choice, int choiceIndex, int nextIndex)
     {
-        dialogueIndex = nextIndex;
+        bool isCorrect = choice.correctChoice != null &&
+                         choiceIndex < choice.correctChoice.Length &&
+                         choice.correctChoice[choiceIndex];
+
+        if (isCorrect)
+        {
+            if (FluencyPointsManager.Instance != null)
+            {
+                FluencyPointsManager.Instance.AddFluencyPoint();
+            }
+
+            dialogueIndex = nextIndex;
+        }
+        else
+        {
+            dialogueIndex = nextIndex;
+        }
+
         dialogueUI.ClearChoices();
         DisplayCurrentLine();
     }
