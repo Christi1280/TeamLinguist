@@ -25,4 +25,5 @@ public class DialogueChoice
     public int dialogueIndex; //Dialogueline where choices appear
     public string[] choices; //Player response options
     public int[] nextDialogueIndex; //where choice leads
+    public bool[] correctChoice; //Marks which choice are correct
 }

@@ -69,34 +69,41 @@ MonoBehaviour:
     - Hola, me llamo Justin.
     - Hello, my name is Justin.
     nextDialogueIndex: 0200000004000000
+    correctChoice: 0100
   - dialogueIndex: 3
     choices:
     - Soy de Jamaica.
     - Vengo de Jamaica.
     - I am from Jamaica.
     nextDialogueIndex: 06000000060000000f000000
+    correctChoice: 010100
   - dialogueIndex: 10
     choices:
     - Cerca del parque.
     - "Detr\xE1s de la escuela."
     - Al lado de la biblioteca.
     nextDialogueIndex: 0b0000001100000011000000
+    correctChoice: 010000
   - dialogueIndex: 13
     choices:
     - Gracias, Mateo.
     nextDialogueIndex: 0e000000
+    correctChoice: 01
   - dialogueIndex: 5
     choices:
     - Hola, me llamo Justin.
     nextDialogueIndex: 02000000
+    correctChoice: 01
   - dialogueIndex: 16
     choices:
     - Soy de Jamaica.
     - Vengo de Jamaica.
     nextDialogueIndex: 0600000006000000
+    correctChoice: 0101
   - dialogueIndex: 18
     choices:
     - Cerca del parque.
     - "Detr\xE1s de la escuela."
     - Al lado de la biblioteca.
     nextDialogueIndex: 0b0000001100000011000000
+    correctChoice: 010000
