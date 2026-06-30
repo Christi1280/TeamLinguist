@@ -41,6 +41,7 @@ public class NPC : MonoBehaviour, IInteractable
         dialogueIndex = 0;
 
         dialogueUI.SetNPCInfo(dialogueData.npcName, dialogueData.npcPortrait);
+        dialogueUI.SetCurrentDialogueData(dialogueData);
         dialogueUI.ShowDialogueUI(true);
         PauseController.SetPause(true);
 
@@ -106,13 +107,31 @@ public class NPC : MonoBehaviour, IInteractable
         isTyping = true;
         dialogueUI.SetDialogueText("");
 
-        foreach (char letter in dialogueData.dialogueLines[dialogueIndex])
+        string line = dialogueData.dialogueLines[dialogueIndex];
+        string displayedText = "";
+
+        for (int i = 0; i < line.Length; i++)
         {
-            dialogueUI.SetDialogueText(dialogueUI.dialogueText.text += letter);
+            if (line[i] == '<')
+            {
+                int closingIndex = line.IndexOf('>', i);
+
+                if (closingIndex != -1)
+                {
+                    displayedText += line.Substring(i, closingIndex - i + 1);
+                    i = closingIndex;
+                    dialogueUI.SetDialogueText(displayedText);
+                    continue;
+                }
+            }
+
+            displayedText += line[i];
+            dialogueUI.SetDialogueText(displayedText);
             yield return new WaitForSeconds(dialogueData.typingSpeed);
         }
 
         isTyping = false;
+
         if (dialogueData.autoProgressLines.Length > dialogueIndex && dialogueData.autoProgressLines[dialogueIndex])
         {
             yield return new WaitForSeconds(dialogueData.autoProgressDelay);
