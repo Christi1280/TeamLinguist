@@ -15,9 +15,9 @@ MonoBehaviour:
   npcName: Mateo
   npcPortrait: {fileID: 21300000, guid: c1b3d7cb4b37a0442a1f5d96a599a92c, type: 3}
   dialogueLines:
-  - "\xA1Hola! Bienvenido a nuestro pueblo."
+  - "\xA1Hola! <link=\"Bienvenido\"><u>Bienvenido</u></link> a nuestro pueblo."
   - "Me llamo Mateo. \xBFC\xF3mo te llamas t\xFA?"
-  - "\xA1Mucho gusto, Justin!"
+  - "\xA1<link=\"Mucho gusto\"><u>Mucho gusto</u></link>, Justin!"
   - "Es un placer conocerte. \xBFDe d\xF3nde eres?"
   - "\xA1Casi! En espa\xF1ol puedes decir:"
   - "\u201CHola, me llamo Justin.\u201D"
@@ -107,3 +107,8 @@ MonoBehaviour:
     - Al lado de la biblioteca.
     nextDialogueIndex: 0b0000001100000011000000
     correctChoice: 010000
+  hoverDefinitions:
+  - key: Bienvenido
+    definition: Bienvenido = Welcome
+  - key: Mucho gusto
+    definition: Mucho gusto = Nice to meet you
