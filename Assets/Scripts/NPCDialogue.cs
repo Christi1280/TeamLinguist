@@ -15,15 +15,21 @@ public class NPCDialogue : ScriptableObject
     public AudioClip[] dialogueAudioClips;
 
     public DialogueChoice[] choices;
-   
+    public HoverDefinition[] hoverDefinitions;
 }
 
 [System.Serializable]
-
 public class DialogueChoice
 {
-    public int dialogueIndex; //Dialogueline where choices appear
-    public string[] choices; //Player response options
-    public int[] nextDialogueIndex; //where choice leads
-    public bool[] correctChoice; //Marks which choice are correct
+    public int dialogueIndex;
+    public string[] choices;
+    public int[] nextDialogueIndex;
+    public bool[] correctChoice;
+}
+
+[System.Serializable]
+public class HoverDefinition
+{
+    public string key;
+    public string definition;
 }
