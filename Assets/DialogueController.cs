@@ -7,6 +7,7 @@ public class DialogueController : MonoBehaviour
     public static DialogueController Instance { get; private set; }
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
+    public TextMeshProUGUI endDialogueText; //added
     public Image portraitImage;
     public Transform choiceContainer;
     public GameObject choiceButtonPrefab;
@@ -14,6 +15,9 @@ public class DialogueController : MonoBehaviour
 
     public GameObject tooltipPanel;
     public TMP_Text tooltipText;
+
+    public GameObject endDialoguePanel; //added
+    public GameObject endDialogueButton; //added
 
     private NPCDialogue currentDialogueData;
 
@@ -44,6 +48,26 @@ public class DialogueController : MonoBehaviour
         }
     }
 
+    public void ShowEndDialogueUI(bool show) //added
+    {
+        endDialoguePanel.SetActive(show);
+
+        if (!show && endDialogueText != null)
+        {
+            endDialogueText.text = "";
+        }
+
+        endDialogueButton.SetActive(show);
+
+    }
+
+    public void CloseEndDialoguePanel() //added
+    {
+        ShowEndDialogueUI(false);
+        FluencyPointsManager.fluencyPointsEarned = 0;
+        PauseController.SetPause(false); //moved here so game resumes after closing the end dialogue panel
+    }
+
     public void SetCurrentDialogueData(NPCDialogue dialogueData)
     {
         currentDialogueData = dialogueData;
@@ -58,6 +82,11 @@ public class DialogueController : MonoBehaviour
     public void SetDialogueText(string text)
     {
         dialogueText.text = text;
+    }
+
+    public void SetEndDialogueText(string text) //added
+    {
+        endDialogueText.text = text;
     }
 
     public void ClearChoices()

@@ -14,6 +14,8 @@ public class NPC : MonoBehaviour, IInteractable
     private void Start()
     {
         dialogueUI = DialogueController.Instance;
+
+        dialogueUI.ShowEndDialogueUI(false);
     }
     public bool CanInteract()
     {
@@ -187,6 +189,13 @@ public class NPC : MonoBehaviour, IInteractable
         isDialogueActive = false;
         dialogueUI.SetDialogueText("");
         dialogueUI.ShowDialogueUI(false);
-        PauseController.SetPause(false);
+
+        //end dialogue code
+        dialogueUI.ShowEndDialogueUI(true);
+        dialogueUI.endDialogueText.text = "Fluency Points Earned: " + FluencyPointsManager.fluencyPointsEarned;
+
+        //moved pause control to end dialogue button
     }
+
+
 }

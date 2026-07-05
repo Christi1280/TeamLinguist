@@ -7,6 +7,8 @@ public class FluencyPointsManager : MonoBehaviour
 
     public int fluencyPoints = 0;
 
+    public static int fluencyPointsEarned = 0; // added to track fluency points earned after one dialogue session
+
     public TMP_Text fluencyPointsText;
 
     private void Awake()
@@ -30,6 +32,8 @@ public class FluencyPointsManager : MonoBehaviour
     {
         fluencyPoints++;
         UpdateFluencyUI();
+
+        fluencyPointsEarned++;
 
         Debug.Log("Fluency Points: " + fluencyPoints);
     }
