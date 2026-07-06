@@ -65,6 +65,8 @@ public class DialogueController : MonoBehaviour
     {
         ShowEndDialogueUI(false);
         FluencyPointsManager.fluencyPointsEarned = 0;
+        ObjectivesController.currentObjective++; //added, next objective after dialogue ends
+        ObjectivesController.Instance.UpdateObjectivesText(); //added, update objectives text after dialogue ends
         PauseController.SetPause(false); //moved here so game resumes after closing the end dialogue panel
     }
 
