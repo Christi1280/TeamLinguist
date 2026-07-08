@@ -26,7 +26,11 @@ MonoBehaviour:
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
-  dialogueAudioClips: []
+  dialogueAudioClips:
+  - {fileID: 8300000, guid: 16849004f09ede5489545f5639b705fa, type: 3}
+  - {fileID: 8300000, guid: 3e055f8a06f304041b834ec6f66bb219, type: 3}
+  - {fileID: 8300000, guid: e1defdc621ca0884a88d8be5ea038cfa, type: 3}
+  - {fileID: 8300000, guid: 7e3c2750fe7811248a212d4ee9053936, type: 3}
   choices:
   - dialogueIndex: 1
     choices:
