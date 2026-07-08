@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 5366227}
   - component: {fileID: 5366226}
   m_Layer: 0
-  m_Name: GirlNPC
+  m_Name: Laura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -348,8 +348,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5366219}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.9715524, y: -7.3962708, z: 0.10396516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5366219}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc0df5bda06675c4b91c76c1339d1c27, type: 3}
   m_Name: 
@@ -383,7 +383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c82772295169e2448303f21fe32fabe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueData: {fileID: 0}
+  dialogueData: {fileID: 11400000, guid: 48798384e70858a4789faa0e9627b1c3, type: 2}
 --- !u!95 &5366226
 Animator:
   serializedVersion: 7
@@ -17077,7 +17077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1972532344}
   m_Layer: 0
-  m_Name: GirlNPC
+  m_Name: LauraNPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17092,7 +17092,7 @@ Transform:
   m_GameObject: {fileID: 1972532343}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5415525, y: 21.57, z: -0.10396516}
+  m_LocalPosition: {x: -0.12, y: 4.82, z: -0.10396516}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
