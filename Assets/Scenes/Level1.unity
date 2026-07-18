@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 5366227}
   - component: {fileID: 5366226}
   m_Layer: 0
-  m_Name: GirlNPC
+  m_Name: Laura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -348,8 +348,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5366219}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.9715524, y: -7.3962708, z: 0.10396516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5366219}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc0df5bda06675c4b91c76c1339d1c27, type: 3}
   m_Name: 
@@ -383,7 +383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c82772295169e2448303f21fe32fabe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueData: {fileID: 0}
+  dialogueData: {fileID: 11400000, guid: 48798384e70858a4789faa0e9627b1c3, type: 2}
 --- !u!95 &5366226
 Animator:
   serializedVersion: 7
@@ -4446,7 +4446,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 32
-      m_TileSpriteIndex: 46
+      m_TileSpriteIndex: 50
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4486,7 +4486,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 31
-      m_TileSpriteIndex: 32
+      m_TileSpriteIndex: 46
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -9431,8 +9431,8 @@ Tilemap:
     m_Data: {fileID: 91749297, guid: 41b00a58676743a4a8bd9573e2eaf777, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 1066633335, guid: 41b00a58676743a4a8bd9573e2eaf777, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 925878251, guid: 41b00a58676743a4a8bd9573e2eaf777, type: 3}
   - m_RefCount: 1
@@ -9460,15 +9460,15 @@ Tilemap:
   - m_RefCount: 8
     m_Data: {fileID: 1249870825, guid: 41b00a58676743a4a8bd9573e2eaf777, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -836146682, guid: 41b00a58676743a4a8bd9573e2eaf777, type: 3}
+    m_Data: {fileID: 1066633335, guid: 41b00a58676743a4a8bd9573e2eaf777, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: -1861952904, guid: 41b00a58676743a4a8bd9573e2eaf777, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 858532338, guid: 41b00a58676743a4a8bd9573e2eaf777, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -984990166, guid: 41b00a58676743a4a8bd9573e2eaf777, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -836146682, guid: 41b00a58676743a4a8bd9573e2eaf777, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 764
     m_Data:
@@ -10465,7 +10465,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.47765955, y: -2.0360498, z: -10}
+  m_LocalPosition: {x: 0.47123262, y: -2.03604, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16471,6 +16471,8 @@ MonoBehaviour:
   choiceContainer: {fileID: 1603950680}
   choiceButtonPrefab: {fileID: 6209737153078787834, guid: 8794021cbd9961c49886865612edf2dd, type: 3}
   dialogueAudioSource: {fileID: 1095102474}
+  tooltipPanel: {fileID: 0}
+  tooltipText: {fileID: 0}
 --- !u!82 &1095102474
 AudioSource:
   m_ObjectHideFlags: 0
@@ -19602,7 +19604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1972532344}
   m_Layer: 0
-  m_Name: GirlNPC
+  m_Name: Laura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19617,7 +19619,7 @@ Transform:
   m_GameObject: {fileID: 1972532343}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5415525, y: 21.57, z: -0.10396516}
+  m_LocalPosition: {x: 0.61, y: 10.91, z: -0.10396516}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
