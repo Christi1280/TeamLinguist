@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 5366228}
   - component: {fileID: 5366227}
   - component: {fileID: 5366226}
+  - component: {fileID: 5366229}
   m_Layer: 0
   m_Name: Laura
   m_TagString: Untagged
@@ -265,7 +266,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5366219}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc0df5bda06675c4b91c76c1339d1c27, type: 3}
   m_Name: 
@@ -273,7 +274,28 @@ MonoBehaviour:
   waypointParent: {fileID: 297774793}
   moveSpeed: 2
   waitTime: 1
-  loopWaypoints: 1
+  startAutomatically: 0
+  loopWaypoints: 0
+  obstacleCheckDistance: 0.5
+  obstacleCheckRadius: 0.25
+  onWaypointReached:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5366229}
+        m_TargetAssemblyTypeName: LauraHostessController, Assembly-CSharp
+        m_MethodName: HandleWaypointReached
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPathCompleted:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &5366225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287,6 +309,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: 48798384e70858a4789faa0e9627b1c3, type: 2}
+  onDialogueEnded:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5366229}
+        m_TargetAssemblyTypeName: LauraHostessController, Assembly-CSharp
+        m_MethodName: HandleDialogueEnded
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &5366226
 Animator:
   serializedVersion: 7
@@ -339,6 +376,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Library: []
   m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 23e9c4aa756413b4488f9516507721af, type: 3}
+--- !u!114 &5366229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5366219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f52fd693bd6d1404ba70d424469eb78e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npc: {fileID: 5366225}
+  waypointMover: {fileID: 5366224}
+  entranceDialogue: {fileID: 11400000, guid: 48798384e70858a4789faa0e9627b1c3, type: 2}
+  tableDialogue: {fileID: 11400000, guid: adcdcb230a031064694ba0f361d57f8c, type: 2}
 --- !u!1 &47612367
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,7 +569,7 @@ Transform:
   m_GameObject: {fileID: 63618847}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.2, y: 25.7, z: -10}
+  m_LocalPosition: {x: -45.2, y: 23.48, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -641,37 +694,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 634d7c92d333461469fe4ed144d9abb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &129411476
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 129411477}
-  m_Layer: 0
-  m_Name: Waypoint (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &129411477
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129411476}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.9, y: -1.34, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 297774793}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &130187207
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,7 +795,7 @@ Transform:
   m_GameObject: {fileID: 149345630}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.85, y: -1.34, z: 0}
+  m_LocalPosition: {x: 0.48, y: -1.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -861,6 +883,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: ae09ffd4b857f144eb7f1130836583bf, type: 2}
+  onDialogueEnded:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!61 &234559888
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -992,7 +1017,16 @@ MonoBehaviour:
   waypointParent: {fileID: 699613213}
   moveSpeed: 2
   waitTime: 2
+  startAutomatically: 1
   loopWaypoints: 1
+  obstacleCheckDistance: 0.5
+  obstacleCheckRadius: 0.25
+  onWaypointReached:
+    m_PersistentCalls:
+      m_Calls: []
+  onPathCompleted:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!95 &234559892
 Animator:
   serializedVersion: 7
@@ -1427,8 +1461,6 @@ Transform:
   m_Children:
   - {fileID: 1848715770}
   - {fileID: 149345631}
-  - {fileID: 129411477}
-  - {fileID: 925436701}
   m_Father: {fileID: 1972532344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &341011483
@@ -11408,7 +11440,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.2, y: 25.7, z: -10}
+  m_LocalPosition: {x: -45.223877, y: 25.15111, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12563,37 +12595,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 869220450}
   m_CullTransparentMesh: 1
---- !u!1 &925436700
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 925436701}
-  m_Layer: 0
-  m_Name: Waypoint (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &925436701
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 925436700}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.9, y: -8.08, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 297774793}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &926524176
 GameObject:
   m_ObjectHideFlags: 0
@@ -19620,7 +19621,7 @@ Transform:
   m_GameObject: {fileID: 1818610476}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.2, y: 25.7, z: 0}
+  m_LocalPosition: {x: -45.2, y: 23.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19774,7 +19775,7 @@ Transform:
   m_GameObject: {fileID: 1848715769}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.85, y: -7.7, z: 0}
+  m_LocalPosition: {x: -3.83, y: 3.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20865,9 +20866,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 234559887}
-        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
-        m_MethodName: EndDialogue
+      - m_Target: {fileID: 1095102473}
+        m_TargetAssemblyTypeName: DialogueController, Assembly-CSharp
+        m_MethodName: CloseDialogue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -1,20 +1,25 @@
 using System.Collections;
 using TMPro;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class NPC : MonoBehaviour, IInteractable
 {
     public NPCDialogue dialogueData;
+
+    [Header("NPC Events")]
+    public UnityEvent onDialogueEnded;
+
     private DialogueController dialogueUI;
     private int dialogueIndex;
-    private bool isTyping, isDialogueActive;
+    private bool isTyping;
+    private bool isDialogueActive;
 
     private void Start()
     {
         dialogueUI = DialogueController.Instance;
     }
+
     public bool CanInteract()
     {
         return !isDialogueActive;
@@ -22,8 +27,11 @@ public class NPC : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        if (dialogueData == null || (PauseController.IsGamePaused && !isDialogueActive))
+        if (dialogueData == null ||
+            (PauseController.IsGamePaused && !isDialogueActive))
+        {
             return;
+        }
 
         if (isDialogueActive)
         {
@@ -40,9 +48,17 @@ public class NPC : MonoBehaviour, IInteractable
         isDialogueActive = true;
         dialogueIndex = 0;
 
-        dialogueUI.SetNPCInfo(dialogueData.npcName, dialogueData.npcPortrait);
+        // Tell the DialogueController which NPC owns this conversation.
+        dialogueUI.SetCurrentNPC(this);
+
+        dialogueUI.SetNPCInfo(
+            dialogueData.npcName,
+            dialogueData.npcPortrait
+        );
+
         dialogueUI.SetCurrentDialogueData(dialogueData);
         dialogueUI.ShowDialogueUI(true);
+
         PauseController.SetPause(true);
 
         DisplayCurrentLine();
@@ -50,11 +66,20 @@ public class NPC : MonoBehaviour, IInteractable
 
     void PlayDialogueAudio()
     {
-        if (dialogueData.dialogueAudioClips == null) return;
-        if (dialogueIndex < 0 || dialogueIndex >= dialogueData.dialogueAudioClips.Length) return;
+        if (dialogueData.dialogueAudioClips == null)
+            return;
 
-        AudioClip clip = dialogueData.dialogueAudioClips[dialogueIndex];
-        if (clip == null) return;
+        if (dialogueIndex < 0 ||
+            dialogueIndex >= dialogueData.dialogueAudioClips.Length)
+        {
+            return;
+        }
+
+        AudioClip clip =
+            dialogueData.dialogueAudioClips[dialogueIndex];
+
+        if (clip == null)
+            return;
 
         dialogueUI.dialogueAudioSource.Stop();
         dialogueUI.dialogueAudioSource.clip = clip;
@@ -65,23 +90,25 @@ public class NPC : MonoBehaviour, IInteractable
     {
         if (isTyping)
         {
-            //Skip typing animation and show full line
             StopAllCoroutines();
-            dialogueUI.SetDialogueText(dialogueData.dialogueLines[dialogueIndex]);
+
+            dialogueUI.SetDialogueText(
+                dialogueData.dialogueLines[dialogueIndex]
+            );
+
             isTyping = false;
             return;
         }
-        //Clear choices
+
         dialogueUI.ClearChoices();
 
-        //Check endDialogueLines
-        if (dialogueData.endDialogueLines.Length > dialogueIndex && dialogueData.endDialogueLines[dialogueIndex])
+        if (dialogueData.endDialogueLines.Length > dialogueIndex &&
+            dialogueData.endDialogueLines[dialogueIndex])
         {
             EndDialogue();
             return;
         }
 
-        //Check if choices and display
         foreach (DialogueChoice dialogueChoice in dialogueData.choices)
         {
             if (dialogueChoice.dialogueIndex == dialogueIndex)
@@ -90,7 +117,6 @@ public class NPC : MonoBehaviour, IInteractable
                 return;
             }
         }
-
 
         if (++dialogueIndex < dialogueData.dialogueLines.Length)
         {
@@ -105,6 +131,7 @@ public class NPC : MonoBehaviour, IInteractable
     IEnumerator TypeLine()
     {
         isTyping = true;
+
         dialogueUI.SetDialogueText("");
 
         string line = dialogueData.dialogueLines[dialogueIndex];
@@ -118,43 +145,68 @@ public class NPC : MonoBehaviour, IInteractable
 
                 if (closingIndex != -1)
                 {
-                    displayedText += line.Substring(i, closingIndex - i + 1);
+                    displayedText += line.Substring(
+                        i,
+                        closingIndex - i + 1
+                    );
+
                     i = closingIndex;
+
                     dialogueUI.SetDialogueText(displayedText);
+
                     continue;
                 }
             }
 
             displayedText += line[i];
+
             dialogueUI.SetDialogueText(displayedText);
-            yield return new WaitForSeconds(dialogueData.typingSpeed);
+
+            yield return new WaitForSeconds(
+                dialogueData.typingSpeed
+            );
         }
 
         isTyping = false;
 
-        if (dialogueData.autoProgressLines.Length > dialogueIndex && dialogueData.autoProgressLines[dialogueIndex])
+        if (dialogueData.autoProgressLines.Length > dialogueIndex &&
+            dialogueData.autoProgressLines[dialogueIndex])
         {
-            yield return new WaitForSeconds(dialogueData.autoProgressDelay);
+            yield return new WaitForSeconds(
+                dialogueData.autoProgressDelay
+            );
+
             NextLine();
         }
     }
 
     void DisplayChoices(DialogueChoice choice)
     {
-
         for (int i = 0; i < choice.choices.Length; i++)
         {
             int choiceIndex = i;
             int nextIndex = choice.nextDialogueIndex[i];
-            dialogueUI.CreateChoiceButton(choice.choices[i], () => ChooseOption(choice, choiceIndex, nextIndex));
+
+            dialogueUI.CreateChoiceButton(
+                choice.choices[i],
+                () => ChooseOption(
+                    choice,
+                    choiceIndex,
+                    nextIndex
+                )
+            );
         }
     }
 
-    void ChooseOption(DialogueChoice choice, int choiceIndex, int nextIndex)
+    void ChooseOption(
+        DialogueChoice choice,
+        int choiceIndex,
+        int nextIndex)
     {
-        bool isCorrect = choice.correctChoice != null &&
-                         choiceIndex < choice.correctChoice.Length &&
-                         choice.correctChoice[choiceIndex];
+        bool isCorrect =
+            choice.correctChoice != null &&
+            choiceIndex < choice.correctChoice.Length &&
+            choice.correctChoice[choiceIndex];
 
         if (isCorrect)
         {
@@ -162,31 +214,75 @@ public class NPC : MonoBehaviour, IInteractable
             {
                 FluencyPointsManager.Instance.AddFluencyPoint();
             }
+        }
 
-            dialogueIndex = nextIndex;
-        }
-        else
-        {
-            dialogueIndex = nextIndex;
-        }
+        dialogueIndex = nextIndex;
 
         dialogueUI.ClearChoices();
+
         DisplayCurrentLine();
     }
 
     void DisplayCurrentLine()
     {
         StopAllCoroutines();
+
         PlayDialogueAudio();
+
         StartCoroutine(TypeLine());
     }
+
+    // Normal completion of the conversation.
     public void EndDialogue()
     {
         StopAllCoroutines();
-        dialogueUI.dialogueAudioSource.Stop();
+
+        if (dialogueUI.dialogueAudioSource != null)
+        {
+            dialogueUI.dialogueAudioSource.Stop();
+        }
+
+        isTyping = false;
         isDialogueActive = false;
+
+        dialogueUI.ClearChoices();
         dialogueUI.SetDialogueText("");
         dialogueUI.ShowDialogueUI(false);
+
         PauseController.SetPause(false);
+
+        // Clear active dialogue ownership.
+        dialogueUI.ClearCurrentNPC();
+
+        // Only fire this when the player actually completes the dialogue.
+        onDialogueEnded?.Invoke();
+    }
+
+    // Used when the player manually closes the dialogue early.
+    public void CancelDialogue()
+    {
+        StopAllCoroutines();
+
+        if (dialogueUI.dialogueAudioSource != null)
+        {
+            dialogueUI.dialogueAudioSource.Stop();
+        }
+
+        isTyping = false;
+        isDialogueActive = false;
+
+        // Reset so the conversation starts from the beginning next time.
+        dialogueIndex = 0;
+
+        dialogueUI.ClearChoices();
+        dialogueUI.SetDialogueText("");
+        dialogueUI.ShowDialogueUI(false);
+
+        PauseController.SetPause(false);
+
+        dialogueUI.ClearCurrentNPC();
+
+        // IMPORTANT:
+        // Do NOT call onDialogueEnded here.
     }
 }
