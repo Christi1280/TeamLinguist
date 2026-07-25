@@ -18,7 +18,7 @@ MonoBehaviour:
   - "\xA1Hola! <link=\"Bienvenidos\"><u>Bienvenidos</u></link> al Restaurante El
     Sol."
   - "\xBFTienen reserva o prefieren una mesa ahora?"
-  - "Perfecto. Si\xE9ntate aqu\xED. El mesero viene en un momento. \xA1Que aproveche!"
+  - Perfecto. Ven conmigo.
   - "\xA1Casi! Decimos \u2018una mesa para uno, por favor\u2019.  \xA1Muy bien intentado! "
   autoProgressLines: 
   endDialogueLines: 00000100
