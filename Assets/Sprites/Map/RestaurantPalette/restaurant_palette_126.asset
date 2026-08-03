@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: restaurant_palette_126
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 526912361, guid: aa5d4a20f8e92a246846dc23804f047b, type: 3}
+  m_Sprite: {fileID: 678295469, guid: aa5d4a20f8e92a246846dc23804f047b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
