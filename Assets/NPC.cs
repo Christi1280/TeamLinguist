@@ -67,7 +67,9 @@ public class NPC : MonoBehaviour, IInteractable
     void PlayDialogueAudio()
     {
         if (dialogueData.dialogueAudioClips == null)
+        {
             return;
+        }
 
         if (dialogueIndex < 0 ||
             dialogueIndex >= dialogueData.dialogueAudioClips.Length)
@@ -79,7 +81,9 @@ public class NPC : MonoBehaviour, IInteractable
             dialogueData.dialogueAudioClips[dialogueIndex];
 
         if (clip == null)
+        {
             return;
+        }
 
         dialogueUI.dialogueAudioSource.Stop();
         dialogueUI.dialogueAudioSource.clip = clip;
@@ -282,7 +286,6 @@ public class NPC : MonoBehaviour, IInteractable
 
         dialogueUI.ClearCurrentNPC();
 
-        // IMPORTANT:
-        // Do NOT call onDialogueEnded here.
+        // Do not call onDialogueEnded here.
     }
 }

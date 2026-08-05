@@ -1,42 +1,114 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class InteractionDetector : MonoBehaviour
 {
-    private IInteractable interactableInRange = null; //closest interactable
-    public GameObject interactionIcon;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private IInteractable interactableInRange;
+
+    private readonly HashSet<Collider2D> activeColliders = new();
+
+    [Header("Interaction Prompts")]
+    [SerializeField] private GameObject chatIcon;
+    [SerializeField] private GameObject sitPrompt;
+
+    private void Start()
     {
-        interactionIcon.SetActive(false);
+        HideAllPrompts();
     }
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (!context.performed ||
+            interactableInRange == null)
         {
-            interactableInRange?.Interact();
-            if (!interactableInRange.CanInteract())
-            {
-                interactionIcon.SetActive(false);
-            }
+            return;
+        }
+
+        /*
+         * Do not check CanInteract here.
+         * NPC.Interact() must continue receiving E presses
+         * while its dialogue is active.
+         */
+        interactableInRange.Interact();
+
+        if (!interactableInRange.CanInteract())
+        {
+            HideAllPrompts();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
+        IInteractable interactable =
+            collision.GetComponentInParent<IInteractable>();
+
+        if (interactable == null ||
+            !interactable.CanInteract())
+        {
+            return;
+        }
+
+        if (interactableInRange == null ||
+            interactable == interactableInRange)
         {
             interactableInRange = interactable;
-            interactionIcon.SetActive(true);
+            activeColliders.Add(collision);
+
+            ShowPromptFor(interactable);
         }
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.TryGetComponent(out IInteractable interactable) && interactable == interactableInRange)
+        IInteractable interactable =
+            collision.GetComponentInParent<IInteractable>();
+
+        if (interactable == null ||
+            interactable != interactableInRange)
+        {
+            return;
+        }
+
+        activeColliders.Remove(collision);
+
+        if (activeColliders.Count == 0)
         {
             interactableInRange = null;
-            interactionIcon.SetActive(false);
+            HideAllPrompts();
+        }
+    }
+
+    private void ShowPromptFor(IInteractable interactable)
+    {
+        HideAllPrompts();
+
+        if (interactable is NPC)
+        {
+            if (chatIcon != null)
+            {
+                chatIcon.SetActive(true);
+            }
+        }
+        else if (interactable is SeatInteraction)
+        {
+            if (sitPrompt != null)
+            {
+                sitPrompt.SetActive(true);
+            }
+        }
+    }
+
+    private void HideAllPrompts()
+    {
+        if (chatIcon != null)
+        {
+            chatIcon.SetActive(false);
+        }
+
+        if (sitPrompt != null)
+        {
+            sitPrompt.SetActive(false);
         }
     }
 }

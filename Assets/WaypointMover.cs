@@ -32,13 +32,16 @@ public class WaypointMover : MonoBehaviour
     private float lastInputX;
     private float lastInputY;
 
-    void Start()
+    private void Start()
     {
         animator = GetComponent<Animator>();
 
         if (waypointParent == null)
         {
-            Debug.LogWarning($"{gameObject.name} has no waypoint parent assigned.");
+            Debug.LogWarning(
+                $"{gameObject.name} has no waypoint parent assigned."
+            );
+
             return;
         }
 
@@ -52,7 +55,7 @@ public class WaypointMover : MonoBehaviour
         isMoving = startAutomatically;
     }
 
-    void Update()
+    private void Update()
     {
         if (!isMoving ||
             isWaiting ||
@@ -83,7 +86,6 @@ public class WaypointMover : MonoBehaviour
             lastInputY = direction.y;
         }
 
-        // Stop if the player is directly in front of this NPC.
         if (IsPlayerAhead(direction))
         {
             StopWalkingAnimation();
@@ -145,6 +147,11 @@ public class WaypointMover : MonoBehaviour
     {
         isWaiting = true;
 
+        // Apply this waypoint's chosen idle direction.
+        ApplyWaypointFacing(
+            waypoints[currentWaypointIndex]
+        );
+
         StopWalkingAnimation();
 
         if (waitTime > 0f)
@@ -152,7 +159,6 @@ public class WaypointMover : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
         }
 
-        // Stop whenever a waypoint is reached.
         isMoving = false;
 
         onWaypointReached?.Invoke();
@@ -171,19 +177,61 @@ public class WaypointMover : MonoBehaviour
         }
         else
         {
-            // Prepare the next waypoint,
-            // but don't start moving until StartMoving() is called again.
             currentWaypointIndex++;
         }
 
         isWaiting = false;
     }
 
+    private void ApplyWaypointFacing(Transform waypoint)
+    {
+        WaypointFacing waypointFacing =
+            waypoint.GetComponent<WaypointFacing>();
+
+        if (waypointFacing == null)
+        {
+            // Keep the direction used while approaching the waypoint.
+            return;
+        }
+
+        Vector2 facingDirection =
+            waypointFacing.GetDirection();
+
+        lastInputX = facingDirection.x;
+        lastInputY = facingDirection.y;
+
+        if (animator != null)
+        {
+            animator.SetFloat(
+                "InputX",
+                facingDirection.x
+            );
+
+            animator.SetFloat(
+                "InputY",
+                facingDirection.y
+            );
+
+            animator.SetFloat(
+                "LastInputX",
+                facingDirection.x
+            );
+
+            animator.SetFloat(
+                "LastInputY",
+                facingDirection.y
+            );
+        }
+    }
+
     public void StartMoving()
     {
         if (waypoints == null || waypoints.Length == 0)
         {
-            Debug.LogWarning($"{gameObject.name} has no waypoints.");
+            Debug.LogWarning(
+                $"{gameObject.name} has no waypoints."
+            );
+
             return;
         }
 
