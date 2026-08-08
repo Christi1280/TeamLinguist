@@ -56,13 +56,21 @@ public class LauraHostessController : MonoBehaviour
     {
         if (!isAtTable)
         {
-            // The entrance dialogue has finished.
+            // DOOR CONVERSATION FINISHED.
+
+            // The player should now follow Laura.
+            if (ObjectiveManager.Instance != null)
+            {
+                ObjectiveManager.Instance.SetFollowLauraObjective();
+            }
+
             // Disable Laura's interaction area while she walks.
             if (interactionRange != null)
             {
                 interactionRange.enabled = false;
             }
 
+            // Laura begins walking to the table.
             if (waypointMover != null)
             {
                 waypointMover.StartMoving();
@@ -74,7 +82,14 @@ public class LauraHostessController : MonoBehaviour
         }
         else
         {
-            // The table dialogue has finished.
+            // TABLE CONVERSATION FINISHED.
+
+            // The player's next objective is to sit down.
+            if (ObjectiveManager.Instance != null)
+            {
+                ObjectiveManager.Instance.SetTakeASeatObjective();
+            }
+
             // Laura waits here while the player sits.
             if (interactionRange != null)
             {
@@ -99,6 +114,7 @@ public class LauraHostessController : MonoBehaviour
             // Laura reached the player's table.
             isAtTable = true;
 
+            // Switch Laura to her table conversation.
             if (npc != null && tableDialogue != null)
             {
                 npc.dialogueData = tableDialogue;

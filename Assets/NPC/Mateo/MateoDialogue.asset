@@ -112,3 +112,8 @@ MonoBehaviour:
     definition: Bienvenido = Welcome
   - key: Mucho gusto
     definition: Mucho gusto = Nice to meet you
+  keyPhrases:
+  - spanish: Bienvenido
+    english: Welcome
+  - spanish: Mucho gusto
+    english: Nice to meet you
