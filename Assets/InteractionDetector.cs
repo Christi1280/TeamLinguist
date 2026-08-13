@@ -26,13 +26,28 @@ public class InteractionDetector : MonoBehaviour
         }
 
         /*
-         * Do not check CanInteract here.
-         * NPC.Interact() must continue receiving E presses
-         * while its dialogue is active.
+         * Save the interactable that received this E press.
+         *
+         * During Interact(), Laura may finish her dialogue and
+         * SeatInteraction may replace her as the current
+         * interactable.
          */
-        interactableInRange.Interact();
+        IInteractable interactedWith = interactableInRange;
 
-        if (!interactableInRange.CanInteract())
+        interactedWith.Interact();
+
+        /*
+         * IMPORTANT:
+         *
+         * Only hide the prompt if the object that received the
+         * interaction is STILL the current interactable.
+         *
+         * If Laura's final dialogue changed the current
+         * interactable to the seat, we must NOT hide the
+         * newly-created [E] Sit prompt.
+         */
+        if (interactableInRange == interactedWith &&
+            !interactedWith.CanInteract())
         {
             HideAllPrompts();
         }
@@ -53,6 +68,7 @@ public class InteractionDetector : MonoBehaviour
             interactable == interactableInRange)
         {
             interactableInRange = interactable;
+
             activeColliders.Add(collision);
 
             ShowPromptFor(interactable);
@@ -64,6 +80,13 @@ public class InteractionDetector : MonoBehaviour
         IInteractable interactable =
             collision.GetComponentInParent<IInteractable>();
 
+        /*
+         * If this collider belongs to an OLD interactable,
+         * ignore it.
+         *
+         * This is important when Laura's collider gets disabled
+         * immediately after the seat becomes active.
+         */
         if (interactable == null ||
             interactable != interactableInRange)
         {
@@ -77,6 +100,45 @@ public class InteractionDetector : MonoBehaviour
             interactableInRange = null;
             HideAllPrompts();
         }
+    }
+
+    public void ForceInteractable(IInteractable interactable)
+    {
+        if (interactable == null)
+        {
+            Debug.LogError(
+                "InteractionDetector: Cannot force a null interactable."
+            );
+
+            return;
+        }
+
+        if (!interactable.CanInteract())
+        {
+            Debug.LogError(
+                "InteractionDetector: Forced interactable cannot interact."
+            );
+
+            return;
+        }
+
+        /*
+         * Completely forget the previous interaction.
+         *
+         * We intentionally do NOT add the seat collider to
+         * activeColliders here.
+         *
+         * This is a direct interaction handoff.
+         */
+        activeColliders.Clear();
+
+        interactableInRange = interactable;
+
+        ShowPromptFor(interactable);
+
+        Debug.Log(
+            $"Interaction switched directly to {interactable}."
+        );
     }
 
     private void ShowPromptFor(IInteractable interactable)

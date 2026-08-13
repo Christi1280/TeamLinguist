@@ -16,6 +16,9 @@ public class NPCDialogue : ScriptableObject
 
     public DialogueChoice[] choices;
     public HoverDefinition[] hoverDefinitions;
+
+    [Header("Conversation Summary")]
+    public KeyPhrase[] keyPhrases;
 }
 
 [System.Serializable]
@@ -32,4 +35,11 @@ public class HoverDefinition
 {
     public string key;
     public string definition;
+}
+
+[System.Serializable]
+public class KeyPhrase
+{
+    public string spanish;
+    public string english;
 }
