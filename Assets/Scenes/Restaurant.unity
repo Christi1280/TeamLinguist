@@ -25105,6 +25105,7 @@ MonoBehaviour:
   seatedSceneName: RestaurantSeated
   lauraHostessController: {fileID: 5366229}
   interactionRange: {fileID: 204843773}
+  interactionDetector: {fileID: 605744668}
 --- !u!4 &752830815
 Transform:
   m_ObjectHideFlags: 0

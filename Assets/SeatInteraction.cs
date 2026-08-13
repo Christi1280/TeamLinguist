@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class SeatInteraction : MonoBehaviour, IInteractable
 {
@@ -14,12 +13,14 @@ public class SeatInteraction : MonoBehaviour, IInteractable
     [SerializeField]
     private Collider2D interactionRange;
 
+    [SerializeField]
+    private InteractionDetector interactionDetector;
+
     private bool interactionEnabled;
     private bool hasSatDown;
 
     private void Start()
     {
-        // Sitting should initially be unavailable.
         interactionEnabled = false;
         hasSatDown = false;
 
@@ -78,22 +79,12 @@ public class SeatInteraction : MonoBehaviour, IInteractable
             return;
         }
 
-        StartCoroutine(EnableSittingAfterPhysicsUpdate());
-    }
-
-    private IEnumerator EnableSittingAfterPhysicsUpdate()
-    {
-        interactionEnabled = false;
-
-        if (interactionRange != null)
-        {
-            interactionRange.enabled = false;
-        }
-
-        // Give Unity time to remove Laura from InteractionDetector.
-        yield return new WaitForFixedUpdate();
-        yield return new WaitForFixedUpdate();
-
+        /*
+         * Enable sitting FIRST.
+         *
+         * ForceInteractable() checks CanInteract(), so this
+         * must be true before we hand interaction to the seat.
+         */
         interactionEnabled = true;
 
         if (interactionRange != null)
@@ -101,7 +92,26 @@ public class SeatInteraction : MonoBehaviour, IInteractable
             interactionRange.enabled = true;
         }
 
-        Debug.Log("The player can now press E to sit down.");
+        /*
+         * Do not wait for OnTriggerEnter2D.
+         *
+         * The player may already be standing inside the
+         * chair's interaction area.
+         */
+        if (interactionDetector != null)
+        {
+            interactionDetector.ForceInteractable(this);
+
+            Debug.Log(
+                "SeatInteraction: [E] Sit should now be active."
+            );
+        }
+        else
+        {
+            Debug.LogError(
+                "SeatInteraction: InteractionDetector is not assigned!"
+            );
+        }
     }
 
     public void DisableSitting()
