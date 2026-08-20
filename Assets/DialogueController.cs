@@ -56,6 +56,10 @@ public class DialogueController : MonoBehaviour
         currentNPC = npc;
     }
 
+    public NPC GetCurrentNPC()
+    {
+        return currentNPC;
+    }
     public void SetNPCInfo(string npcName, Sprite portrait)
     {
         nameText.text = npcName;
