@@ -11,7 +11,7 @@ public class ConversationSummaryManager : MonoBehaviour
     public GameObject phrasePrefab;
 
     [Header("Dialogue")]
-    public NPCDialogue mateoDialogue;
+    public NPCDialogue summaryDialogue;
 
     private void Awake()
     {
@@ -78,9 +78,9 @@ public class ConversationSummaryManager : MonoBehaviour
         PauseController.SetPause(true);
     }
 
-    public void ShowMateoSummary()
+    public void ShowAssignedSummary()
     {
-        ShowSummary(mateoDialogue);
+        ShowSummary(summaryDialogue);
     }
 
     public void CloseSummary()

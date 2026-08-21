@@ -18,6 +18,7 @@ public class WaypointMover : MonoBehaviour
     public float obstacleCheckRadius = 0.25f;
 
     [Header("Movement Events")]
+    public UnityEvent onFirstWaypointReached;
     public UnityEvent onWaypointReached;
     public UnityEvent onPathCompleted;
 
@@ -70,10 +71,10 @@ public class WaypointMover : MonoBehaviour
             return;
         }
 
-        MoveToWaypoint();
+        MoveTowardsCurrentWaypoint();
     }
 
-    private void MoveToWaypoint()
+    private void MoveTowardsCurrentWaypoint()
     {
         Transform target = waypoints[currentWaypointIndex];
 
@@ -147,9 +148,10 @@ public class WaypointMover : MonoBehaviour
     {
         isWaiting = true;
 
-        // Apply this waypoint's chosen idle direction.
+        int reachedWaypointIndex = currentWaypointIndex;
+
         ApplyWaypointFacing(
-            waypoints[currentWaypointIndex]
+            waypoints[reachedWaypointIndex]
         );
 
         StopWalkingAnimation();
@@ -161,10 +163,16 @@ public class WaypointMover : MonoBehaviour
 
         isMoving = false;
 
+        // Only fires when waypoint 0 is reached.
+        if (reachedWaypointIndex == 0)
+        {
+            onFirstWaypointReached?.Invoke();
+        }
+
         onWaypointReached?.Invoke();
 
         bool isLastWaypoint =
-            currentWaypointIndex >= waypoints.Length - 1;
+            reachedWaypointIndex >= waypoints.Length - 1;
 
         if (isLastWaypoint)
         {
@@ -190,7 +198,6 @@ public class WaypointMover : MonoBehaviour
 
         if (waypointFacing == null)
         {
-            // Keep the direction used while approaching the waypoint.
             return;
         }
 
@@ -247,6 +254,31 @@ public class WaypointMover : MonoBehaviour
     public void RestartPath()
     {
         currentWaypointIndex = 0;
+        isMoving = true;
+    }
+
+    public void MoveToWaypoint(int waypointIndex)
+    {
+        if (waypoints == null || waypoints.Length == 0)
+        {
+            Debug.LogWarning(
+                $"{gameObject.name} has no waypoints."
+            );
+
+            return;
+        }
+
+        if (waypointIndex < 0 ||
+            waypointIndex >= waypoints.Length)
+        {
+            Debug.LogWarning(
+                $"Waypoint index {waypointIndex} is invalid."
+            );
+
+            return;
+        }
+
+        currentWaypointIndex = waypointIndex;
         isMoving = true;
     }
 
