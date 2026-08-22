@@ -148,9 +148,10 @@ public class GameProgressManager : MonoBehaviour
     // --------------------
 
     public void LoadProgress(
-        int savedFluencyPoints,
-        string savedObjective,
-        int savedModuleProgress)
+    int savedFluencyPoints,
+    string savedObjective,
+    int savedModuleProgress,
+    List<KeyPhrase> savedLearnedPhrases)
     {
         fluencyPoints =
             Mathf.Max(0, savedFluencyPoints);
@@ -163,8 +164,33 @@ public class GameProgressManager : MonoBehaviour
         moduleProgress =
             Mathf.Clamp(savedModuleProgress, 0, 100);
 
+        learnedPhrases.Clear();
+
+        if (savedLearnedPhrases != null)
+        {
+            foreach (KeyPhrase phrase in savedLearnedPhrases)
+            {
+                if (phrase == null ||
+                    string.IsNullOrEmpty(phrase.spanish))
+                {
+                    continue;
+                }
+
+                learnedPhrases.Add(
+                    new KeyPhrase
+                    {
+                        spanish = phrase.spanish,
+                        english = phrase.english
+                    }
+                );
+            }
+        }
+
         Debug.Log(
-            "Game progress loaded."
+            "Game progress loaded. " +
+            "Fluency Points: " + fluencyPoints +
+            ", Module Progress: " + moduleProgress +
+            "%, Journal Phrases: " + learnedPhrases.Count
         );
     }
 

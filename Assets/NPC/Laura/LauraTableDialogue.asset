@@ -15,7 +15,7 @@ MonoBehaviour:
   npcName: Laura
   npcPortrait: {fileID: 21300000, guid: fd410b63838fd7742adc0e554ccf24f1, type: 3}
   dialogueLines:
-  - "El mesero viene en un momento. \xA1Que aproveche!"
+  - "El mesero viene en un momento. <link=\"Que aproveche\"><u>\xA1Que aproveche!</u></link>"
   autoProgressLines: 
   endDialogueLines: 01
   autoProgressDelay: 1.5
@@ -25,4 +25,9 @@ MonoBehaviour:
   dialogueAudioClips:
   - {fileID: 8300000, guid: 6e7c6d7e778b68f44a2828f941a59227, type: 3}
   choices: []
-  hoverDefinitions: []
+  hoverDefinitions:
+  - key: Que aproveche
+    definition: Que aproveche = Enjoy your meal
+  keyPhrases:
+  - spanish: 
+    english: 

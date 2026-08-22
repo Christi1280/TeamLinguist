@@ -17,8 +17,9 @@ MonoBehaviour:
   dialogueLines:
   - "\xA1Hola! <link=\"Bienvenidos\"><u>Bienvenidos</u></link> al Restaurante El
     Sol."
-  - "\xBFTienen reserva o prefieren una mesa ahora?"
-  - Perfecto. Ven conmigo.
+  - "\xBF<link=\"Tienen reserva\"><u>Tienen reserva</u></link> o prefieren una mesa
+    ahora?"
+  - Perfecto. <link="Ven conmigo"><u>Ven conmigo</u></link>.
   - "\xA1Casi! Decimos \u2018una mesa para uno, por favor\u2019.  \xA1Muy bien intentado! "
   autoProgressLines: 
   endDialogueLines: 00000100
@@ -46,3 +47,14 @@ MonoBehaviour:
   hoverDefinitions:
   - key: Bienvenidos
     definition: Bienvenidos = Welcome
+  - key: Tienen reserva
+    definition: Do you have a reservation?
+  - key: Ven conmigo
+    definition: Ven conmigo = Come with me
+  keyPhrases:
+  - spanish: Tienen reserva
+    english: Do you have a reservation?
+  - spanish: Ven conmigo
+    english: Come with me
+  - spanish: Mesa para uno
+    english: Table for one

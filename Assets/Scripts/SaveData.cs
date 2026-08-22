@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
@@ -18,4 +19,8 @@ public class SaveData
     public string currentObjective;
 
     public int moduleProgress;
+
+    // Journal phrases the player has learned.
+    public List<KeyPhrase> learnedPhrases =
+        new List<KeyPhrase>();
 }

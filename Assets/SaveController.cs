@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.IO;
 using Unity.Cinemachine;
 using UnityEngine;
@@ -35,6 +36,15 @@ public class SaveController : MonoBehaviour
             return;
         }
 
+        if (GameProgressManager.Instance == null)
+        {
+            Debug.LogError(
+                "SaveController: GameProgressManager was not found."
+            );
+
+            return;
+        }
+
         string currentSceneName =
             SceneManager.GetActiveScene().name;
 
@@ -44,7 +54,21 @@ public class SaveController : MonoBehaviour
 
             playerPosition = player.transform.position,
 
-            mapBoundary = GetCurrentMapBoundaryName()
+            mapBoundary = GetCurrentMapBoundaryName(),
+
+            fluencyPoints =
+                GameProgressManager.Instance.FluencyPoints,
+
+            currentObjective =
+                GameProgressManager.Instance.CurrentObjective,
+
+            moduleProgress =
+                GameProgressManager.Instance.ModuleProgress,
+
+            learnedPhrases =
+                new List<KeyPhrase>(
+                    GameProgressManager.Instance.LearnedPhrases
+                )
         };
 
         string json =
@@ -56,8 +80,10 @@ public class SaveController : MonoBehaviour
         );
 
         Debug.Log(
-            $"Game saved in scene '{currentSceneName}' " +
-            $"at position {player.transform.position}."
+            $"Game saved in scene '{currentSceneName}'. " +
+            $"Fluency Points: {saveData.fluencyPoints}, " +
+            $"Module Progress: {saveData.moduleProgress}%, " +
+            $"Journal Phrases: {saveData.learnedPhrases.Count}."
         );
     }
 
@@ -67,7 +93,7 @@ public class SaveController : MonoBehaviour
         {
             Debug.Log(
                 "No save file was found. " +
-                "The player will use the position set in the scene."
+                "The player will use the default game progress."
             );
 
             return;
@@ -86,6 +112,25 @@ public class SaveController : MonoBehaviour
             );
 
             return;
+        }
+
+        // Restore persistent game progression.
+        if (GameProgressManager.Instance != null)
+        {
+            GameProgressManager.Instance.LoadProgress(
+                saveData.fluencyPoints,
+                saveData.currentObjective,
+                saveData.moduleProgress,
+                saveData.learnedPhrases
+            );
+            RefreshProgressUI();
+        }
+        else
+        {
+            Debug.LogWarning(
+                "SaveController: GameProgressManager was not found " +
+                "while loading progress."
+            );
         }
 
         string currentSceneName =
@@ -225,20 +270,43 @@ public class SaveController : MonoBehaviour
     [ContextMenu("Delete Save File")]
     public void DeleteSaveFile()
     {
-        if (!string.IsNullOrEmpty(saveLocation) &&
-            File.Exists(saveLocation))
+        // Make sure the save path exists even when
+        // this is called outside Play Mode.
+        InitializeSaveLocation();
+
+        if (File.Exists(saveLocation))
         {
             File.Delete(saveLocation);
 
             Debug.Log(
-                "Save file deleted."
+                "Save file deleted from: " +
+                saveLocation
             );
         }
         else
         {
             Debug.Log(
-                "No save file was found to delete."
+                "No save file was found at: " +
+                saveLocation
             );
+        }
+    }
+
+    private void RefreshProgressUI()
+    {
+        if (FluencyPointsManager.Instance != null)
+        {
+            FluencyPointsManager.Instance.UpdateFluencyUI();
+        }
+
+        if (ObjectiveManager.Instance != null)
+        {
+            ObjectiveManager.Instance.UpdateObjectiveUI();
+        }
+
+        if (ModuleProgressManager.Instance != null)
+        {
+            ModuleProgressManager.Instance.UpdateProgressUI();
         }
     }
 }

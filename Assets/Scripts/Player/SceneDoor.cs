@@ -11,12 +11,17 @@ public class SceneDoor : MonoBehaviour
     [SerializeField] private bool requireInteraction;
     [SerializeField] private KeyCode interactionKey = KeyCode.E;
 
+    [Header("Progress Requirement")]
+    [SerializeField] private int minimumModuleProgress = 0;
+
     private bool playerInsideTrigger;
     private bool isLoading;
 
     private void Update()
     {
-        if (!requireInteraction || !playerInsideTrigger || isLoading)
+        if (!requireInteraction ||
+            !playerInsideTrigger ||
+            isLoading)
         {
             return;
         }
@@ -59,10 +64,33 @@ public class SceneDoor : MonoBehaviour
             return;
         }
 
+        // Check whether the player has reached the
+        // required point in the module.
+        if (GameProgressManager.Instance == null)
+        {
+            Debug.LogWarning(
+                "SceneDoor: GameProgressManager was not found."
+            );
+
+            return;
+        }
+
+        if (GameProgressManager.Instance.ModuleProgress <
+            minimumModuleProgress)
+        {
+            Debug.Log(
+                $"Door locked. Requires " +
+                $"{minimumModuleProgress}% module progress."
+            );
+
+            return;
+        }
+
         if (string.IsNullOrWhiteSpace(sceneToLoad))
         {
             Debug.LogError(
-                $"SceneDoor on '{gameObject.name}' has no scene assigned."
+                $"SceneDoor on '{gameObject.name}' " +
+                $"has no scene assigned."
             );
 
             return;
@@ -71,7 +99,8 @@ public class SceneDoor : MonoBehaviour
         if (string.IsNullOrWhiteSpace(destinationSpawnPoint))
         {
             Debug.LogError(
-                $"SceneDoor on '{gameObject.name}' has no destination spawn point assigned."
+                $"SceneDoor on '{gameObject.name}' " +
+                $"has no destination spawn point assigned."
             );
 
             return;

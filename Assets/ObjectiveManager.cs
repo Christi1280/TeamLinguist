@@ -12,8 +12,6 @@ public class ObjectiveManager : MonoBehaviour
     [Header("Starting Objective")]
     public string startingObjective = "SPEAK  TO  MATEO";
 
-    public string CurrentObjective { get; private set; }
-
     private void Awake()
     {
         if (Instance == null)
@@ -23,48 +21,90 @@ public class ObjectiveManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            return;
         }
     }
 
     private void Start()
     {
-        SetObjective(startingObjective);
-    }
+        if (GameProgressManager.Instance == null)
+        {
+            Debug.LogWarning(
+                "ObjectiveManager: GameProgressManager was not found."
+            );
 
-    public void SetObjective(string newObjective)
-    {
-        CurrentObjective = newObjective;
+            return;
+        }
+
+        // Only initialize the objective if one does not already exist.
+        if (string.IsNullOrEmpty(
+                GameProgressManager.Instance.CurrentObjective))
+        {
+            GameProgressManager.Instance.SetObjective(
+                startingObjective
+            );
+        }
 
         UpdateObjectiveUI();
     }
 
-    private void UpdateObjectiveUI()
+    public void SetObjective(string newObjective)
     {
-        // Existing objective display.
-        if (objectiveText != null)
+        if (GameProgressManager.Instance == null)
         {
-            objectiveText.text = CurrentObjective;
+            Debug.LogWarning(
+                "ObjectiveManager: GameProgressManager was not found."
+            );
+
+            return;
         }
 
-        // Player page objective display.
+        GameProgressManager.Instance.SetObjective(
+            newObjective
+        );
+
+        UpdateObjectiveUI();
+    }
+
+    public void UpdateObjectiveUI()
+    {
+        if (GameProgressManager.Instance == null)
+        {
+            return;
+        }
+
+        string objective =
+            GameProgressManager.Instance.CurrentObjective;
+
+        if (objectiveText != null)
+        {
+            objectiveText.text = objective;
+        }
+
         if (playerPageObjectiveText != null)
         {
-            playerPageObjectiveText.text = CurrentObjective;
+            playerPageObjectiveText.text = objective;
         }
     }
 
     public void SetVisitRestaurantObjective()
     {
-        SetObjective("VISIT  THE  RESTAURANT");
+        SetObjective(
+            "VISIT  THE  RESTAURANT"
+        );
     }
 
     public void SetFollowLauraObjective()
     {
-        SetObjective("FOLLOW  LAURA");
+        SetObjective(
+            "FOLLOW  LAURA"
+        );
     }
 
     public void SetTakeASeatObjective()
     {
-        SetObjective("TAKE  A  SEAT");
+        SetObjective(
+            "TAKE  A  SEAT"
+        );
     }
 }

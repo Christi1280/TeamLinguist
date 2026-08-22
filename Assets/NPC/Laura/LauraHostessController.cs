@@ -56,7 +56,28 @@ public class LauraHostessController : MonoBehaviour
     {
         if (!isAtTable)
         {
-            // DOOR CONVERSATION FINISHED.
+            // --------------------------------
+            // ENTRANCE CONVERSATION FINISHED
+            // --------------------------------
+
+            // Add Laura's first conversation phrases
+            // to the player's permanent journal.
+            if (GameProgressManager.Instance != null)
+            {
+                GameProgressManager.Instance.LearnPhrases(
+                    entranceDialogue
+                );
+            }
+
+            // Refresh the Journal UI so the new
+            // phrases appear immediately.
+            JournalManager journalManager =
+                FindFirstObjectByType<JournalManager>();
+
+            if (journalManager != null)
+            {
+                journalManager.RefreshJournal();
+            }
 
             // The player should now follow Laura.
             if (ObjectiveManager.Instance != null)
@@ -77,12 +98,18 @@ public class LauraHostessController : MonoBehaviour
             }
 
             Debug.Log(
-                "Laura is leading the player to the table."
+                "Laura's entrance conversation completed. " +
+                "Phrases learned and Laura is leading the player to the table."
             );
         }
         else
         {
-            // TABLE CONVERSATION FINISHED.
+            // --------------------------------
+            // TABLE CONVERSATION FINISHED
+            // --------------------------------
+
+            // We'll expand this section next when we
+            // build Laura's combined conversation summary.
 
             // The player's next objective is to sit down.
             if (ObjectiveManager.Instance != null)
@@ -106,7 +133,6 @@ public class LauraHostessController : MonoBehaviour
             );
         }
     }
-
     public void HandleWaypointReached()
     {
         if (!isAtTable)
