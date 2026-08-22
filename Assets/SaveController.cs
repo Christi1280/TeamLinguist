@@ -1,58 +1,24 @@
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SaveController : MonoBehaviour
 {
-    private const string MainHubSceneName = "MainHub";
-    private const string RestaurantSceneName = "Restaurant";
-
     private string saveLocation;
-
-    private InventoryController inventoryController;
-    private HotBarController hotbarController;
-    private Chest[] chests;
 
     private void Start()
     {
-        InitializeComponents();
+        InitializeSaveLocation();
         LoadGame();
     }
 
-    private void InitializeComponents()
+    private void InitializeSaveLocation()
     {
         saveLocation = Path.Combine(
             Application.persistentDataPath,
             "saveData.json"
         );
-
-        inventoryController =
-            FindFirstObjectByType<InventoryController>();
-
-        hotbarController =
-            FindFirstObjectByType<HotBarController>();
-
-        chests = FindObjectsByType<Chest>(
-            FindObjectsSortMode.None
-        );
-
-        if (inventoryController == null)
-        {
-            Debug.LogWarning(
-                "SaveController: InventoryController was not found."
-            );
-        }
-
-        if (hotbarController == null)
-        {
-            Debug.LogWarning(
-                "SaveController: HotBarController was not found. " +
-                "Hotbar data will not be saved or loaded."
-            );
-        }
     }
 
     public void SaveGame()
@@ -78,24 +44,16 @@ public class SaveController : MonoBehaviour
 
             playerPosition = player.transform.position,
 
-            mapBoundary = GetCurrentMapBoundaryName(),
-
-            inventorySaveData =
-                inventoryController != null
-                    ? inventoryController.GetInventoryItems()
-                    : new List<InventorySaveData>(),
-
-            hotbarSaveData =
-                hotbarController != null
-                    ? hotbarController.GetHotbarItems()
-                    : new List<InventorySaveData>(),
-
-            chestSaveData = GetChestState()
+            mapBoundary = GetCurrentMapBoundaryName()
         };
 
-        string json = JsonUtility.ToJson(saveData, true);
+        string json =
+            JsonUtility.ToJson(saveData, true);
 
-        File.WriteAllText(saveLocation, json);
+        File.WriteAllText(
+            saveLocation,
+            json
+        );
 
         Debug.Log(
             $"Game saved in scene '{currentSceneName}' " +
@@ -107,8 +65,6 @@ public class SaveController : MonoBehaviour
     {
         if (!File.Exists(saveLocation))
         {
-            SetEmptyInventoryData();
-
             Debug.Log(
                 "No save file was found. " +
                 "The player will use the position set in the scene."
@@ -117,7 +73,8 @@ public class SaveController : MonoBehaviour
             return;
         }
 
-        string json = File.ReadAllText(saveLocation);
+        string json =
+            File.ReadAllText(saveLocation);
 
         SaveData saveData =
             JsonUtility.FromJson<SaveData>(json);
@@ -151,13 +108,11 @@ public class SaveController : MonoBehaviour
                 $"set in the {currentSceneName} scene."
             );
         }
-
-        LoadInventory(saveData);
-        LoadHotbar(saveData);
-        LoadChestStates(saveData.chestSaveData);
     }
 
-    private void LoadPlayerPosition(SaveData saveData)
+    private void LoadPlayerPosition(
+        SaveData saveData
+    )
     {
         GameObject player =
             GameObject.FindGameObjectWithTag("Player");
@@ -203,12 +158,18 @@ public class SaveController : MonoBehaviour
             return string.Empty;
         }
 
-        return confiner.BoundingShape2D.gameObject.name;
+        return confiner
+            .BoundingShape2D
+            .gameObject
+            .name;
     }
 
-    private void LoadMapBoundary(SaveData saveData)
+    private void LoadMapBoundary(
+        SaveData saveData
+    )
     {
-        if (string.IsNullOrEmpty(saveData.mapBoundary))
+        if (string.IsNullOrEmpty(
+                saveData.mapBoundary))
         {
             return;
         }
@@ -226,7 +187,9 @@ public class SaveController : MonoBehaviour
         }
 
         GameObject boundaryObject =
-            GameObject.Find(saveData.mapBoundary);
+            GameObject.Find(
+                saveData.mapBoundary
+            );
 
         if (boundaryObject == null)
         {
@@ -240,7 +203,8 @@ public class SaveController : MonoBehaviour
         }
 
         PolygonCollider2D boundaryCollider =
-            boundaryObject.GetComponent<PolygonCollider2D>();
+            boundaryObject
+                .GetComponent<PolygonCollider2D>();
 
         if (boundaryCollider == null)
         {
@@ -252,110 +216,10 @@ public class SaveController : MonoBehaviour
             return;
         }
 
-        confiner.BoundingShape2D = boundaryCollider;
+        confiner.BoundingShape2D =
+            boundaryCollider;
+
         confiner.InvalidateBoundingShapeCache();
-    }
-
-    private void LoadInventory(SaveData saveData)
-    {
-        if (inventoryController == null)
-        {
-            return;
-        }
-
-        inventoryController.SetInventoryItems(
-            saveData.inventorySaveData
-            ?? new List<InventorySaveData>()
-        );
-    }
-
-    private void LoadHotbar(SaveData saveData)
-    {
-        if (hotbarController == null)
-        {
-            return;
-        }
-
-        hotbarController.SetHotbarItems(
-            saveData.hotbarSaveData
-            ?? new List<InventorySaveData>()
-        );
-    }
-
-    private void SetEmptyInventoryData()
-    {
-        if (inventoryController != null)
-        {
-            inventoryController.SetInventoryItems(
-                new List<InventorySaveData>()
-            );
-        }
-
-        if (hotbarController != null)
-        {
-            hotbarController.SetHotbarItems(
-                new List<InventorySaveData>()
-            );
-        }
-    }
-
-    private List<ChestSaveData> GetChestState()
-    {
-        List<ChestSaveData> chestStates =
-            new List<ChestSaveData>();
-
-        if (chests == null)
-        {
-            return chestStates;
-        }
-
-        foreach (Chest chest in chests)
-        {
-            if (chest == null)
-            {
-                continue;
-            }
-
-            ChestSaveData chestSaveData =
-                new ChestSaveData
-                {
-                    chestID = chest.ChestID,
-                    IsOpened = chest.IsOpened
-                };
-
-            chestStates.Add(chestSaveData);
-        }
-
-        return chestStates;
-    }
-
-    private void LoadChestStates(
-        List<ChestSaveData> chestStates
-    )
-    {
-        if (chests == null || chestStates == null)
-        {
-            return;
-        }
-
-        foreach (Chest chest in chests)
-        {
-            if (chest == null)
-            {
-                continue;
-            }
-
-            ChestSaveData chestSaveData =
-                chestStates.FirstOrDefault(
-                    savedChest =>
-                        savedChest.chestID == chest.ChestID
-                );
-
-            if (chestSaveData != null)
-            {
-                chest.SetOpened(chestSaveData.IsOpened);
-            }
-        }
     }
 
     [ContextMenu("Delete Save File")]
@@ -366,11 +230,15 @@ public class SaveController : MonoBehaviour
         {
             File.Delete(saveLocation);
 
-            Debug.Log("Save file deleted.");
+            Debug.Log(
+                "Save file deleted."
+            );
         }
         else
         {
-            Debug.Log("No save file was found to delete.");
+            Debug.Log(
+                "No save file was found to delete."
+            );
         }
     }
 }

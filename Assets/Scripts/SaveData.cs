@@ -1,31 +1,21 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
 public class SaveData
 {
-    // Scene the player was in when the game was saved
+    // Scene the player was in when the game was saved.
     public string sceneName;
 
-    // Player data
+    // Player position.
     public Vector3 playerPosition;
 
-    // Name of the active Cinemachine map boundary
+    // Name of the active Cinemachine map boundary.
     public string mapBoundary;
 
-    // Inventory
-    public List<InventorySaveData> inventorySaveData;
+    // Player progression.
+    public int fluencyPoints;
 
-    // Hotbar
-    public List<InventorySaveData> hotbarSaveData;
+    public string currentObjective;
 
-    // Chest states
-    public List<ChestSaveData> chestSaveData;
-}
-
-[System.Serializable]
-public class ChestSaveData
-{
-    public string chestID;
-    public bool IsOpened;
+    public int moduleProgress;
 }

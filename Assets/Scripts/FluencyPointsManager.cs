@@ -5,9 +5,9 @@ public class FluencyPointsManager : MonoBehaviour
 {
     public static FluencyPointsManager Instance;
 
-    public int fluencyPoints = 0;
-
+    [Header("UI")]
     public TMP_Text fluencyPointsText;
+    public TMP_Text playerPageFluencyPointsText;
 
     private void Awake()
     {
@@ -18,6 +18,7 @@ public class FluencyPointsManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            return;
         }
     }
 
@@ -28,17 +29,44 @@ public class FluencyPointsManager : MonoBehaviour
 
     public void AddFluencyPoint()
     {
-        fluencyPoints++;
-        UpdateFluencyUI();
+        if (GameProgressManager.Instance == null)
+        {
+            Debug.LogWarning(
+                "FluencyPointsManager: GameProgressManager was not found."
+            );
 
-        Debug.Log("Fluency Points: " + fluencyPoints);
+            return;
+        }
+
+        GameProgressManager.Instance.AddFluencyPoint();
+
+        UpdateFluencyUI();
     }
 
-    private void UpdateFluencyUI()
+    public void UpdateFluencyUI()
     {
+        if (GameProgressManager.Instance == null)
+        {
+            Debug.LogWarning(
+                "FluencyPointsManager: GameProgressManager was not found."
+            );
+
+            return;
+        }
+
+        string points =
+            GameProgressManager.Instance.FluencyPoints.ToString();
+
+        // Existing Fluency Points display.
         if (fluencyPointsText != null)
         {
-            fluencyPointsText.text = fluencyPoints.ToString();
+            fluencyPointsText.text = points;
+        }
+
+        // Player tab Fluency Points display.
+        if (playerPageFluencyPointsText != null)
+        {
+            playerPageFluencyPointsText.text = points;
         }
     }
 }

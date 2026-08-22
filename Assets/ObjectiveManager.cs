@@ -7,9 +7,12 @@ public class ObjectiveManager : MonoBehaviour
 
     [Header("Objective UI")]
     public TMP_Text objectiveText;
+    public TMP_Text playerPageObjectiveText;
 
     [Header("Starting Objective")]
     public string startingObjective = "SPEAK  TO  MATEO";
+
+    public string CurrentObjective { get; private set; }
 
     private void Awake()
     {
@@ -30,9 +33,23 @@ public class ObjectiveManager : MonoBehaviour
 
     public void SetObjective(string newObjective)
     {
+        CurrentObjective = newObjective;
+
+        UpdateObjectiveUI();
+    }
+
+    private void UpdateObjectiveUI()
+    {
+        // Existing objective display.
         if (objectiveText != null)
         {
-            objectiveText.text = newObjective;
+            objectiveText.text = CurrentObjective;
+        }
+
+        // Player page objective display.
+        if (playerPageObjectiveText != null)
+        {
+            playerPageObjectiveText.text = CurrentObjective;
         }
     }
 

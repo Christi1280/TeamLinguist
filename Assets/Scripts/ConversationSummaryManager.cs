@@ -83,6 +83,20 @@ public class ConversationSummaryManager : MonoBehaviour
         ShowSummary(mateoDialogue);
     }
 
+    public void LearnMateoPhrases()
+    {
+        if (GameProgressManager.Instance == null)
+        {
+            Debug.LogWarning(
+                "ConversationSummaryManager: GameProgressManager was not found."
+            );
+
+            return;
+        }
+
+        GameProgressManager.Instance.LearnPhrases(mateoDialogue);
+    }
+
     public void CloseSummary()
     {
         summaryPanel.SetActive(false);
