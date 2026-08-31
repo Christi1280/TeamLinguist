@@ -2471,6 +2471,8 @@ MonoBehaviour:
   phraseContainer: {fileID: 595550047}
   phrasePrefab: {fileID: 1024620287830308691, guid: 1b00e488f1a4f9e43af16fd2f83b8ade, type: 3}
   mateoDialogue: {fileID: 0}
+  lauraDialogue: {fileID: 11400000, guid: 48798384e70858a4789faa0e9627b1c3, type: 2}
+  lauraTableDialogue: {fileID: 11400000, guid: adcdcb230a031064694ba0f361d57f8c, type: 2}
 --- !u!114 &67284413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39995,21 +39997,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 67284412}
         m_TargetAssemblyTypeName: ConversationSummaryManager, Assembly-CSharp
         m_MethodName: CloseSummary
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ObjectiveManager, Assembly-CSharp
-        m_MethodName: SetVisitRestaurantObjective
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

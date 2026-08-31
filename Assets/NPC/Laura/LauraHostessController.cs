@@ -69,8 +69,7 @@ public class LauraHostessController : MonoBehaviour
                 );
             }
 
-            // Refresh the Journal UI so the new
-            // phrases appear immediately.
+            // Refresh the Journal UI.
             JournalManager journalManager =
                 FindFirstObjectByType<JournalManager>();
 
@@ -108,8 +107,69 @@ public class LauraHostessController : MonoBehaviour
             // TABLE CONVERSATION FINISHED
             // --------------------------------
 
-            // We'll expand this section next when we
-            // build Laura's combined conversation summary.
+            if (GameProgressManager.Instance != null)
+            {
+                // Diagnostic information so we can confirm
+                // which dialogue asset Unity is using.
+                Debug.Log(
+                    "TABLE DIALOGUE: " +
+                    (tableDialogue != null
+                        ? tableDialogue.name
+                        : "NULL")
+                );
+
+                // Check how many key phrases Unity sees
+                // on Laura's table dialogue.
+                Debug.Log(
+                    "TABLE KEY PHRASE COUNT: " +
+                    (tableDialogue != null &&
+                     tableDialogue.keyPhrases != null
+                        ? tableDialogue.keyPhrases.Length
+                        : -1)
+                );
+
+                // Print every key phrase Unity finds.
+                if (tableDialogue != null &&
+                    tableDialogue.keyPhrases != null)
+                {
+                    foreach (KeyPhrase phrase
+                             in tableDialogue.keyPhrases)
+                    {
+                        Debug.Log(
+                            "TABLE PHRASE FOUND: " +
+                            phrase.spanish +
+                            " = " +
+                            phrase.english
+                        );
+                    }
+                }
+
+                // Add Laura's table phrase(s)
+                // to the permanent journal.
+                GameProgressManager.Instance.LearnPhrases(
+                    tableDialogue
+                );
+
+                // Laura's full interaction is now complete.
+                GameProgressManager.Instance.SetModuleProgress(60);
+            }
+            else
+            {
+                Debug.LogWarning(
+                    "LauraHostessController: " +
+                    "GameProgressManager was not found."
+                );
+            }
+
+            // Refresh the Journal so the new
+            // table phrase appears immediately.
+            JournalManager journalManager =
+                FindFirstObjectByType<JournalManager>();
+
+            if (journalManager != null)
+            {
+                journalManager.RefreshJournal();
+            }
 
             // The player's next objective is to sit down.
             if (ObjectiveManager.Instance != null)
@@ -117,22 +177,40 @@ public class LauraHostessController : MonoBehaviour
                 ObjectiveManager.Instance.SetTakeASeatObjective();
             }
 
-            // Laura waits here while the player sits.
+            // Refresh the module progress UI.
+            if (ModuleProgressManager.Instance != null)
+            {
+                ModuleProgressManager.Instance.UpdateProgressUI();
+            }
+
+            // Laura should no longer be interactable
+            // while the summary is displayed.
             if (interactionRange != null)
             {
                 interactionRange.enabled = false;
             }
 
+            // The chair is now available.
             if (seatInteraction != null)
             {
                 seatInteraction.EnableSitting();
             }
 
+            // Show one summary containing phrases from
+            // both of Laura's conversations.
+            if (ConversationSummaryManager.Instance != null)
+            {
+                ConversationSummaryManager.Instance.ShowLauraSummary();
+            }
+
             Debug.Log(
-                "Laura is waiting for the player to sit down."
+                "Laura's full interaction completed. " +
+                "Module Progress: 60%. " +
+                "New objective: TAKE A SEAT."
             );
         }
     }
+
     public void HandleWaypointReached()
     {
         if (!isAtTable)
@@ -177,7 +255,9 @@ public class LauraHostessController : MonoBehaviour
                 interactionRange.enabled = true;
             }
 
-            Debug.Log("Laura returned to the entrance.");
+            Debug.Log(
+                "Laura returned to the entrance."
+            );
         }
     }
 
