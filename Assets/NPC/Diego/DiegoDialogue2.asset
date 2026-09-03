@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30d76daee4cf2114a941827c5e2208b5, type: 3}
+  m_Name: DiegoDialogue2
+  m_EditorClassIdentifier: 
+  npcName: Diego
+  npcPortrait: {fileID: 21300000, guid: 8d455a612a8681b47a78b89225833505, type: 3}
+  dialogueLines:
+  - "\xBFEntendiste? \xBFQu\xE9 incluye el men\xFA del d\xEDa?"
+  - "\xA1Exacto! Muy bien."
+  - "\xBFQu\xE9 te gustar\xEDa pedir? \xBFEl men\xFA del d\xEDa o algo de la carta?"
+  - "Recuerda. sopa, plato principal y postre. \xBFQuieres intentarlo otra vez?"
+  - "\xA1Perfecto! Ahora te traigo todo. \xBFAlgo m\xE1s?"
+  - "\xA1Genial! Enseguida vuelvo. Y recuerda: si necesitas algo, solo di \u201C\xA1Diego!\u201D "
+  autoProgressLines: 
+  endDialogueLines: 000000000001
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  voicePitch: 1
+  dialogueAudioClips:
+  - {fileID: 8300000, guid: d4b36e1c9b88391478cc02c1091934ab, type: 3}
+  - {fileID: 8300000, guid: 4bbbcc4cbfb977244adec22d22bb6ab7, type: 3}
+  - {fileID: 8300000, guid: 73d18ba90346bb54994a076ee4ebc0af, type: 3}
+  - {fileID: 8300000, guid: b4879b469a329864b9f7c1e750a13226, type: 3}
+  - {fileID: 8300000, guid: d3f353e4db10adf4abeb717f7a2cdb53, type: 3}
+  - {fileID: 8300000, guid: 41d3b5267deae4d48919f4e9007f1c29, type: 3}
+  choices:
+  - dialogueIndex: 0
+    choices:
+    - Sopa, plato principal y postre.
+    - Solo el plato principal.
+    nextDialogueIndex: 0100000003000000
+    correctChoice: 
+  - dialogueIndex: 2
+    choices:
+    - "Quiero el men\xFA del d\xEDa, por favor."
+    - "Una agua y el men\xFA especial."
+    nextDialogueIndex: 0400000004000000
+    correctChoice: 
+  - dialogueIndex: 3
+    choices:
+    - Sopa, plato principal y postre.
+    - Solo el plato principal.
+    nextDialogueIndex: 0100000003000000
+    correctChoice: 
+  - dialogueIndex: 4
+    choices:
+    - 'No, gracias. '
+    - Eso es todo, gracias.
+    nextDialogueIndex: 0500000005000000
+    correctChoice: 
+  hoverDefinitions: []
+  keyPhrases: []

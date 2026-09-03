@@ -43,6 +43,17 @@ public class NPC : MonoBehaviour, IInteractable
         }
     }
 
+    public void StartDialogueAutomatically()
+    {
+        if (dialogueData == null ||
+            isDialogueActive)
+        {
+            return;
+        }
+
+        StartDialogue();
+    }
+
     void StartDialogue()
     {
         isDialogueActive = true;

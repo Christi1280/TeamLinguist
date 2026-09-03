@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: ed0ac8c9860a3bb47b160bf6ec4e4209
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3810961401327863548
+    second: SRTable_0
+  - first:
+      213: 7538819334983161777
+    second: SRTable_1
+  - first:
+      213: 1519516845611097164
+    second: SRTable_2
+  - first:
+      213: -5583780979949891116
+    second: SRTable_3
+  - first:
+      213: -2168023676761261351
+    second: SRTable_4
+  - first:
+      213: 5245128856800558124
+    second: SRTable_5
+  - first:
+      213: 3421715373234668590
+    second: SRTable_6
+  - first:
+      213: -7565854841548690067
+    second: SRTable_7
+  - first:
+      213: -5217098016129020317
+    second: SRTable_8
+  - first:
+      213: -6067439687160684271
+    second: SRTable_9
+  - first:
+      213: -5456071042050304361
+    second: SRTable_10
+  - first:
+      213: 3558776845898437848
+    second: SRTable_11
+  - first:
+      213: 1271420046713264788
+    second: SRTable_12
+  - first:
+      213: 6743506105137031025
+    second: SRTable_13
+  - first:
+      213: 4468864914988956062
+    second: SRTable_14
+  - first:
+      213: -5148793322805295048
+    second: SRTable_15
+  - first:
+      213: 3596152061639576018
+    second: SRTable_16
+  - first:
+      213: 6936733584849297057
+    second: SRTable_17
+  - first:
+      213: -8825952102013954905
+    second: SRTable_18
+  - first:
+      213: 4954572918756718313
+    second: SRTable_19
+  - first:
+      213: 274417244052114261
+    second: SRTable_20
+  - first:
+      213: 1610827929165070473
+    second: SRTable_21
+  - first:
+      213: -1275545325596054662
+    second: SRTable_22
+  - first:
+      213: 2740069832560397377
+    second: SRTable_23
+  - first:
+      213: 1169037670384846675
+    second: SRTable_24
+  - first:
+      213: -8820977874644879790
+    second: SRTable_25
+  - first:
+      213: -1607365389408312208
+    second: SRTable_26
+  - first:
+      213: -6117853054633978771
+    second: SRTable_27
+  - first:
+      213: 2816564910649021344
+    second: SRTable_28
+  - first:
+      213: 5989731997843454524
+    second: SRTable_29
+  - first:
+      213: 4190582601785182955
+    second: SRTable_30
+  - first:
+      213: -6674484901186345317
+    second: SRTable_31
+  - first:
+      213: 900253768626954319
+    second: SRTable_32
+  - first:
+      213: -1914567244316703715
+    second: SRTable_33
+  - first:
+      213: -9055656753834152483
+    second: SRTable_34
+  - first:
+      213: -8550407762017605770
+    second: SRTable_35
+  - first:
+      213: 4843580965975319215
+    second: SRTable_36
+  - first:
+      213: 3483266315752494521
+    second: SRTable_37
+  - first:
+      213: -4455164196575859265
+    second: SRTable_38
+  - first:
+      213: -4118746223319366615
+    second: SRTable_39
+  - first:
+      213: 1204056478464625921
+    second: SRTable_40
+  - first:
+      213: -2033751600200114264
+    second: SRTable_41
+  - first:
+      213: 1161088300229216460
+    second: SRTable_42
+  - first:
+      213: -7254090001787648467
+    second: SRTable_43
+  - first:
+      213: -9124776576534608434
+    second: SRTable_44
+  - first:
+      213: 4000977378984636370
+    second: SRTable_45
+  - first:
+      213: 439440284892046214
+    second: SRTable_46
+  - first:
+      213: 4756316553678384266
+    second: SRTable_47
+  - first:
+      213: -5657594116252257785
+    second: SRTable_48
+  - first:
+      213: -1669272668879014725
+    second: SRTable_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SRTable_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 448
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf64fd2043143e430800000000000000
+      internalID: 3810961401327863548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 399
+        width: 33
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b794872e344f9860800000000000000
+      internalID: 7538819334983161777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 429
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c1fd43588661510800000000000000
+      internalID: 1519516845611097164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 416
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1118a68cc6282b0800000000000000
+      internalID: -5583780979949891116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_4
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 415
+        width: 30
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da3202e3f1a9e1e0800000000000000
+      internalID: -2168023676761261351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_5
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 351
+        width: 139
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c7fb6c7e07ac840800000000000000
+      internalID: 5245128856800558124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_6
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 401
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e244520c0006c7f20800000000000000
+      internalID: 3421715373234668590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_7
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 351
+        width: 69
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d22537b1fa00790800000000000000
+      internalID: -7565854841548690067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_8
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 419
+        width: 200
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e0c36eef42997b0800000000000000
+      internalID: -5217098016129020317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_9
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 439
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1112eae40cf1ccba0800000000000000
+      internalID: -6067439687160684271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_10
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 423
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796db457b442844b0800000000000000
+      internalID: -5456071042050304361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_11
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 447
+        width: 111
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d459a6afa0536130800000000000000
+      internalID: 3558776845898437848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_12
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 369
+        width: 37
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a97a4dbcdf4a110800000000000000
+      internalID: 1271420046713264788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_13
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 350
+        width: 151
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177ee51f21fb59d50800000000000000
+      internalID: 6743506105137031025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_14
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 447
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e997f1f86f8940e30800000000000000
+      internalID: 4468864914988956062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_15
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 406
+        width: 75
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838894c90cfcb88b0800000000000000
+      internalID: -5148793322805295048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_16
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 401
+        width: 125
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9c0503f3918e130800000000000000
+      internalID: 3596152061639576018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 407
+        width: 67
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aed67a617a344060800000000000000
+      internalID: 6936733584849297057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_18
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 384
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a498da335be38580800000000000000
+      internalID: -8825952102013954905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_19
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 417
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6b344b1dd22c440800000000000000
+      internalID: 4954572918756718313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_20
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 401
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bc7ff870deec300800000000000000
+      internalID: 274417244052114261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_21
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 408
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9808920977fca5610800000000000000
+      internalID: 1610827929165070473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_22
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 417
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7befe4d84a5c4ee0800000000000000
+      internalID: -1275545325596054662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 421
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cc685cefea60620800000000000000
+      internalID: 2740069832560397377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_24
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 408
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357c6504191493010800000000000000
+      internalID: 1169037670384846675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_25
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 413
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256363acb57959580800000000000000
+      internalID: -8820977874644879790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_26
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 383
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0746f0cc1bd71b9e0800000000000000
+      internalID: -1607365389408312208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_27
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 342
+        width: 90
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64d0828f05091ba0800000000000000
+      internalID: -6117853054633978771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_28
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 423
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3901a0dd2761720800000000000000
+      internalID: 2816564910649021344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_29
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 399
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3aff3f548dcf1350800000000000000
+      internalID: 5989731997843454524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_30
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 375
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea86557ca0f72a30800000000000000
+      internalID: 4190582601785182955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_31
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 375
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96641668577f53a0800000000000000
+      internalID: -6674484901186345317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_32
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 389
+        width: 55
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4067b668085e7c00800000000000000
+      internalID: 900253768626954319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_33
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 399
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1487ef2c371e65e0800000000000000
+      internalID: -1914567244316703715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_34
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 405
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd29db4928d35280800000000000000
+      internalID: -9055656753834152483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_35
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 401
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677a2344179d65980800000000000000
+      internalID: -8550407762017605770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_36
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 402
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa26dc5e93bd73340800000000000000
+      internalID: 4843580965975319215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_37
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 353
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5d280524c075030800000000000000
+      internalID: 3483266315752494521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_38
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 385
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdae0784c31c22c0800000000000000
+      internalID: -4455164196575859265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_39
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 384
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9244117c12647d6c0800000000000000
+      internalID: -4118746223319366615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_40
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 383
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d4460ecfaa5b010800000000000000
+      internalID: 1204056478464625921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_41
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 386
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af90b4e1b9a6c3e0800000000000000
+      internalID: -2033751600200114264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_42
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 342
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8460848a30d1010800000000000000
+      internalID: 1161088300229216460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_43
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 376
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d260cb2c39b445b90800000000000000
+      internalID: -7254090001787648467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_44
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 343
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec589dc7c084e5180800000000000000
+      internalID: -9124776576534608434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_45
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 335
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfa0c46ab3568730800000000000000
+      internalID: 4000977378984636370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_46
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 354
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683acf06c94391600800000000000000
+      internalID: 439440284892046214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_47
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 343
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c6f4d94b4d10240800000000000000
+      internalID: 4756316553678384266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_48
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 343
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702b17160203c71b0800000000000000
+      internalID: -5657594116252257785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SRTable_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2003
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4b2321a5d85d8e0800000000000000
+      internalID: -1669272668879014725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SRTable_0: 3810961401327863548
+      SRTable_1: 7538819334983161777
+      SRTable_10: -5456071042050304361
+      SRTable_11: 3558776845898437848
+      SRTable_12: 1271420046713264788
+      SRTable_13: 6743506105137031025
+      SRTable_14: 4468864914988956062
+      SRTable_15: -5148793322805295048
+      SRTable_16: 3596152061639576018
+      SRTable_17: 6936733584849297057
+      SRTable_18: -8825952102013954905
+      SRTable_19: 4954572918756718313
+      SRTable_2: 1519516845611097164
+      SRTable_20: 274417244052114261
+      SRTable_21: 1610827929165070473
+      SRTable_22: -1275545325596054662
+      SRTable_23: 2740069832560397377
+      SRTable_24: 1169037670384846675
+      SRTable_25: -8820977874644879790
+      SRTable_26: -1607365389408312208
+      SRTable_27: -6117853054633978771
+      SRTable_28: 2816564910649021344
+      SRTable_29: 5989731997843454524
+      SRTable_3: -5583780979949891116
+      SRTable_30: 4190582601785182955
+      SRTable_31: -6674484901186345317
+      SRTable_32: 900253768626954319
+      SRTable_33: -1914567244316703715
+      SRTable_34: -9055656753834152483
+      SRTable_35: -8550407762017605770
+      SRTable_36: 4843580965975319215
+      SRTable_37: 3483266315752494521
+      SRTable_38: -4455164196575859265
+      SRTable_39: -4118746223319366615
+      SRTable_4: -2168023676761261351
+      SRTable_40: 1204056478464625921
+      SRTable_41: -2033751600200114264
+      SRTable_42: 1161088300229216460
+      SRTable_43: -7254090001787648467
+      SRTable_44: -9124776576534608434
+      SRTable_45: 4000977378984636370
+      SRTable_46: 439440284892046214
+      SRTable_47: 4756316553678384266
+      SRTable_48: -5657594116252257785
+      SRTable_49: -1669272668879014725
+      SRTable_5: 5245128856800558124
+      SRTable_6: 3421715373234668590
+      SRTable_7: -7565854841548690067
+      SRTable_8: -5217098016129020317
+      SRTable_9: -6067439687160684271
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
