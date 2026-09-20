@@ -173,4 +173,50 @@ public class DialogueController : MonoBehaviour
 
         tooltipPanel.SetActive(false);
     }
+
+    public void ShowCutsceneDialogue(
+    NPCDialogue dialogueData,
+    int dialogueIndex)
+    {
+        if (dialogueData == null ||
+            dialogueData.dialogueLines == null ||
+            dialogueIndex < 0 ||
+            dialogueIndex >= dialogueData.dialogueLines.Length)
+        {
+            return;
+        }
+
+        // Cutscene dialogue does not belong to an interactable NPC.
+        currentNPC = null;
+        currentDialogueData = dialogueData;
+
+        // Set speaker information.
+        SetNPCInfo(
+            dialogueData.npcName,
+            dialogueData.npcPortrait
+        );
+
+        // Display the selected dialogue line.
+        SetDialogueText(
+            dialogueData.dialogueLines[dialogueIndex]
+        );
+
+        ShowDialogueUI(true);
+
+        // Play the audio associated with this line.
+        if (dialogueAudioSource != null &&
+            dialogueData.dialogueAudioClips != null &&
+            dialogueIndex < dialogueData.dialogueAudioClips.Length)
+        {
+            AudioClip clip =
+                dialogueData.dialogueAudioClips[dialogueIndex];
+
+            if (clip != null)
+            {
+                dialogueAudioSource.Stop();
+                dialogueAudioSource.clip = clip;
+                dialogueAudioSource.Play();
+            }
+        }
+    }
 }
