@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30d76daee4cf2114a941827c5e2208b5, type: 3}
+  m_Name: JustinCutscene
+  m_EditorClassIdentifier: 
+  npcName: Justin
+  npcPortrait: {fileID: 21300000, guid: e556253d927940c44b781287de136d09, type: 3}
+  dialogueLines:
+  - Hello?
+  - Yeah. My flight leaves later today. Why?
+  - How long has it been?
+  - "Alright. I\u2019ll see if I can get there earlier."
+  autoProgressLines: 
+  endDialogueLines: 
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  voicePitch: 1
+  dialogueAudioClips:
+  - {fileID: 8300000, guid: f4d84e9e6f6522e43913c5edff16c812, type: 3}
+  - {fileID: 8300000, guid: 3011ae050ec38ff4a908f11fca1d5a45, type: 3}
+  - {fileID: 8300000, guid: ba51ec9595fa7b04dbadf7de5cf51af4, type: 3}
+  - {fileID: 8300000, guid: b1a47a11db9fffe418888f4afcd5114b, type: 3}
+  choices: []
+  hoverDefinitions: []
+  keyPhrases: []

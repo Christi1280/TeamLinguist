@@ -6,7 +6,11 @@ public class CutsceneDialogueBehaviour : PlayableBehaviour
     public NPCDialogue dialogueData;
     public int dialogueIndex;
 
+    public bool closeDialogue;
+
     private bool hasStarted;
+
+    public bool usePhoneEffect;
 
     public override void OnBehaviourPlay(
         Playable playable,
@@ -19,19 +23,20 @@ public class CutsceneDialogueBehaviour : PlayableBehaviour
 
         hasStarted = true;
 
-        if (dialogueData == null)
+        if (DialogueController.Instance == null)
         {
             return;
         }
 
-        if (DialogueController.Instance == null)
+        if (dialogueData == null)
         {
             return;
         }
 
         DialogueController.Instance.ShowCutsceneDialogue(
             dialogueData,
-            dialogueIndex
+            dialogueIndex,
+            usePhoneEffect
         );
     }
 
@@ -39,6 +44,11 @@ public class CutsceneDialogueBehaviour : PlayableBehaviour
         Playable playable,
         FrameData info)
     {
+        if (closeDialogue && DialogueController.Instance != null)
+        {
+            DialogueController.Instance.HideCutsceneDialogue();
+        }
+
         hasStarted = false;
     }
 }

@@ -9,6 +9,10 @@ public class CutsceneDialogueClip : PlayableAsset
     [Min(0)]
     public int dialogueIndex;
 
+    public bool closeDialogue;
+
+    public bool usePhoneEffect;
+
     public override Playable CreatePlayable(
         PlayableGraph graph,
         GameObject owner)
@@ -21,6 +25,8 @@ public class CutsceneDialogueClip : PlayableAsset
 
         behaviour.dialogueData = dialogueData;
         behaviour.dialogueIndex = dialogueIndex;
+        behaviour.closeDialogue = closeDialogue;
+        behaviour.usePhoneEffect = usePhoneEffect;
 
         return playable;
     }

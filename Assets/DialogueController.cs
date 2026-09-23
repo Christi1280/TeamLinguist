@@ -12,12 +12,14 @@ public class DialogueController : MonoBehaviour
     public Transform choiceContainer;
     public GameObject choiceButtonPrefab;
     public AudioSource dialogueAudioSource;
+    public AudioSource phoneDialogueAudioSource;
 
     public GameObject tooltipPanel;
     public TMP_Text tooltipText;
 
     private NPCDialogue currentDialogueData;
     private NPC currentNPC;
+
 
     void Awake()
     {
@@ -176,8 +178,10 @@ public class DialogueController : MonoBehaviour
 
     public void ShowCutsceneDialogue(
     NPCDialogue dialogueData,
-    int dialogueIndex)
+    int dialogueIndex,
+    bool usePhoneEffect = false)
     {
+        Debug.Log($"CUTSCENE AUDIO: {dialogueData.npcName} | Phone Effect = {usePhoneEffect}");
         if (dialogueData == null ||
             dialogueData.dialogueLines == null ||
             dialogueIndex < 0 ||
@@ -203,8 +207,15 @@ public class DialogueController : MonoBehaviour
 
         ShowDialogueUI(true);
 
+        AudioSource audioSourceToUse = dialogueAudioSource;
+
+        if (usePhoneEffect && phoneDialogueAudioSource != null)
+        {
+            audioSourceToUse = phoneDialogueAudioSource;
+        }
+
         // Play the audio associated with this line.
-        if (dialogueAudioSource != null &&
+        if (audioSourceToUse != null &&
             dialogueData.dialogueAudioClips != null &&
             dialogueIndex < dialogueData.dialogueAudioClips.Length)
         {
@@ -213,10 +224,34 @@ public class DialogueController : MonoBehaviour
 
             if (clip != null)
             {
-                dialogueAudioSource.Stop();
-                dialogueAudioSource.clip = clip;
-                dialogueAudioSource.Play();
+                if (dialogueAudioSource != null)
+                {
+                    dialogueAudioSource.Stop();
+                }
+
+                if (phoneDialogueAudioSource != null)
+                {
+                    phoneDialogueAudioSource.Stop();
+                }
+
+                audioSourceToUse.clip = clip;
+                audioSourceToUse.Play();
             }
         }
+    }
+
+    public void HideCutsceneDialogue()
+    {
+        if (dialogueAudioSource != null)
+        {
+            dialogueAudioSource.Stop();
+        }
+
+        ClearChoices();
+        SetDialogueText("");
+        ShowDialogueUI(false);
+
+        currentDialogueData = null;
+        currentNPC = null;
     }
 }
