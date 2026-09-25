@@ -3,6 +3,11 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
+/// <summary>
+/// Handles NPC dialogue interactions, including dialogue progression,
+/// typewriter text, voice audio, player choices, branching dialogue,
+/// fluency points, and dialogue completion or cancellation.
+/// </summary>
 public class NPC : MonoBehaviour, IInteractable
 {
     public NPCDialogue dialogueData;
@@ -27,6 +32,7 @@ public class NPC : MonoBehaviour, IInteractable
 
     public void Interact()
     {
+        // Allow E to advance an active conversation even though dialogue pauses the game.
         if (dialogueData == null ||
             (PauseController.IsGamePaused && !isDialogueActive))
         {
@@ -82,6 +88,7 @@ public class NPC : MonoBehaviour, IInteractable
             return;
         }
 
+        // Make sure the current dialogue line has a matching audio entry.
         if (dialogueIndex < 0 ||
             dialogueIndex >= dialogueData.dialogueAudioClips.Length)
         {
@@ -103,6 +110,8 @@ public class NPC : MonoBehaviour, IInteractable
 
     void NextLine()
     {
+        // Pressing E while text is typing reveals the full line
+        // instead of immediately advancing the conversation.
         if (isTyping)
         {
             StopAllCoroutines();
@@ -117,6 +126,7 @@ public class NPC : MonoBehaviour, IInteractable
 
         dialogueUI.ClearChoices();
 
+        // Some dialogue branches can end before reaching the final line.
         if (dialogueData.endDialogueLines.Length > dialogueIndex &&
             dialogueData.endDialogueLines[dialogueIndex])
         {
@@ -124,6 +134,7 @@ public class NPC : MonoBehaviour, IInteractable
             return;
         }
 
+        // Check whether the current line has choices
         foreach (DialogueChoice dialogueChoice in dialogueData.choices)
         {
             if (dialogueChoice.dialogueIndex == dialogueIndex)
@@ -152,6 +163,8 @@ public class NPC : MonoBehaviour, IInteractable
         string line = dialogueData.dialogueLines[dialogueIndex];
         string displayedText = "";
 
+        // Add TextMeshPro formatting tags all at once instead of
+        // revealing the tag itself character by character.
         for (int i = 0; i < line.Length; i++)
         {
             if (line[i] == '<')
@@ -184,6 +197,7 @@ public class NPC : MonoBehaviour, IInteractable
 
         isTyping = false;
 
+        // Certain lines can continue automatically without waiting for E.
         if (dialogueData.autoProgressLines.Length > dialogueIndex &&
             dialogueData.autoProgressLines[dialogueIndex])
         {
@@ -202,6 +216,8 @@ public class NPC : MonoBehaviour, IInteractable
             int choiceIndex = i;
             int nextIndex = choice.nextDialogueIndex[i];
 
+            // Each button remembers both which answer it represents
+            // and which dialogue line that answer leads to.
             dialogueUI.CreateChoiceButton(
                 choice.choices[i],
                 () => ChooseOption(
@@ -297,6 +313,5 @@ public class NPC : MonoBehaviour, IInteractable
 
         dialogueUI.ClearCurrentNPC();
 
-        // Do not call onDialogueEnded here.
     }
 }

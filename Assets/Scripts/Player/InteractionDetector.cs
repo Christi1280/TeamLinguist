@@ -1,11 +1,20 @@
 using System.Collections.Generic;
+using Unity.Android.Gradle.Manifest;
+using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 using UnityEngine.InputSystem;
+
+/// <summary>
+/// InteractionDetector detects nearby interactable objects, shows the appropriate interaction prompt,
+/// and calls their Interact() method when the player presses E. It also supports directly handing
+/// interaction from one object to another, such as from Laura to the restaurant seat.
+/// </summary>
 
 public class InteractionDetector : MonoBehaviour
 {
     private IInteractable interactableInRange;
 
+    // Tracks colliders belonging to the current interactable.
     private readonly HashSet<Collider2D> activeColliders = new();
 
     [Header("Interaction Prompts")]
@@ -25,27 +34,14 @@ public class InteractionDetector : MonoBehaviour
             return;
         }
 
-        /*
-         * Save the interactable that received this E press.
-         *
-         * During Interact(), Laura may finish her dialogue and
-         * SeatInteraction may replace her as the current
-         * interactable.
-         */
+        // Save what received the interaction because Interact()
+        // may immediately switch to a different interactable.
         IInteractable interactedWith = interactableInRange;
 
         interactedWith.Interact();
 
-        /*
-         * IMPORTANT:
-         *
-         * Only hide the prompt if the object that received the
-         * interaction is STILL the current interactable.
-         *
-         * If Laura's final dialogue changed the current
-         * interactable to the seat, we must NOT hide the
-         * newly-created [E] Sit prompt.
-         */
+
+        // Don't hide a prompt belonging to a newly activated interactable.
         if (interactableInRange == interactedWith &&
             !interactedWith.CanInteract())
         {
@@ -80,13 +76,7 @@ public class InteractionDetector : MonoBehaviour
         IInteractable interactable =
             collision.GetComponentInParent<IInteractable>();
 
-        /*
-         * If this collider belongs to an OLD interactable,
-         * ignore it.
-         *
-         * This is important when Laura's collider gets disabled
-         * immediately after the seat becomes active.
-         */
+        /// Ignore colliders belonging to an interactable that is no longer active.
         if (interactable == null ||
             interactable != interactableInRange)
         {
@@ -122,14 +112,8 @@ public class InteractionDetector : MonoBehaviour
             return;
         }
 
-        /*
-         * Completely forget the previous interaction.
-         *
-         * We intentionally do NOT add the seat collider to
-         * activeColliders here.
-         *
-         * This is a direct interaction handoff.
-         */
+        // Used when interaction needs to pass directly from one object
+        // to another without waiting for trigger detection.
         activeColliders.Clear();
 
         interactableInRange = interactable;

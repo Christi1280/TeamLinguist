@@ -1,5 +1,12 @@
 using UnityEngine;
 
+/// <summary>
+/// Controls Laura's restaurant interaction sequence.
+/// Manages her entrance and table dialogue, movement between locations,
+/// interaction range, objectives, learned phrases, and the transition
+/// from talking with Laura to interacting with the seat.
+/// </summary>
+
 public class LauraHostessController : MonoBehaviour
 {
     [Header("References")]
@@ -54,12 +61,9 @@ public class LauraHostessController : MonoBehaviour
 
     public void HandleDialogueEnded()
     {
-        if (!isAtTable)
+        if (!isAtTable) //is not at the players dining table
         {
-            // --------------------------------
-            // ENTRANCE CONVERSATION FINISHED
-            // --------------------------------
-
+           
             // Add Laura's first conversation phrases
             // to the player's permanent journal.
             if (GameProgressManager.Instance != null)
@@ -103,46 +107,9 @@ public class LauraHostessController : MonoBehaviour
         }
         else
         {
-            // --------------------------------
-            // TABLE CONVERSATION FINISHED
-            // --------------------------------
-
+            // if dialogue ends at dining table
             if (GameProgressManager.Instance != null)
             {
-                // Diagnostic information so we can confirm
-                // which dialogue asset Unity is using.
-                Debug.Log(
-                    "TABLE DIALOGUE: " +
-                    (tableDialogue != null
-                        ? tableDialogue.name
-                        : "NULL")
-                );
-
-                // Check how many key phrases Unity sees
-                // on Laura's table dialogue.
-                Debug.Log(
-                    "TABLE KEY PHRASE COUNT: " +
-                    (tableDialogue != null &&
-                     tableDialogue.keyPhrases != null
-                        ? tableDialogue.keyPhrases.Length
-                        : -1)
-                );
-
-                // Print every key phrase Unity finds.
-                if (tableDialogue != null &&
-                    tableDialogue.keyPhrases != null)
-                {
-                    foreach (KeyPhrase phrase
-                             in tableDialogue.keyPhrases)
-                    {
-                        Debug.Log(
-                            "TABLE PHRASE FOUND: " +
-                            phrase.spanish +
-                            " = " +
-                            phrase.english
-                        );
-                    }
-                }
 
                 // Add Laura's table phrase(s)
                 // to the permanent journal.
@@ -224,10 +191,8 @@ public class LauraHostessController : MonoBehaviour
                 npc.dialogueData = tableDialogue;
             }
 
-            /*
-             * Use the smaller interaction range at the table so it
-             * does not overlap too much with the seat interaction.
-             */
+            // Use the smaller interaction range at the table so it
+            // does not overlap too much with the seat interaction.
             if (interactionRange != null)
             {
                 interactionRange.radius = tableInteractionRadius;

@@ -1,5 +1,13 @@
+using System.ComponentModel;
+using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+/// <summary>
+/// Controls when the restaurant seat can be interacted with.
+/// After Laura enables the seat, the player can press E to sit
+/// and transition to the seated restaurant scene.
+/// </summary>
 
 public class SeatInteraction : MonoBehaviour, IInteractable
 {
@@ -21,6 +29,7 @@ public class SeatInteraction : MonoBehaviour, IInteractable
 
     private void Start()
     {
+        // Sitting is unavailable until Laura enables it.
         interactionEnabled = false;
         hasSatDown = false;
 
@@ -43,7 +52,7 @@ public class SeatInteraction : MonoBehaviour, IInteractable
         {
             return;
         }
-
+        // Prevent the seat from being interacted with again.
         hasSatDown = true;
         interactionEnabled = false;
 
@@ -57,6 +66,7 @@ public class SeatInteraction : MonoBehaviour, IInteractable
             lauraHostessController.NotifyPlayerSatDown();
         }
 
+        // Restore the interaction if the next scene was not assigned.
         if (string.IsNullOrWhiteSpace(seatedSceneName))
         {
             Debug.LogError(
@@ -79,12 +89,7 @@ public class SeatInteraction : MonoBehaviour, IInteractable
             return;
         }
 
-        /*
-         * Enable sitting FIRST.
-         *
-         * ForceInteractable() checks CanInteract(), so this
-         * must be true before we hand interaction to the seat.
-         */
+        // Must be enabled before ForceInteractable() checks CanInteract().
         interactionEnabled = true;
 
         if (interactionRange != null)
@@ -92,12 +97,8 @@ public class SeatInteraction : MonoBehaviour, IInteractable
             interactionRange.enabled = true;
         }
 
-        /*
-         * Do not wait for OnTriggerEnter2D.
-         *
-         * The player may already be standing inside the
-         * chair's interaction area.
-         */
+        //  Hand interaction directly to the seat because the player
+        //  may already be inside its interaction range.
         if (interactionDetector != null)
         {
             interactionDetector.ForceInteractable(this);

@@ -2,6 +2,12 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
+/// <summary>
+/// Moves an NPC through a sequence of waypoints.
+/// Handles movement and facing animations, player obstacle detection,
+/// waypoint arrival events, optional waiting, and reusable path controls.
+/// </summary>
+
 public class WaypointMover : MonoBehaviour
 {
     [Header("Waypoint Settings")]
@@ -46,6 +52,7 @@ public class WaypointMover : MonoBehaviour
             return;
         }
 
+        // Build the waypoint path from the children of the assigned parent.
         waypoints = new Transform[waypointParent.childCount];
 
         for (int i = 0; i < waypointParent.childCount; i++)
@@ -78,15 +85,18 @@ public class WaypointMover : MonoBehaviour
     {
         Transform target = waypoints[currentWaypointIndex];
 
+        // Get a normalized direction from the NPC toward the waypoint.
         Vector2 direction =
             (target.position - transform.position).normalized;
 
+        // Remember the last movement direction for the idle facing animation.
         if (direction.sqrMagnitude > 0.001f)
         {
             lastInputX = direction.x;
             lastInputY = direction.y;
         }
 
+        // Wait for player to move out of the way
         if (IsPlayerAhead(direction))
         {
             StopWalkingAnimation();
@@ -110,6 +120,8 @@ public class WaypointMover : MonoBehaviour
             );
         }
 
+
+        // Close enough to count as reaching the waypoint.
         if (Vector2.Distance(
                 transform.position,
                 target.position) < 0.1f)
@@ -125,6 +137,7 @@ public class WaypointMover : MonoBehaviour
             return false;
         }
 
+        // Check a short area ahead of the NPC for the player.
         RaycastHit2D[] hits = Physics2D.CircleCastAll(
             transform.position,
             obstacleCheckRadius,
@@ -146,6 +159,8 @@ public class WaypointMover : MonoBehaviour
 
     private IEnumerator HandleWaypointReached()
     {
+        // Prevent Update from handling the same waypoint again
+        // while the arrival coroutine is still running.
         isWaiting = true;
 
         int reachedWaypointIndex = currentWaypointIndex;
@@ -163,12 +178,13 @@ public class WaypointMover : MonoBehaviour
 
         isMoving = false;
 
-        // Only fires when waypoint 0 is reached.
+        // Allow Inspector events to respond specifically to waypoint 0.
         if (reachedWaypointIndex == 0)
         {
             onFirstWaypointReached?.Invoke();
         }
 
+        // Fires whenever any waypoint is reached.
         onWaypointReached?.Invoke();
 
         bool isLastWaypoint =
@@ -201,6 +217,8 @@ public class WaypointMover : MonoBehaviour
             return;
         }
 
+        // Use the direction assigned to this waypoint as the NPC's
+        // facing direction after arriving.
         Vector2 facingDirection =
             waypointFacing.GetDirection();
 
@@ -267,7 +285,7 @@ public class WaypointMover : MonoBehaviour
 
             return;
         }
-
+        // Prevent an invalid array index from being used as the target.
         if (waypointIndex < 0 ||
             waypointIndex >= waypoints.Length)
         {
@@ -290,6 +308,8 @@ public class WaypointMover : MonoBehaviour
         }
 
         animator.SetBool("IsWalking", false);
+
+        // Keep the NPC facing its last movement direction while idle.
         animator.SetFloat("LastInputX", lastInputX);
         animator.SetFloat("LastInputY", lastInputY);
     }

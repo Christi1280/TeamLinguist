@@ -1,5 +1,9 @@
 using UnityEngine;
 
+/// <summary>
+/// Defines which direction an NPC should face after reaching this waypoint.
+/// </summary>
+
 public class WaypointFacing : MonoBehaviour
 {
     public enum FacingDirection
