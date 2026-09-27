@@ -3,25 +3,31 @@ using UnityEngine.UIElements;
 
 public class CarControls : MonoBehaviour
 {
-    float speed = 7f;
+    float speed = 3f;
     float acceleration = 20f;
 
     float currentSpeed = 0f;
+    float rotateSpeed = 200f;
+
+    private Rigidbody2D rb;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 position = transform.position;
-        position.x = Mathf.Clamp(position.x, -5.8f, 5.8f);
-        transform.position = position;
+        
 
         float input = 0f;
 
-        if((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)))
+        if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)))
         {
             input = -1f;
         }
-        if((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)))
+        if((Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)))
         {
             input = 1f;
         }
@@ -37,6 +43,24 @@ public class CarControls : MonoBehaviour
         }
 
         //move car
-        transform.Translate(Vector3.right * currentSpeed * Time.deltaTime);
+        //rb.MovePosition( rb.position + (Vector2)(Vector3.down * currentSpeed * Time.deltaTime));
+
+        
+
     }
+
+    void FixedUpdate()
+    {
+        Vector2 movement = transform.TransformDirection(Vector3.down);
+
+        rb.MovePosition( rb.position + movement * currentSpeed * Time.fixedDeltaTime);
+
+        //rotate car
+        float horizontalInput = Input.GetAxis("Horizontal");
+        transform.Rotate(Vector3.forward, -horizontalInput * rotateSpeed * Time.deltaTime);
+
+        
+    }
+
+
 }
