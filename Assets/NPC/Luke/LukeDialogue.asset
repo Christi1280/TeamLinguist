@@ -15,13 +15,13 @@ MonoBehaviour:
   npcName: Luke
   npcPortrait: {fileID: 21300000, guid: 879771316d3537d4b8a631d56dd98ff2, type: 3}
   dialogueLines:
-  - Hey Justin. Sorry for calling you this early. Are you still coming to Valdoria
-    today?
-  - "Do you think you could get here a little sooner? I\u2019ve been trying to reach
-    your sister, but she hasn\u2019t been answering her phone."
-  - "Not that long. She\u2019s probably just busy, but I was supposed to meet her
-    and I haven\u2019t heard back."
-  - Thanks. Call me when you get to San Paloma.
+  - Justin! Bro, you're not gonna believe what I found!
+  - Nothing bad! Listen, I think I found a way for us to get rich.
+  - I'm serious! I found something incredible, and I need your help.
+  - I'll explain when you get here. Listen. Just meet me at Restaurante El Sol in
+    San Paloma.
+  - Trust me, bro. This could change our lives!
+  - That's what I'm talking about! See you there!
   autoProgressLines: 
   endDialogueLines: 
   autoProgressDelay: 1.5
@@ -29,10 +29,12 @@ MonoBehaviour:
   voiceSound: {fileID: 0}
   voicePitch: 1
   dialogueAudioClips:
-  - {fileID: 8300000, guid: 245e5e8fc3038774d80f3a58d6bc5534, type: 3}
-  - {fileID: 8300000, guid: 8d3770c27531d404089d2bbb5526b849, type: 3}
-  - {fileID: 8300000, guid: 5ddc453b50f0df34a91342a320ae191a, type: 3}
-  - {fileID: 8300000, guid: 1853ad85d921ad949bec27e52efb061d, type: 3}
+  - {fileID: 8300000, guid: 2c70a3b34431f8844b9d0a0683748cc8, type: 3}
+  - {fileID: 8300000, guid: 5b5bb286c76002340b69815d5f2bcd91, type: 3}
+  - {fileID: 8300000, guid: aaedc8b495f3ffd49b4acde96bb04ed2, type: 3}
+  - {fileID: 8300000, guid: 0b9aa2cc57269df4389e98908cc698d0, type: 3}
+  - {fileID: 8300000, guid: 8dc370c339a93d64386f833bbc771d1e, type: 3}
+  - {fileID: 8300000, guid: abdabeaf1178f9b4fb44a1e2af75483d, type: 3}
   choices: []
   hoverDefinitions: []
   keyPhrases: []

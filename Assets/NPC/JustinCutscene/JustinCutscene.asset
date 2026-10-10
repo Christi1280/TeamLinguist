@@ -16,9 +16,12 @@ MonoBehaviour:
   npcPortrait: {fileID: 21300000, guid: e556253d927940c44b781287de136d09, type: 3}
   dialogueLines:
   - Hello?
-  - Yeah. My flight leaves later today. Why?
-  - How long has it been?
-  - "Alright. I\u2019ll see if I can get there earlier."
+  - What did you do this time?
+  - Here we go again.
+  - With what?
+  - You want me to travel all the way there without telling me why?
+  - Fine. But this better be worth it.
+  - I'm definitely gonna regret this.
   autoProgressLines: 
   endDialogueLines: 
   autoProgressDelay: 1.5
@@ -26,10 +29,13 @@ MonoBehaviour:
   voiceSound: {fileID: 0}
   voicePitch: 1
   dialogueAudioClips:
-  - {fileID: 8300000, guid: f4d84e9e6f6522e43913c5edff16c812, type: 3}
-  - {fileID: 8300000, guid: 3011ae050ec38ff4a908f11fca1d5a45, type: 3}
-  - {fileID: 8300000, guid: ba51ec9595fa7b04dbadf7de5cf51af4, type: 3}
-  - {fileID: 8300000, guid: b1a47a11db9fffe418888f4afcd5114b, type: 3}
+  - {fileID: 8300000, guid: 1a5b183009615cb469e49a17a067cf8c, type: 3}
+  - {fileID: 8300000, guid: 284c6e4d3237aa14e94eee38b9759608, type: 3}
+  - {fileID: 8300000, guid: 0f0939ad5f656bc469f35a853af64ae5, type: 3}
+  - {fileID: 8300000, guid: b5907a3277e274541a18e05c8692f294, type: 3}
+  - {fileID: 8300000, guid: 1fa363c7ac3f3544e935279ba766b51a, type: 3}
+  - {fileID: 8300000, guid: 4a7dccbc382336b42a023f1a93126188, type: 3}
+  - {fileID: 8300000, guid: 786c73f1348a9fd4695af83a838af5a5, type: 3}
   choices: []
   hoverDefinitions: []
   keyPhrases: []
