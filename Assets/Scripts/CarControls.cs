@@ -182,7 +182,7 @@ public class CarControls : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.DownArrow))
                 {
-                    nextPoint = point9.transform.position;
+                    nextPoint = point8.transform.position;
                     atPoint = false;
                 }
             }
