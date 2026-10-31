@@ -16,15 +16,17 @@ MonoBehaviour:
   npcPortrait: {fileID: 21300000, guid: c1b3d7cb4b37a0442a1f5d96a599a92c, type: 3}
   dialogueLines:
   - "\xA1Hola! ! <link=\"Bienvenido\"><u>Bienvenido</u></link> a San Paloma!"
-  - "Me llamo Mateo. \xBFC\xF3mo te llamas t\xFA?"
+  - "<link=\"Me llamo\"><u>Me llamo</u></link> Mateo. \xBFC\xF3mo te llamas t\xFA?"
   - "\xA1<link=\"Mucho gusto\"><u>Mucho gusto</u></link>, Justin!"
-  - "Es un placer conocerte. \xBFDe d\xF3nde eres?"
-  - "\xA1Genial! Me alegra que est\xE9s aqu\xED."
-  - "\xBFNecesitas ayuda? \xBFA d\xF3nde quieres ir?"
+  - "Es un placer conocerte. \xBF<link=\"De d\xF3nde eres\"><u>De d\xF3nde eres</u></link>?"
+  - "\xA1Genial! <link=\"Me alegra\"><u>Me alegra</u></link> que est\xE9s aqu\xED."
+  - "<link=\"Necesitas ayuda\"><u>\xBFNecesitas ayuda?</u></link> \xBFA d\xF3nde
+    quieres ir?"
   - "El Restaurante El Sol est\xE1 todo recto."
   - "\xBFEntendiste? \xBFD\xF3nde est\xE1 el restaurante?"
   - "\xA1Muy bien! Ahora puedes explorar San Paloma. Recuerda: \"Hola\", \"me llamo\",
-    \"\xBFd\xF3nde est\xE1?\" y \"gracias\" te van a servir mucho."
+    \"\xBFd\xF3nde est\xE1?\" y \"gracias\" te van a <link=\"Servir\"><u>servir</u></link>
+    mucho."
   - "\xA1De nada! Nos vemos pronto. \xA1Divi\xE9rtete explorando!"
   - "\xA1En espa\xF1ol, por favor!"
   - "\xA1Casi! En espa\xF1ol decimos \u201CSoy de Ravenport\u201D o \u201CVengo de
@@ -130,11 +132,31 @@ MonoBehaviour:
     correctChoice: 000100
   hoverDefinitions:
   - key: Bienvenido
-    definition: Bienvenido = Welcome
+    definition: Welcome
+  - key: Me llamo
+    definition: My  name  is
   - key: Mucho gusto
-    definition: Mucho gusto = Nice to meet you
+    definition: Nice  to  meet  you
+  - key: "De d\xF3nde eres"
+    definition: 'Where  are  you  from? '
+  - key: Me alegra
+    definition: I'm  glad
+  - key: Necesitas ayuda
+    definition: Do  you  need  help?
+  - key: Servir
+    definition: To  be  useful
   keyPhrases:
   - spanish: Bienvenido
     english: Welcome
+  - spanish: Me llamo
+    english: My name is
   - spanish: Mucho gusto
     english: Nice to meet you
+  - spanish: "\xBFDe d\xF3nde eres?"
+    english: Where are you from?
+  - spanish: Me alegra
+    english: I'm glad
+  - spanish: "\xBFNecesitas ayuda?"
+    english: Do you need help?
+  - spanish: Servir
+    english: To be useful

@@ -15,12 +15,11 @@ MonoBehaviour:
   npcName: Laura
   npcPortrait: {fileID: 21300000, guid: fd410b63838fd7742adc0e554ccf24f1, type: 3}
   dialogueLines:
-  - "\xA1Hola! <link=\"Bienvenidos\"><u>Bienvenidos</u></link> al Restaurante El
-    Sol."
+  - "\xA1Hola! \xA1Bienvenido al Restaurante El Sol!"
   - "\xBF<link=\"Tienes reserva\"><u>Tienes reserva</u></link> o prefieres una mesa
     ahora?"
   - "Perfecto. \xBFSon dos personas?"
-  - Muy bien. Ven conmigo, por favor.
+  - Muy bien. <link="Ven conmigo"><u>Ven conmigo</u></link>, por favor.
   - "\xA1Casi! Si quieres una mesa para dos personas, puedes decir \"Una mesa para
     dos, por favor\"."
   autoProgressLines: 
@@ -62,16 +61,12 @@ MonoBehaviour:
     nextDialogueIndex: 040000000200000004000000
     correctChoice: 000100
   hoverDefinitions:
-  - key: Bienvenidos
-    definition: Bienvenidos = Welcome
-  - key: Tienen reserva
-    definition: Do you have a reservation?
+  - key: Tienes reserva
+    definition: Do  you  have  a  reservation?
   - key: Ven conmigo
-    definition: Ven conmigo = Come with me
+    definition: Come  with  me
   keyPhrases:
-  - spanish: Tienen reserva
+  - spanish: Tienes reserva
     english: Do you have a reservation?
   - spanish: Ven conmigo
     english: Come with me
-  - spanish: Mesa para uno
-    english: Table for one
