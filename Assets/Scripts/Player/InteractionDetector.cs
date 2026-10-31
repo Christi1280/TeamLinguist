@@ -13,6 +13,7 @@ using UnityEngine.InputSystem;
 public class InteractionDetector : MonoBehaviour
 {
     private IInteractable interactableInRange;
+    private Collider2D detectorCollider;
 
     // Tracks colliders belonging to the current interactable.
     private readonly HashSet<Collider2D> activeColliders = new();
@@ -21,11 +22,35 @@ public class InteractionDetector : MonoBehaviour
     [SerializeField] private GameObject chatIcon;
     [SerializeField] private GameObject sitPrompt;
 
+    private void Awake()
+    {
+        detectorCollider = GetComponent<Collider2D>();
+    }
     private void Start()
     {
         HideAllPrompts();
     }
 
+    private void FixedUpdate()
+    {
+        if (interactableInRange is not SeatInteraction seat)
+        {
+            return;
+        }
+
+        Collider2D seatCollider =
+            seat.GetComponentInChildren<Collider2D>();
+
+        if (detectorCollider == null ||
+            seatCollider == null ||
+            !seatCollider.enabled ||
+            !detectorCollider.IsTouching(seatCollider))
+        {
+            activeColliders.Clear();
+            interactableInRange = null;
+            HideAllPrompts();
+        }
+    }
     public void OnInteract(InputAction.CallbackContext context)
     {
         if (!context.performed ||
