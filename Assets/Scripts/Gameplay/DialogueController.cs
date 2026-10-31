@@ -62,6 +62,14 @@ public class DialogueController : MonoBehaviour
     {
         return currentNPC;
     }
+
+    public void ReplayDialogueAudio()
+    {
+        if (currentNPC == null)
+            return;
+
+        currentNPC.ReplayAudio();
+    }
     public void SetNPCInfo(string npcName, Sprite portrait)
     {
         nameText.text = npcName;

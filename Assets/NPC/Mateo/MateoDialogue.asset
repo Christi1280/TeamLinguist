@@ -15,98 +15,119 @@ MonoBehaviour:
   npcName: Mateo
   npcPortrait: {fileID: 21300000, guid: c1b3d7cb4b37a0442a1f5d96a599a92c, type: 3}
   dialogueLines:
-  - "\xA1Hola! <link=\"Bienvenido\"><u>Bienvenido</u></link> a nuestro pueblo."
+  - "\xA1Hola! ! <link=\"Bienvenido\"><u>Bienvenido</u></link> a San Paloma!"
   - "Me llamo Mateo. \xBFC\xF3mo te llamas t\xFA?"
   - "\xA1<link=\"Mucho gusto\"><u>Mucho gusto</u></link>, Justin!"
   - "Es un placer conocerte. \xBFDe d\xF3nde eres?"
-  - "\xA1Casi! En espa\xF1ol puedes decir:"
-  - "\u201CHola, me llamo Justin.\u201D"
   - "\xA1Genial! Me alegra que est\xE9s aqu\xED."
-  - "\xBFNecesitas ayuda? Puedo decirte d\xF3nde est\xE1n las tiendas, la biblioteca,
-    el restaurante, la granja y la escuela."
-  - Para empezar, vamos al restaurante.
-  - "El restaurante est\xE1 cerca del parque."
+  - "\xBFNecesitas ayuda? \xBFA d\xF3nde quieres ir?"
+  - "El Restaurante El Sol est\xE1 todo recto."
   - "\xBFEntendiste? \xBFD\xF3nde est\xE1 el restaurante?"
-  - "\xA1Muy bien!"
-  - "\xA1Perfecto! Ahora puedes ir al restaurante."
-  - "Recuerda: \u201CHola\u201D, \u201Cme llamo\u201D, \u201C\xBFd\xF3nde est\xE1?\u201D
-    y \u201Cgracias\u201D te van a servir mucho."
+  - "\xA1Muy bien! Ahora puedes explorar San Paloma. Recuerda: \"Hola\", \"me llamo\",
+    \"\xBFd\xF3nde est\xE1?\" y \"gracias\" te van a servir mucho."
   - "\xA1De nada! Nos vemos pronto. \xA1Divi\xE9rtete explorando!"
-  - "\xA1Casi! En espa\xF1ol decimos \u201CSoy de Jamaica\u201D o \u201CVengo de
-    Jamaica\u201D."
-  - "\xA1Buen intento!"
-  - "Casi. El restaurante est\xE1 cerca del parque."
-  - "Int\xE9ntalo otra vez."
+  - "\xA1En espa\xF1ol, por favor!"
+  - "\xA1Casi! En espa\xF1ol decimos \u201CSoy de Ravenport\u201D o \u201CVengo de
+    Ravenport\u201D."
+  - "\xA1Casi! Para decir \u201CWhere is the restaurant?\u201D en espa\xF1ol, usamos
+    \u201C\xBFD\xF3nde est\xE1 el restaurante?\u201D"
+  - "\xA1Casi! \u201CTodo recto\u201D significa \u201Cstraight ahead\u201D."
   autoProgressLines: 00000000000000000000000000000000000000
-  endDialogueLines: 000000000000000000000000000001000000
+  endDialogueLines: 000000000000000000010000000000000000
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 8300000, guid: 900e38d687d83fc49b6f07885439cdea, type: 3}
   voicePitch: 1
   dialogueAudioClips:
-  - {fileID: 8300000, guid: 7d997dcd95b6f4d469a0d4cca5e9a875, type: 3}
-  - {fileID: 8300000, guid: 771dd7712bc2dfb46b330f87c39524cf, type: 3}
-  - {fileID: 8300000, guid: 646416e8205ae7d4385ce6b9f88fcab7, type: 3}
-  - {fileID: 8300000, guid: b0742ac0e132c2f4db050eb96b91eb7e, type: 3}
-  - {fileID: 8300000, guid: e8c463642d18cc5478a7ff294a583c18, type: 3}
-  - {fileID: 8300000, guid: 4df3f37150767eb408b2e2d647404b29, type: 3}
-  - {fileID: 8300000, guid: e534159814e83054282ffdc6c7703ccc, type: 3}
-  - {fileID: 8300000, guid: 6e8adfe1839e09e4ea311949ab958b2e, type: 3}
-  - {fileID: 8300000, guid: c97d023c016c4284b8e651981f65cb45, type: 3}
-  - {fileID: 8300000, guid: bc3677b66fc417f4487e167706fdce1c, type: 3}
-  - {fileID: 8300000, guid: 5fc37262c03a7e3409496699783fb216, type: 3}
-  - {fileID: 8300000, guid: 94b60f158eb4e1940b03bc586c8021de, type: 3}
-  - {fileID: 8300000, guid: 13ec728b65d33484cb42266b51f6e705, type: 3}
-  - {fileID: 8300000, guid: ff090bb06c1ea484f87ed4bb779eae35, type: 3}
-  - {fileID: 8300000, guid: 3b9bfbf573d9a31479123902b1e20bf4, type: 3}
-  - {fileID: 8300000, guid: 89c232d8c8314d04e85f9d0947753355, type: 3}
-  - {fileID: 8300000, guid: 224dd5cc83c329043adb08f0395c0d13, type: 3}
-  - {fileID: 8300000, guid: 2b9874b5d26f42145b82d82bbede8359, type: 3}
-  - {fileID: 8300000, guid: 3a5a21503c8ca3448bc24c1cf2594739, type: 3}
+  - {fileID: 8300000, guid: abe76dc91304c57439016c04fed4af59, type: 3}
+  - {fileID: 8300000, guid: b2bbd5b5cb08393479c906def3fa522c, type: 3}
+  - {fileID: 8300000, guid: 1eb2cb5d4a21e004d85edc4c83ef780d, type: 3}
+  - {fileID: 8300000, guid: b074beb53f0ce554fb139d21a35ca795, type: 3}
+  - {fileID: 8300000, guid: 9f6631aed65a8664a949e5dba9363525, type: 3}
+  - {fileID: 8300000, guid: 7a93fa21bec95e54d9693c8a63601062, type: 3}
+  - {fileID: 8300000, guid: 245e14ee81464c949aaeca4e36f20329, type: 3}
+  - {fileID: 8300000, guid: 44afddaf307b0994fb52ed1f6e68aeb9, type: 3}
+  - {fileID: 8300000, guid: c4bf308a34c45c54ea9a0cf08ac06d50, type: 3}
+  - {fileID: 8300000, guid: 69df4fa8883ba4440bd5baa8f187e300, type: 3}
+  - {fileID: 8300000, guid: 06172aa2085d2d042bd457195a1ae388, type: 3}
+  - {fileID: 8300000, guid: e33ca62a81d5636428af075901d4f25c, type: 3}
+  - {fileID: 8300000, guid: 9560397949dd8f842a14db0bf9b6f736, type: 3}
+  - {fileID: 8300000, guid: 699a1b6d2b9cc74449f4c9ad7a7b80e8, type: 3}
+  slowedDialogueAudioClips:
+  - {fileID: 8300000, guid: a6f55f2e3f1972641bdcb30abf0c2bf0, type: 3}
+  - {fileID: 8300000, guid: c130ed6f2402f224393ad2e5835e6ea5, type: 3}
+  - {fileID: 8300000, guid: c727860f7f6987649a8c6d6a22225c1b, type: 3}
+  - {fileID: 8300000, guid: 8cbfb6115f9184945b993c81acb91c11, type: 3}
+  - {fileID: 8300000, guid: 89002805f6f0c454c8adc6d4dd2a0384, type: 3}
+  - {fileID: 8300000, guid: 6929f891f0492be4a9c3c11ca096bf38, type: 3}
+  - {fileID: 8300000, guid: 6dc2afdd808cc8b4fa55fe1f3685127a, type: 3}
+  - {fileID: 8300000, guid: 10c46109624cf3c4ca2ae7098dc7f40e, type: 3}
+  - {fileID: 8300000, guid: e01ad2fc370c5d1498637e2a882aa12c, type: 3}
+  - {fileID: 8300000, guid: f5a400255da4cc3498c3c6fa9e14ac1f, type: 3}
+  - {fileID: 8300000, guid: 5ed0871bc5f15544fad81ba0c8587a90, type: 3}
+  - {fileID: 8300000, guid: 9e379b9ad7ef23540b3beadba736c221, type: 3}
+  - {fileID: 8300000, guid: dba7326fb04c374429f606d5a5f16ac5, type: 3}
+  - {fileID: 8300000, guid: edc7112a0fc31af4abbd3329a821e8c2, type: 3}
   choices:
   - dialogueIndex: 1
     choices:
     - Hola, me llamo Justin.
     - Hello, my name is Justin.
-    nextDialogueIndex: 0200000004000000
+    nextDialogueIndex: 020000000a000000
     correctChoice: 0100
   - dialogueIndex: 3
     choices:
-    - Soy de Jamaica.
-    - Vengo de Jamaica.
-    - I am from Jamaica.
-    nextDialogueIndex: 06000000060000000f000000
+    - Soy de Ravenport.
+    - 'Vengo de Ravenport. '
+    - Me llamo Ravenport.
+    nextDialogueIndex: 04000000040000000b000000
     correctChoice: 010100
-  - dialogueIndex: 10
-    choices:
-    - Cerca del parque.
-    - "Detr\xE1s de la escuela."
-    - Al lado de la biblioteca.
-    nextDialogueIndex: 0b0000001100000011000000
-    correctChoice: 010000
-  - dialogueIndex: 13
-    choices:
-    - Gracias, Mateo.
-    nextDialogueIndex: 0e000000
-    correctChoice: 01
   - dialogueIndex: 5
     choices:
-    - Hola, me llamo Justin.
-    nextDialogueIndex: 02000000
+    - "\xBFQu\xE9 es el Restaurante El Sol?"
+    - "\xBFC\xF3mo est\xE1 el Restaurante El Sol?"
+    - "\xBFD\xF3nde est\xE1 el Restaurante El Sol?"
+    nextDialogueIndex: 0c0000000c00000006000000
+    correctChoice: 000001
+  - dialogueIndex: 7
+    choices:
+    - A la izquierda.
+    - Todo recto.
+    - A la derecha.
+    nextDialogueIndex: 0d000000080000000d000000
+    correctChoice: 000100
+  - dialogueIndex: 8
+    choices:
+    - "Gracias, Mateo. \xA1Hasta luego!"
+    nextDialogueIndex: 09000000
     correctChoice: 01
-  - dialogueIndex: 16
+  - dialogueIndex: 10
     choices:
-    - Soy de Jamaica.
-    - Vengo de Jamaica.
-    nextDialogueIndex: 0600000006000000
-    correctChoice: 0101
-  - dialogueIndex: 18
+    - Hola, me llamo Justin.
+    - Hello, my name is Justin.
+    nextDialogueIndex: 020000000a000000
+    correctChoice: 01
+  - dialogueIndex: 11
     choices:
-    - Cerca del parque.
-    - "Detr\xE1s de la escuela."
-    - Al lado de la biblioteca.
-    nextDialogueIndex: 0b0000001100000011000000
-    correctChoice: 010000
+    - Soy de Ravenport.
+    - Vengo de Ravenport.
+    - Me llamo Ravenport.
+    nextDialogueIndex: 04000000040000000b000000
+    correctChoice: 010100
+  - dialogueIndex: 12
+    choices:
+    - "\xBFQu\xE9 es el Restaurante El Sol?"
+    - "\xBFC\xF3mo est\xE1 el Restaurante El Sol?"
+    - "\xBFD\xF3nde est\xE1 el Restaurante El Sol?"
+    nextDialogueIndex: 0c0000000c00000006000000
+    correctChoice: 000001
+  - dialogueIndex: 13
+    choices:
+    - A la izquierda.
+    - Todo recto.
+    - A la derecha.
+    nextDialogueIndex: 0d000000080000000d000000
+    correctChoice: 000100
   hoverDefinitions:
   - key: Bienvenido
     definition: Bienvenido = Welcome

@@ -81,31 +81,50 @@ public class NPC : MonoBehaviour, IInteractable
         DisplayCurrentLine();
     }
 
+
     void PlayDialogueAudio()
     {
-        if (dialogueData.dialogueAudioClips == null)
-        {
-            return;
-        }
+        // Get the player's saved dialogue speed preference.
+        int speedSetting = PlayerPrefs.GetInt("DialogueSpeed", 0);
 
-        // Make sure the current dialogue line has a matching audio entry.
-        if (dialogueIndex < 0 ||
-            dialogueIndex >= dialogueData.dialogueAudioClips.Length)
-        {
-            return;
-        }
+        // Select the appropriate audio array.
+        AudioClip[] selectedClips = speedSetting == 1
+            ? dialogueData.slowedDialogueAudioClips
+            : dialogueData.dialogueAudioClips;
 
-        AudioClip clip =
-            dialogueData.dialogueAudioClips[dialogueIndex];
-
-        if (clip == null)
+        // Fall back to normal audio if slowed audio is missing.
+        if (selectedClips == null ||
+            dialogueIndex >= selectedClips.Length ||
+            selectedClips[dialogueIndex] == null)
         {
-            return;
+            selectedClips = dialogueData.dialogueAudioClips;
         }
 
         dialogueUI.dialogueAudioSource.Stop();
+
+        if (selectedClips == null ||
+            dialogueIndex < 0 ||
+            dialogueIndex >= selectedClips.Length)
+        {
+            return;
+        }
+
+        AudioClip clip = selectedClips[dialogueIndex];
+
+        if (clip == null)
+            return;
+
+        dialogueUI.dialogueAudioSource.pitch = 1f;
         dialogueUI.dialogueAudioSource.clip = clip;
         dialogueUI.dialogueAudioSource.Play();
+    }
+
+    public void ReplayAudio()
+    {
+        if (!isDialogueActive)
+            return;
+
+        PlayDialogueAudio();
     }
 
     void NextLine()
