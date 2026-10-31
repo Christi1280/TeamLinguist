@@ -23,7 +23,9 @@ MonoBehaviour:
   voiceSound: {fileID: 0}
   voicePitch: 1
   dialogueAudioClips:
-  - {fileID: 8300000, guid: 6e7c6d7e778b68f44a2828f941a59227, type: 3}
+  - {fileID: 8300000, guid: 64fe93f8909d7e44bbedc1a8ccac0457, type: 3}
+  slowedDialogueAudioClips:
+  - {fileID: 8300000, guid: 3d1d2a235d53c9e47b2bf9a9ab8991f8, type: 3}
   choices: []
   hoverDefinitions:
   - key: Que aproveche

@@ -17,33 +17,50 @@ MonoBehaviour:
   dialogueLines:
   - "\xA1Hola! <link=\"Bienvenidos\"><u>Bienvenidos</u></link> al Restaurante El
     Sol."
-  - "\xBF<link=\"Tienen reserva\"><u>Tienen reserva</u></link> o prefieren una mesa
+  - "\xBF<link=\"Tienes reserva\"><u>Tienes reserva</u></link> o prefieres una mesa
     ahora?"
-  - Perfecto. <link="Ven conmigo"><u>Ven conmigo</u></link>.
-  - "\xA1Casi! Decimos \u2018una mesa para uno, por favor\u2019.  \xA1Muy bien intentado! "
+  - "Perfecto. \xBFSon dos personas?"
+  - Muy bien. Ven conmigo, por favor.
+  - "\xA1Casi! Si quieres una mesa para dos personas, puedes decir \"Una mesa para
+    dos, por favor\"."
   autoProgressLines: 
-  endDialogueLines: 00000100
+  endDialogueLines: 00000001
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
   dialogueAudioClips:
-  - {fileID: 8300000, guid: 16849004f09ede5489545f5639b705fa, type: 3}
-  - {fileID: 8300000, guid: 3e055f8a06f304041b834ec6f66bb219, type: 3}
-  - {fileID: 8300000, guid: e1defdc621ca0884a88d8be5ea038cfa, type: 3}
-  - {fileID: 8300000, guid: 7e3c2750fe7811248a212d4ee9053936, type: 3}
+  - {fileID: 8300000, guid: 9235837b56cf6064d83fcc4d46562a33, type: 3}
+  - {fileID: 8300000, guid: aa682f5df9e5fc944a9f805843972e02, type: 3}
+  - {fileID: 8300000, guid: 948507dfd7d236247aab9b24d180c8ed, type: 3}
+  - {fileID: 8300000, guid: ac6d3e99be8e0ef4b99d7aff8e1af41c, type: 3}
+  - {fileID: 8300000, guid: cb23dea589025d74085c677388ffe319, type: 3}
+  slowedDialogueAudioClips:
+  - {fileID: 8300000, guid: fe731f058f6b58844bd1fd69deea5360, type: 3}
+  - {fileID: 8300000, guid: b4f4b65f61814d34d84b7a38e89e919d, type: 3}
+  - {fileID: 8300000, guid: e34032f883a9917479f99044053f3e5c, type: 3}
+  - {fileID: 8300000, guid: 62030f752a099b84c8688c010405cca8, type: 3}
+  - {fileID: 8300000, guid: 52d0c90722c0d314882483ca8f491c23, type: 3}
   choices:
   - dialogueIndex: 1
     choices:
-    - 'Hola, una mesa para uno, por favor. '
-    - "Hola, \xBFtienen una mesa para dos?"
-    nextDialogueIndex: 0200000003000000
-    correctChoice: 0100
-  - dialogueIndex: 3
+    - "\xBFD\xF3nde est\xE1 la mesa para dos?"
+    - Una mesa para dos, por favor.
+    - Quiero dos mesas, por favor.
+    nextDialogueIndex: 040000000200000004000000
+    correctChoice: 000100
+  - dialogueIndex: 2
     choices:
-    - 'Una mesa para uno, por favor. '
-    nextDialogueIndex: 02000000
+    - "S\xED, somos dos."
+    nextDialogueIndex: 03000000
     correctChoice: 01
+  - dialogueIndex: 4
+    choices:
+    - "\xBFD\xF3nde est\xE1 la mesa para dos?"
+    - Una mesa para dos, por favor.
+    - Quiero dos mesas, por favor.
+    nextDialogueIndex: 040000000200000004000000
+    correctChoice: 000100
   hoverDefinitions:
   - key: Bienvenidos
     definition: Bienvenidos = Welcome
