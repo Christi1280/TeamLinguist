@@ -16,7 +16,8 @@ MonoBehaviour:
   npcPortrait: {fileID: 21300000, guid: 8d455a612a8681b47a78b89225833505, type: 3}
   dialogueLines:
   - "\xA1Hola! \xBFC\xF3mo est\xE1s hoy? \xBFQu\xE9 te puedo <link=\"servir\"><u>servir</u></link>?"
-  - "Te recomiendo el men\xFA del d\xEDa. Incluye sopa, un plato principal y postre.
+  - "Te recomiendo el <link=\"Men\xFA del d\xEDa\"><u>men\xFA del d\xEDa</u></link>.
+    Incluye sopa, un <link=\"Plato principal\"><u>plato principal</u></link> y postre.
     \xBFQuieres ver el men\xFA?"
   - "\xA1Claro! Aqu\xED tienes el men\xFA."
   - "\xA1Todav\xEDa no has pedido nada! \xBFQuieres saber qu\xE9 te recomiendo hoy?"
@@ -57,4 +58,14 @@ MonoBehaviour:
   hoverDefinitions:
   - key: servir
     definition: to serve / bring
-  keyPhrases: []
+  - key: "Men\xFA del d\xEDa"
+    definition: Meal of the day
+  - key: Plato principal
+    definition: Main course
+  keyPhrases:
+  - spanish: Servir
+    english: To  Serve / Bring
+  - spanish: "Men\xFA del d\xEDa"
+    english: Meal of the day
+  - spanish: Plato principal
+    english: Main course

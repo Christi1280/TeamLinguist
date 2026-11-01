@@ -15,11 +15,14 @@ MonoBehaviour:
   npcName: Diego
   npcPortrait: {fileID: 21300000, guid: 8d455a612a8681b47a78b89225833505, type: 3}
   dialogueLines:
-  - "\xBFEntendiste? \xBFQu\xE9 incluye el men\xFA del d\xEDa?"
+  - "<link=\"\xBFEntendiste?\"><u>\xBFEntendiste?</u></link> \xBFQu\xE9 incluye el
+    men\xFA del d\xEDa?"
   - "\xA1Exacto! Muy bien."
-  - "\xBFQu\xE9 te gustar\xEDa pedir? \xBFEl men\xFA del d\xEDa o algo de la carta?"
-  - "\xA1Perfecto! Enseguida te traigo la sopa. \xBFQuieres algo de beber?"
-  - "Muy bien. \xBFAlgo m\xE1s?"
+  - "\xBFQu\xE9 te gustar\xEDa <link=\"pedir\"><u>pedir</u></link>? \xBFEl men\xFA
+    del d\xEDa o algo de <link=\"la carta\"><u>la carta</u></link>?"
+  - "\xA1Perfecto! <link=\"Enseguida\"><u>Enseguida</u></link> te traigo la sopa.
+    \xBFQuieres algo de <link=\"beber\"><u>beber</u></link>?"
+  - "Muy bien. <link=\"\xBFAlgo m\xE1s?\"><u>\xBFAlgo m\xE1s?</u></link>"
   - "\xA1Genial! Enseguida vuelvo. Y recuerda: si necesitas algo, solo di \u201C\xA1Diego!\u201D "
   - "Recuerda: sopa, plato principal y postre. \xBFQuieres intentarlo otra vez?"
   - "\xA1Todav\xEDa no has pedido comida! \xBFQu\xE9 te gustar\xEDa comer?"
@@ -95,5 +98,29 @@ MonoBehaviour:
     - "S\xED, un plato de agua, por favor."
     nextDialogueIndex: 0400000008000000
     correctChoice: 0100
-  hoverDefinitions: []
-  keyPhrases: []
+  hoverDefinitions:
+  - key: "\xBFEntendiste?"
+    definition: Did  you  understand?
+  - key: pedir
+    definition: 'To  order '
+  - key: la carta
+    definition: The  regular  menu
+  - key: Enseguida
+    definition: Right  away
+  - key: beber
+    definition: To  drink
+  - key: "\xBFAlgo m\xE1s?"
+    definition: Anything  else?
+  keyPhrases:
+  - spanish: "\xBFEntendiste?"
+    english: ' Did  you  understand?'
+  - spanish: pedir
+    english: To  order
+  - spanish: la carta
+    english: The  regular  menu
+  - spanish: Enseguida
+    english: Right  away
+  - spanish: Beber
+    english: To  drink
+  - spanish: "\xBFAlgo m\xE1s?"
+    english: Anything  else?
