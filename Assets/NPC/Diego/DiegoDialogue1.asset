@@ -19,6 +19,7 @@ MonoBehaviour:
   - "Te recomiendo el men\xFA del d\xEDa. Incluye sopa, un plato principal y postre.
     \xBFQuieres ver el men\xFA?"
   - "\xA1Claro! Aqu\xED tienes el men\xFA."
+  - "\xA1Todav\xEDa no has pedido nada! \xBFQuieres saber qu\xE9 te recomiendo hoy?"
   autoProgressLines: 
   endDialogueLines: 000001
   autoProgressDelay: 1.5
@@ -26,20 +27,32 @@ MonoBehaviour:
   voiceSound: {fileID: 0}
   voicePitch: 1
   dialogueAudioClips:
-  - {fileID: 8300000, guid: 5d87c23ae1c4daf49b2e864cd19bcda5, type: 3}
-  - {fileID: 8300000, guid: d2344658de224ad4796b5a38d24a6adc, type: 3}
-  - {fileID: 8300000, guid: d606e367479aad94a974af5cc9e46979, type: 3}
+  - {fileID: 8300000, guid: f39a425d175e7304696040180dab77a3, type: 3}
+  - {fileID: 8300000, guid: 2150c088891f78d4c8505249d02f7708, type: 3}
+  - {fileID: 8300000, guid: 71531c75cd6a2c449a7de7e8b6a3ce82, type: 3}
+  - {fileID: 8300000, guid: aaa602dd5d56dba40b3392896b204fcd, type: 3}
+  slowedDialogueAudioClips:
+  - {fileID: 8300000, guid: 697301f2d37947442abd97358bbfa443, type: 3}
+  - {fileID: 8300000, guid: 004e48440d52a4b4cbb647e7ab332edd, type: 3}
+  - {fileID: 8300000, guid: d681f03a1205f304cb93615134904b08, type: 3}
+  - {fileID: 8300000, guid: 8bd6a7621cb2f8f4fb4a13bff87ef382, type: 3}
   choices:
   - dialogueIndex: 0
     choices:
-    - "Hola, \xBFqu\xE9 me recomienda hoy?"
-    - "\xBFMe puedes traer el men\xFA, por favor?"
-    nextDialogueIndex: 0100000002000000
-    correctChoice: 
+    - "Bien, gracias. \xBFMe trae la cuenta, por favor?"
+    - "Bien, gracias. \xBFCu\xE1nto cuesta?"
+    - "Bien, gracias. \xBFQu\xE9 me recomienda hoy?"
+    nextDialogueIndex: 030000000300000001000000
+    correctChoice: 000001
   - dialogueIndex: 1
     choices:
     - "S\xED, por favor."
     nextDialogueIndex: 02000000
+    correctChoice: 
+  - dialogueIndex: 3
+    choices:
+    - "S\xED, por favor."
+    nextDialogueIndex: 01000000
     correctChoice: 
   hoverDefinitions:
   - key: servir

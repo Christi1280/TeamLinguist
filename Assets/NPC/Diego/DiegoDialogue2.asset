@@ -18,9 +18,12 @@ MonoBehaviour:
   - "\xBFEntendiste? \xBFQu\xE9 incluye el men\xFA del d\xEDa?"
   - "\xA1Exacto! Muy bien."
   - "\xBFQu\xE9 te gustar\xEDa pedir? \xBFEl men\xFA del d\xEDa o algo de la carta?"
-  - "Recuerda. sopa, plato principal y postre. \xBFQuieres intentarlo otra vez?"
-  - "\xA1Perfecto! Ahora te traigo todo. \xBFAlgo m\xE1s?"
+  - "\xA1Perfecto! Enseguida te traigo la sopa. \xBFQuieres algo de beber?"
+  - "Muy bien. \xBFAlgo m\xE1s?"
   - "\xA1Genial! Enseguida vuelvo. Y recuerda: si necesitas algo, solo di \u201C\xA1Diego!\u201D "
+  - "Recuerda: sopa, plato principal y postre. \xBFQuieres intentarlo otra vez?"
+  - "\xA1Todav\xEDa no has pedido comida! \xBFQu\xE9 te gustar\xEDa comer?"
+  - "\xA1Casi! Para pedir agua, puedes decir \"un vaso de agua, por favor\"."
   autoProgressLines: 
   endDialogueLines: 000000000001
   autoProgressDelay: 1.5
@@ -28,36 +31,69 @@ MonoBehaviour:
   voiceSound: {fileID: 0}
   voicePitch: 1
   dialogueAudioClips:
-  - {fileID: 8300000, guid: d4b36e1c9b88391478cc02c1091934ab, type: 3}
-  - {fileID: 8300000, guid: 4bbbcc4cbfb977244adec22d22bb6ab7, type: 3}
-  - {fileID: 8300000, guid: 73d18ba90346bb54994a076ee4ebc0af, type: 3}
-  - {fileID: 8300000, guid: b4879b469a329864b9f7c1e750a13226, type: 3}
-  - {fileID: 8300000, guid: d3f353e4db10adf4abeb717f7a2cdb53, type: 3}
-  - {fileID: 8300000, guid: 41d3b5267deae4d48919f4e9007f1c29, type: 3}
+  - {fileID: 8300000, guid: 4663481d1581b2749a698225b334c61d, type: 3}
+  - {fileID: 8300000, guid: 620fe80ecc4f48a48bf8fab9ba545f0f, type: 3}
+  - {fileID: 8300000, guid: 90bdf2a53967f7c46bba7d1ad56d0712, type: 3}
+  - {fileID: 8300000, guid: 7ef81f9fc065142418d0acd0e2b53c7c, type: 3}
+  - {fileID: 8300000, guid: e2eafc4a99ffa52469bc765bc0e125b9, type: 3}
+  - {fileID: 8300000, guid: 160baf0626538ad46b021d11aa1a7a42, type: 3}
+  - {fileID: 8300000, guid: 15426d7905f738d46b1f89afd36d9054, type: 3}
+  - {fileID: 8300000, guid: cb71ea37eb7803448a11093be17a5c3c, type: 3}
+  - {fileID: 8300000, guid: 95d363f125f484c48a0e9ba0d52dd412, type: 3}
+  slowedDialogueAudioClips:
+  - {fileID: 8300000, guid: c4af703306adc514784bc7674bb38c0b, type: 3}
+  - {fileID: 8300000, guid: 2460e4298b458c24c908b5e556ced8ee, type: 3}
+  - {fileID: 8300000, guid: 38932b5998fab854996c042dd527166a, type: 3}
+  - {fileID: 8300000, guid: f0d3db1a793470e45ad23e7a28af1b47, type: 3}
+  - {fileID: 8300000, guid: c09e8ec8f5ab18e4a9c7b943bad78ae7, type: 3}
+  - {fileID: 8300000, guid: a6d9aac72a7b6d24983bfa8d1cc4d5c2, type: 3}
+  - {fileID: 8300000, guid: d5ae6ca0b479a8441900d2905fe059ce, type: 3}
+  - {fileID: 8300000, guid: bcb6706dd16396c4089d9f96e858fb74, type: 3}
+  - {fileID: 8300000, guid: 3f841310b949eb646b8b2594e5ae242b, type: 3}
   choices:
   - dialogueIndex: 0
     choices:
     - Sopa, plato principal y postre.
-    - Solo el plato principal.
-    nextDialogueIndex: 0100000003000000
-    correctChoice: 
+    - "Sopa, agua y caf\xE9."
+    - "Plato principal, refresco y caf\xE9."
+    nextDialogueIndex: 010000000600000006000000
+    correctChoice: 010000
   - dialogueIndex: 2
     choices:
     - "Quiero el men\xFA del d\xEDa, por favor."
-    - "Una agua y el men\xFA especial."
-    nextDialogueIndex: 0400000004000000
-    correctChoice: 
+    - Quiero pagar la cuenta, por favor.
+    nextDialogueIndex: 0300000007000000
+    correctChoice: 0100
   - dialogueIndex: 3
     choices:
-    - Sopa, plato principal y postre.
-    - Solo el plato principal.
-    nextDialogueIndex: 0100000003000000
-    correctChoice: 
+    - "S\xED, un vaso de agua, por favor."
+    - "S\xED, un plato de agua, por favor."
+    nextDialogueIndex: 0400000008000000
+    correctChoice: 0100
   - dialogueIndex: 4
     choices:
     - 'No, gracias. '
     - Eso es todo, gracias.
     nextDialogueIndex: 0500000005000000
     correctChoice: 
+  - dialogueIndex: 6
+    choices:
+    - "Sopa, agua y caf\xE9."
+    - Sopa, plato principal y postre.
+    - "Plato principal, refresco y caf\xE9."
+    nextDialogueIndex: 060000000100000006000000
+    correctChoice: 000100
+  - dialogueIndex: 7
+    choices:
+    - "Quiero el men\xFA del d\xEDa, por favor."
+    - Quiero pagar la cuenta, por favor.
+    nextDialogueIndex: 0300000007000000
+    correctChoice: 0100
+  - dialogueIndex: 8
+    choices:
+    - "S\xED, un vaso de agua, por favor."
+    - "S\xED, un plato de agua, por favor."
+    nextDialogueIndex: 0400000008000000
+    correctChoice: 0100
   hoverDefinitions: []
   keyPhrases: []

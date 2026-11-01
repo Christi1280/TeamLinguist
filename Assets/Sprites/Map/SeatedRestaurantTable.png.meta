@@ -1,0 +1,2275 @@
+fileFormatVersion: 2
+guid: 12901d1cf2b03a142afbee01f09cf25d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6341944834803611177
+    second: SeatedRestaurantTable_0
+  - first:
+      213: -6392700010921699997
+    second: SeatedRestaurantTable_1
+  - first:
+      213: 4821330552717001200
+    second: SeatedRestaurantTable_2
+  - first:
+      213: -7781525073809334315
+    second: SeatedRestaurantTable_3
+  - first:
+      213: -8686615425397723016
+    second: SeatedRestaurantTable_4
+  - first:
+      213: -667514552429281368
+    second: SeatedRestaurantTable_5
+  - first:
+      213: 8008317406826818575
+    second: SeatedRestaurantTable_6
+  - first:
+      213: -6773215867095265539
+    second: SeatedRestaurantTable_7
+  - first:
+      213: 5429057227159053667
+    second: SeatedRestaurantTable_8
+  - first:
+      213: 3292286218111898328
+    second: SeatedRestaurantTable_9
+  - first:
+      213: -3755118337964636552
+    second: SeatedRestaurantTable_10
+  - first:
+      213: -2131957868572384507
+    second: SeatedRestaurantTable_11
+  - first:
+      213: -3250962913147027193
+    second: SeatedRestaurantTable_12
+  - first:
+      213: -4638065425872458434
+    second: SeatedRestaurantTable_13
+  - first:
+      213: 1436489366122697859
+    second: SeatedRestaurantTable_14
+  - first:
+      213: 1431312768221080963
+    second: SeatedRestaurantTable_15
+  - first:
+      213: -1987485343563996183
+    second: SeatedRestaurantTable_16
+  - first:
+      213: -7601015589807007548
+    second: SeatedRestaurantTable_17
+  - first:
+      213: 8575492177440387045
+    second: SeatedRestaurantTable_18
+  - first:
+      213: 5361960725380044935
+    second: SeatedRestaurantTable_19
+  - first:
+      213: 1600560087777252129
+    second: SeatedRestaurantTable_20
+  - first:
+      213: 8908781115918731571
+    second: SeatedRestaurantTable_21
+  - first:
+      213: -1451496104005056881
+    second: SeatedRestaurantTable_22
+  - first:
+      213: -5509378096196003933
+    second: SeatedRestaurantTable_23
+  - first:
+      213: -3284434995050435373
+    second: SeatedRestaurantTable_24
+  - first:
+      213: -8919527730893723367
+    second: SeatedRestaurantTable_25
+  - first:
+      213: 7365810739591876263
+    second: SeatedRestaurantTable_26
+  - first:
+      213: 4624474147780379563
+    second: SeatedRestaurantTable_27
+  - first:
+      213: 9156998068135757051
+    second: SeatedRestaurantTable_28
+  - first:
+      213: -5665068817305799413
+    second: SeatedRestaurantTable_29
+  - first:
+      213: 6932311647169980665
+    second: SeatedRestaurantTable_30
+  - first:
+      213: -8870410251206969938
+    second: SeatedRestaurantTable_31
+  - first:
+      213: -5434989071983198904
+    second: SeatedRestaurantTable_32
+  - first:
+      213: -2690505384006923053
+    second: SeatedRestaurantTable_33
+  - first:
+      213: -6171207728082250740
+    second: SeatedRestaurantTable_34
+  - first:
+      213: -9065184316656934429
+    second: SeatedRestaurantTable_35
+  - first:
+      213: -2840196256876708745
+    second: SeatedRestaurantTable_36
+  - first:
+      213: -3831872231589359705
+    second: SeatedRestaurantTable_37
+  - first:
+      213: -3337371019358698032
+    second: SeatedRestaurantTable_38
+  - first:
+      213: 2639825291579523950
+    second: SeatedRestaurantTable_39
+  - first:
+      213: 3529839405921042685
+    second: SeatedRestaurantTable_40
+  - first:
+      213: -4567732115039361094
+    second: SeatedRestaurantTable_41
+  - first:
+      213: -7899149032660331031
+    second: SeatedRestaurantTable_42
+  - first:
+      213: 9084256986221822170
+    second: SeatedRestaurantTable_43
+  - first:
+      213: -4434370761494592085
+    second: SeatedRestaurantTable_44
+  - first:
+      213: 3164636750447784627
+    second: SeatedRestaurantTable_45
+  - first:
+      213: -6235030907819233412
+    second: SeatedRestaurantTable_46
+  - first:
+      213: -1706556285720853361
+    second: SeatedRestaurantTable_47
+  - first:
+      213: 7771875905476776900
+    second: SeatedRestaurantTable_48
+  - first:
+      213: -5455945956780951419
+    second: SeatedRestaurantTable_49
+  - first:
+      213: 1088692806245984097
+    second: SeatedRestaurantTable_50
+  - first:
+      213: 8882667924938834779
+    second: SeatedRestaurantTable_51
+  - first:
+      213: -8723327485685679253
+    second: SeatedRestaurantTable_52
+  - first:
+      213: 175580376161126195
+    second: SeatedRestaurantTable_53
+  - first:
+      213: 6307761519293508131
+    second: SeatedRestaurantTable_54
+  - first:
+      213: -9204415120536044684
+    second: SeatedRestaurantTable_55
+  - first:
+      213: -8498535430452891693
+    second: SeatedRestaurantTable_56
+  - first:
+      213: 3522484438499208493
+    second: SeatedRestaurantTable_57
+  - first:
+      213: 3811243296379505568
+    second: SeatedRestaurantTable_58
+  - first:
+      213: -5216098203625787320
+    second: SeatedRestaurantTable_59
+  - first:
+      213: 6372892121711182417
+    second: SeatedRestaurantTable_60
+  - first:
+      213: 312937597100692767
+    second: SeatedRestaurantTable_61
+  - first:
+      213: 3144835230818237102
+    second: SeatedRestaurantTable_62
+  - first:
+      213: 3381469762768270995
+    second: SeatedRestaurantTable_63
+  - first:
+      213: 5302165855868388970
+    second: SeatedRestaurantTable_64
+  - first:
+      213: 4487321842303144448
+    second: SeatedRestaurantTable_65
+  - first:
+      213: -2493272806837056468
+    second: SeatedRestaurantTable_66
+  - first:
+      213: -146135214673885933
+    second: SeatedRestaurantTable_67
+  - first:
+      213: -1516219235360415472
+    second: SeatedRestaurantTable_68
+  - first:
+      213: -6167686449518996400
+    second: SeatedRestaurantTable_69
+  - first:
+      213: -2045454881412628788
+    second: SeatedRestaurantTable_70
+  - first:
+      213: -6184127618791489398
+    second: SeatedRestaurantTable_71
+  - first:
+      213: -7481844216368778407
+    second: SeatedRestaurantTable_72
+  - first:
+      213: 4344564459403854648
+    second: SeatedRestaurantTable_73
+  - first:
+      213: -4793627809958675636
+    second: SeatedRestaurantTable_74
+  - first:
+      213: 6541403897642856907
+    second: SeatedRestaurantTable_75
+  - first:
+      213: -6780010408414054651
+    second: SeatedRestaurantTable_76
+  - first:
+      213: -3312070178923011472
+    second: SeatedRestaurantTable_77
+  - first:
+      213: -6918547991857178284
+    second: SeatedRestaurantTable_78
+  - first:
+      213: -8879247182531249497
+    second: SeatedRestaurantTable_79
+  - first:
+      213: 6682860627566139168
+    second: SeatedRestaurantTable_80
+  - first:
+      213: -7984001588546652734
+    second: SeatedRestaurantTable_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 232
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926b797e93d130850800000000000000
+      internalID: 6341944834803611177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 520
+        width: 37
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3655065c5319847a0800000000000000
+      internalID: -6392700010921699997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_2
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 618
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f14f6bd79ec8e240800000000000000
+      internalID: 4821330552717001200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_3
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 486
+        width: 62
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df9cc47c28720490800000000000000
+      internalID: -7781525073809334315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_4
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 529
+        width: 29
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8707db45b41f27780800000000000000
+      internalID: -8686615425397723016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_5
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 538
+        width: 24
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af7c0c1d038cb6f0800000000000000
+      internalID: -667514552429281368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 1976
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c6d7a6042432f60800000000000000
+      internalID: 8008317406826818575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_7
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 549
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe4fbe0e04b002a0800000000000000
+      internalID: -6773215867095265539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_8
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 548
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3652512a8c2e75b40800000000000000
+      internalID: 5429057227159053667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_9
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 549
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d259714fdc80bd20800000000000000
+      internalID: 3292286218111898328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_10
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 553
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876001064c323ebc0800000000000000
+      internalID: -3755118337964636552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_11
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 546
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503e4a73d93c962e0800000000000000
+      internalID: -2131957868572384507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_12
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 544
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70107ef647242e2d0800000000000000
+      internalID: -3250962913147027193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_13
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 532
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3de9d5911842afb0800000000000000
+      internalID: -4638065425872458434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_14
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 515
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3849e57b77f6fe310800000000000000
+      internalID: 1436489366122697859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_15
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 529
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d6c48116b0dd310800000000000000
+      internalID: 1431312768221080963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_16
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 530
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3a2943c980b64e0800000000000000
+      internalID: -1987485343563996183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_17
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 530
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8d85dc794c38690800000000000000
+      internalID: -7601015589807007548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_18
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 529
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efa97253b4420770800000000000000
+      internalID: 8575492177440387045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_19
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 530
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7889fdfeed2896a40800000000000000
+      internalID: 5361960725380044935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_20
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 492
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12391a17be4563610800000000000000
+      internalID: 1600560087777252129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_21
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 500
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3394b04693952ab70800000000000000
+      internalID: 8908781115918731571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_22
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 498
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f864ae7dbff3bdbe0800000000000000
+      internalID: -1451496104005056881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_23
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 503
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a75beabfc1ca83b0800000000000000
+      internalID: -5509378096196003933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_24
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 508
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc282016c75b62d0800000000000000
+      internalID: -3284434995050435373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_25
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 516
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91965d359c8773480800000000000000
+      internalID: -8919527730893723367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_26
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 499
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae812887dd983660800000000000000
+      internalID: 7365810739591876263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_27
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 500
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba34d636cbe6d2040800000000000000
+      internalID: 4624474147780379563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_28
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 495
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf48b242a31341f70800000000000000
+      internalID: 9156998068135757051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_29
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 480
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05785cece1a161b0800000000000000
+      internalID: -5665068817305799413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_30
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 490
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8aed1d6b4843060800000000000000
+      internalID: 6932311647169980665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_31
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 484
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea533dcbfd8f5e480800000000000000
+      internalID: -8870410251206969938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_32
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 498
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84dbf4e1c3a0394b0800000000000000
+      internalID: -5434989071983198904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_33
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 500
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dccdffab9769aad0800000000000000
+      internalID: -2690505384006923053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_34
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 481
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04138c84477b5aa0800000000000000
+      internalID: -6171207728082250740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_35
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 480
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1a836b4eef13280800000000000000
+      internalID: -9065184316656934429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_36
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 490
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c38786d889598d0800000000000000
+      internalID: -2840196256876708745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_37
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 482
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afce6be18472dac0800000000000000
+      internalID: -3831872231589359705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_38
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 484
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d501737db64fa1d0800000000000000
+      internalID: -3337371019358698032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_39
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 490
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6380b5cd1b82a420800000000000000
+      internalID: 2639825291579523950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_40
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 484
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df08910ec328cf030800000000000000
+      internalID: 3529839405921042685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_41
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 482
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab76fed97d72c90c0800000000000000
+      internalID: -4567732115039361094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_42
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 476
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e519686ec5906290800000000000000
+      internalID: -7899149032660331031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_43
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 479
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0cc183993c11e70800000000000000
+      internalID: 9084256986221822170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_44
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 482
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba58cb66943f572c0800000000000000
+      internalID: -4434370761494592085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_45
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 476
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b236998b5c0beb20800000000000000
+      internalID: 3164636750447784627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_46
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 484
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f6ad78c68b879a0800000000000000
+      internalID: -6235030907819233412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_47
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 465
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84066099181158e0800000000000000
+      internalID: -1706556285720853361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_48
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 482
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c35c5875ff3bdb60800000000000000
+      internalID: 7771875905476776900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_49
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 480
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588b7542f069844b0800000000000000
+      internalID: -5455945956780951419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_50
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 482
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167a0d1d650db1f00800000000000000
+      internalID: 1088692806245984097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_51
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 483
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b534cb35a63954b70800000000000000
+      internalID: 8882667924938834779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_52
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 483
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bbd44bed380f680800000000000000
+      internalID: -8723327485685679253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_53
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 466
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3370d9efb69cf6200800000000000000
+      internalID: 175580376161126195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_54
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 474
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a2e5d8eaba98750800000000000000
+      internalID: 6307761519293508131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_55
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 467
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bf6370739534080800000000000000
+      internalID: -9204415120536044684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_56
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 468
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfa8cc9d032f0a80800000000000000
+      internalID: -8498535430452891693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_57
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 447
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d26931fe062e030800000000000000
+      internalID: 3522484438499208493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_58
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 455
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab0a41d59144e430800000000000000
+      internalID: 3811243296379505568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_59
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 449
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840f453e152bc97b0800000000000000
+      internalID: -5216098203625787320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_60
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 439
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1520b72ae9f017850800000000000000
+      internalID: 6372892121711182417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_61
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 441
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f151d082617c75400800000000000000
+      internalID: 312937597100692767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_62
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 439
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaafd0afaf2b4ab20800000000000000
+      internalID: 3144835230818237102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_63
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 405
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396f68c55d46dee20800000000000000
+      internalID: 3381469762768270995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_64
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 409
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a668d3bf0c3159940800000000000000
+      internalID: 5302165855868388970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_65
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 417
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0029453d07b264e30800000000000000
+      internalID: 4487321842303144448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_66
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 409
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c0654979d166dd0800000000000000
+      internalID: -2493272806837056468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_67
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 393
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3150038ebc2d8fdf0800000000000000
+      internalID: -146135214673885933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_68
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 399
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0116ab283ae45fae0800000000000000
+      internalID: -1516219235360415472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_69
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 376
+        width: 91
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0541e6a1ad9f76aa0800000000000000
+      internalID: -6167686449518996400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_70
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 376
+        width: 243
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccebf456f951d93e0800000000000000
+      internalID: -2045454881412628788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_71
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 376
+        width: 58
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80404412b09d2aa0800000000000000
+      internalID: -6184127618791489398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_72
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 376
+        width: 268
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953378263562b2890800000000000000
+      internalID: -7481844216368778407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_73
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 226
+        width: 76
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833cd8a7b5efa4c30800000000000000
+      internalID: 4344564459403854648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4bbaf197ec997db0800000000000000
+      internalID: -4793627809958675636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_75
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 201
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1bb53ef2cb7ca50800000000000000
+      internalID: 6541403897642856907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_76
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 118
+        width: 52
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5077701a47098e1a0800000000000000
+      internalID: -6780010408414054651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 5
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072212a68b92902d0800000000000000
+      internalID: -3312070178923011472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_78
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 148
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4595cd7e1416cff90800000000000000
+      internalID: -6918547991857178284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_79
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 81
+        width: 37
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa36545bb396c480800000000000000
+      internalID: -8879247182531249497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_80
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 132
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027168d555a4ebc50800000000000000
+      internalID: 6682860627566139168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeatedRestaurantTable_81
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 118
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5b5843bd0233190800000000000000
+      internalID: -7984001588546652734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SeatedRestaurantTable_0: 6341944834803611177
+      SeatedRestaurantTable_1: -6392700010921699997
+      SeatedRestaurantTable_10: -3755118337964636552
+      SeatedRestaurantTable_11: -2131957868572384507
+      SeatedRestaurantTable_12: -3250962913147027193
+      SeatedRestaurantTable_13: -4638065425872458434
+      SeatedRestaurantTable_14: 1436489366122697859
+      SeatedRestaurantTable_15: 1431312768221080963
+      SeatedRestaurantTable_16: -1987485343563996183
+      SeatedRestaurantTable_17: -7601015589807007548
+      SeatedRestaurantTable_18: 8575492177440387045
+      SeatedRestaurantTable_19: 5361960725380044935
+      SeatedRestaurantTable_2: 4821330552717001200
+      SeatedRestaurantTable_20: 1600560087777252129
+      SeatedRestaurantTable_21: 8908781115918731571
+      SeatedRestaurantTable_22: -1451496104005056881
+      SeatedRestaurantTable_23: -5509378096196003933
+      SeatedRestaurantTable_24: -3284434995050435373
+      SeatedRestaurantTable_25: -8919527730893723367
+      SeatedRestaurantTable_26: 7365810739591876263
+      SeatedRestaurantTable_27: 4624474147780379563
+      SeatedRestaurantTable_28: 9156998068135757051
+      SeatedRestaurantTable_29: -5665068817305799413
+      SeatedRestaurantTable_3: -7781525073809334315
+      SeatedRestaurantTable_30: 6932311647169980665
+      SeatedRestaurantTable_31: -8870410251206969938
+      SeatedRestaurantTable_32: -5434989071983198904
+      SeatedRestaurantTable_33: -2690505384006923053
+      SeatedRestaurantTable_34: -6171207728082250740
+      SeatedRestaurantTable_35: -9065184316656934429
+      SeatedRestaurantTable_36: -2840196256876708745
+      SeatedRestaurantTable_37: -3831872231589359705
+      SeatedRestaurantTable_38: -3337371019358698032
+      SeatedRestaurantTable_39: 2639825291579523950
+      SeatedRestaurantTable_4: -8686615425397723016
+      SeatedRestaurantTable_40: 3529839405921042685
+      SeatedRestaurantTable_41: -4567732115039361094
+      SeatedRestaurantTable_42: -7899149032660331031
+      SeatedRestaurantTable_43: 9084256986221822170
+      SeatedRestaurantTable_44: -4434370761494592085
+      SeatedRestaurantTable_45: 3164636750447784627
+      SeatedRestaurantTable_46: -6235030907819233412
+      SeatedRestaurantTable_47: -1706556285720853361
+      SeatedRestaurantTable_48: 7771875905476776900
+      SeatedRestaurantTable_49: -5455945956780951419
+      SeatedRestaurantTable_5: -667514552429281368
+      SeatedRestaurantTable_50: 1088692806245984097
+      SeatedRestaurantTable_51: 8882667924938834779
+      SeatedRestaurantTable_52: -8723327485685679253
+      SeatedRestaurantTable_53: 175580376161126195
+      SeatedRestaurantTable_54: 6307761519293508131
+      SeatedRestaurantTable_55: -9204415120536044684
+      SeatedRestaurantTable_56: -8498535430452891693
+      SeatedRestaurantTable_57: 3522484438499208493
+      SeatedRestaurantTable_58: 3811243296379505568
+      SeatedRestaurantTable_59: -5216098203625787320
+      SeatedRestaurantTable_6: 8008317406826818575
+      SeatedRestaurantTable_60: 6372892121711182417
+      SeatedRestaurantTable_61: 312937597100692767
+      SeatedRestaurantTable_62: 3144835230818237102
+      SeatedRestaurantTable_63: 3381469762768270995
+      SeatedRestaurantTable_64: 5302165855868388970
+      SeatedRestaurantTable_65: 4487321842303144448
+      SeatedRestaurantTable_66: -2493272806837056468
+      SeatedRestaurantTable_67: -146135214673885933
+      SeatedRestaurantTable_68: -1516219235360415472
+      SeatedRestaurantTable_69: -6167686449518996400
+      SeatedRestaurantTable_7: -6773215867095265539
+      SeatedRestaurantTable_70: -2045454881412628788
+      SeatedRestaurantTable_71: -6184127618791489398
+      SeatedRestaurantTable_72: -7481844216368778407
+      SeatedRestaurantTable_73: 4344564459403854648
+      SeatedRestaurantTable_74: -4793627809958675636
+      SeatedRestaurantTable_75: 6541403897642856907
+      SeatedRestaurantTable_76: -6780010408414054651
+      SeatedRestaurantTable_77: -3312070178923011472
+      SeatedRestaurantTable_78: -6918547991857178284
+      SeatedRestaurantTable_79: -8879247182531249497
+      SeatedRestaurantTable_8: 5429057227159053667
+      SeatedRestaurantTable_80: 6682860627566139168
+      SeatedRestaurantTable_81: -7984001588546652734
+      SeatedRestaurantTable_9: 3292286218111898328
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
