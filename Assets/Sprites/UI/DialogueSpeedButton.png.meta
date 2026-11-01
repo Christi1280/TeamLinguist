@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: a93995c29d4370140bdfd4894f5fb3fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2142352609820239177
+    second: DialogueSpeedButton_0
+  - first:
+      213: 3115847145469339062
+    second: DialogueSpeedButton_1
+  - first:
+      213: -621292273307145765
+    second: DialogueSpeedButton_2
+  - first:
+      213: -8361727083394920216
+    second: DialogueSpeedButton_3
+  - first:
+      213: -822754745585139806
+    second: DialogueSpeedButton_4
+  - first:
+      213: -3276378621577107150
+    second: DialogueSpeedButton_5
+  - first:
+      213: -4479088167830185246
+    second: DialogueSpeedButton_6
+  - first:
+      213: 4637414847738901576
+    second: DialogueSpeedButton_7
+  - first:
+      213: 1467725408349840635
+    second: DialogueSpeedButton_8
+  - first:
+      213: 4357220943723573936
+    second: DialogueSpeedButton_9
+  - first:
+      213: 73801263941918447
+    second: DialogueSpeedButton_10
+  - first:
+      213: 1416480832819107500
+    second: DialogueSpeedButton_11
+  - first:
+      213: -113060597622991230
+    second: DialogueSpeedButton_12
+  - first:
+      213: 5416075068603747110
+    second: DialogueSpeedButton_13
+  - first:
+      213: 1912597143386731334
+    second: DialogueSpeedButton_14
+  - first:
+      213: -1896965248056375310
+    second: DialogueSpeedButton_15
+  - first:
+      213: 608863587897538489
+    second: DialogueSpeedButton_16
+  - first:
+      213: -3586072046360897257
+    second: DialogueSpeedButton_17
+  - first:
+      213: -1732119752321224664
+    second: DialogueSpeedButton_18
+  - first:
+      213: -1602739973407166392
+    second: DialogueSpeedButton_19
+  - first:
+      213: -2982912964571015938
+    second: DialogueSpeedButton_20
+  - first:
+      213: -5604878101566139146
+    second: DialogueSpeedButton_21
+  - first:
+      213: 1783495016822105878
+    second: DialogueSpeedButton_22
+  - first:
+      213: -5443371072383053239
+    second: DialogueSpeedButton_23
+  - first:
+      213: -9005310452124371069
+    second: DialogueSpeedButton_24
+  - first:
+      213: -5585620730298864607
+    second: DialogueSpeedButton_25
+  - first:
+      213: -8031613755694807382
+    second: DialogueSpeedButton_26
+  - first:
+      213: -7941401946423434550
+    second: DialogueSpeedButton_27
+  - first:
+      213: -3596741663769424011
+    second: DialogueSpeedButton_28
+  - first:
+      213: -8040833828036278668
+    second: DialogueSpeedButton_29
+  - first:
+      213: 3612236623688536522
+    second: DialogueSpeedButton_30
+  - first:
+      213: 5768881951153749959
+    second: DialogueSpeedButton_31
+  - first:
+      213: 6476343861506521658
+    second: DialogueSpeedButton_32
+  - first:
+      213: 7116194224620774523
+    second: DialogueSpeedButton_33
+  - first:
+      213: -2674495803396092771
+    second: DialogueSpeedButton_34
+  - first:
+      213: -1593073689873547126
+    second: DialogueSpeedButton_35
+  - first:
+      213: -118096037281972524
+    second: DialogueSpeedButton_36
+  - first:
+      213: -1030278085332386060
+    second: DialogueSpeedButton_37
+  - first:
+      213: -5148645330848656521
+    second: DialogueSpeedButton_38
+  - first:
+      213: 9070155705220780326
+    second: DialogueSpeedButton_39
+  - first:
+      213: 8635059497802999009
+    second: DialogueSpeedButton_40
+  - first:
+      213: 5461503276053562558
+    second: DialogueSpeedButton_41
+  - first:
+      213: 5566523241495640319
+    second: DialogueSpeedButton_42
+  - first:
+      213: 5124935154854307459
+    second: DialogueSpeedButton_43
+  - first:
+      213: -8809247378682891003
+    second: DialogueSpeedButton_44
+  - first:
+      213: 3994644348404880063
+    second: DialogueSpeedButton_45
+  - first:
+      213: 6726495262457407709
+    second: DialogueSpeedButton_46
+  - first:
+      213: 4099879840315432568
+    second: DialogueSpeedButton_47
+  - first:
+      213: 6571758838298055421
+    second: DialogueSpeedButton_48
+  - first:
+      213: -1327482545953324554
+    second: DialogueSpeedButton_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DialogueSpeedButton_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 751
+        width: 219
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba980ce6a5d442e0800000000000000
+      internalID: -2142352609820239177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 1299
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b56d186876bd3b20800000000000000
+      internalID: 3115847145469339062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 951
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd925db18f9b067f0800000000000000
+      internalID: -621292273307145765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_3
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 991
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e09b7d158d25fb80800000000000000
+      internalID: -8361727083394920216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_4
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 956
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af71240becf494f0800000000000000
+      internalID: -822754745585139806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 991
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239663fa007f782d0800000000000000
+      internalID: -3276378621577107150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_6
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 991
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea93d6ea0517d1c0800000000000000
+      internalID: -4479088167830185246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_7
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 989
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8447993eb386b5040800000000000000
+      internalID: 4637414847738901576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_8
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 996
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4e1888b786e5410800000000000000
+      internalID: 1467725408349840635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_9
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 975
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2398edc55f77c30800000000000000
+      internalID: 4357220943723573936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_10
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 983
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee9b39cbd1360100800000000000000
+      internalID: 73801263941918447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_11
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 967
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6155700d958a310800000000000000
+      internalID: 1416480832819107500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_12
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 967
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28696984cf35e6ef0800000000000000
+      internalID: -113060597622991230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_13
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 943
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62bc9fc4493c92b40800000000000000
+      internalID: 5416075068603747110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_14
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 801
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6433ef1f7f8ea8a10800000000000000
+      internalID: 1912597143386731334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_15
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 775
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7c65e4820aca5e0800000000000000
+      internalID: -1896965248056375310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 361
+        width: 179
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b77d41153e137800800000000000000
+      internalID: 608863587897538489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_17
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 489
+        width: 57
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71953b14976bb3ec0800000000000000
+      internalID: -3586072046360897257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_18
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 369
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820b47e234646f7e0800000000000000
+      internalID: -1732119752321224664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_19
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 391
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8403fb16c7ce1c9e0800000000000000
+      internalID: -1602739973407166392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_20
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 391
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef456de76709a96d0800000000000000
+      internalID: -2982912964571015938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_21
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 471
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4d8c200197732b0800000000000000
+      internalID: -5604878101566139146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 439
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6176c58b44f30c810800000000000000
+      internalID: 1783495016822105878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_23
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 368
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94298f199d24574b0800000000000000
+      internalID: -5443371072383053239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_24
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 386
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387b3012bd5b60380800000000000000
+      internalID: -9005310452124371069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_25
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 407
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c6a782a83eb72b0800000000000000
+      internalID: -5585620730298864607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_26
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 342
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa68baea7d9f98090800000000000000
+      internalID: -8031613755694807382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 200
+        width: 151
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2e5dc41097ac190800000000000000
+      internalID: -7941401946423434550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_28
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 175
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f0d2e538ec51ec0800000000000000
+      internalID: -3596741663769424011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_29
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 223
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47604fd4c38396090800000000000000
+      internalID: -8040833828036278668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_30
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 223
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac19c9f121e312230800000000000000
+      internalID: 3612236623688536522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_31
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 199
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf7ea9d19f2f0050800000000000000
+      internalID: 5768881951153749959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_32
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 175
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ab06ccd6890e950800000000000000
+      internalID: 6476343861506521658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_33
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 97
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74253fa1fcc1c260800000000000000
+      internalID: 7116194224620774523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_34
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 111
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c8d45ac3842ead0800000000000000
+      internalID: -2674495803396092771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_35
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 91
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8001166be344e9e0800000000000000
+      internalID: -1593073689873547126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_36
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 97
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de3d60a7407c5ef0800000000000000
+      internalID: -118096037281972524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_37
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 47
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4feb4ef3a87b3b1f0800000000000000
+      internalID: -1030278085332386060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_38
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 85
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773da4ca9565c88b0800000000000000
+      internalID: -5148645330848656521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_39
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 86
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621da23ee8aafdd70800000000000000
+      internalID: 9070155705220780326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_40
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 79
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e429ecdcd4e5d770800000000000000
+      internalID: 8635059497802999009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_41
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 63
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb40ec41b482bcb40800000000000000
+      internalID: 5461503276053562558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_42
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 53
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8bd4b3563404d40800000000000000
+      internalID: 5566523241495640319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_43
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 45
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386a00ace5d6f1740800000000000000
+      internalID: 5124935154854307459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_44
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 35
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505b017be244fb580800000000000000
+      internalID: -8809247378682891003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_45
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 39
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2d1beced3df6730800000000000000
+      internalID: 3994644348404880063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_46
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 46
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd82f1e7dcf495d50800000000000000
+      internalID: 6726495262457407709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_47
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 30
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e59cf1ef2b5e830800000000000000
+      internalID: 4099879840315432568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_48
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 31
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df21a4248d3933b50800000000000000
+      internalID: 6571758838298055421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueSpeedButton_49
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 21
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1cbe268a5d39de0800000000000000
+      internalID: -1327482545953324554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DialogueSpeedButton_0: -2142352609820239177
+      DialogueSpeedButton_1: 3115847145469339062
+      DialogueSpeedButton_10: 73801263941918447
+      DialogueSpeedButton_11: 1416480832819107500
+      DialogueSpeedButton_12: -113060597622991230
+      DialogueSpeedButton_13: 5416075068603747110
+      DialogueSpeedButton_14: 1912597143386731334
+      DialogueSpeedButton_15: -1896965248056375310
+      DialogueSpeedButton_16: 608863587897538489
+      DialogueSpeedButton_17: -3586072046360897257
+      DialogueSpeedButton_18: -1732119752321224664
+      DialogueSpeedButton_19: -1602739973407166392
+      DialogueSpeedButton_2: -621292273307145765
+      DialogueSpeedButton_20: -2982912964571015938
+      DialogueSpeedButton_21: -5604878101566139146
+      DialogueSpeedButton_22: 1783495016822105878
+      DialogueSpeedButton_23: -5443371072383053239
+      DialogueSpeedButton_24: -9005310452124371069
+      DialogueSpeedButton_25: -5585620730298864607
+      DialogueSpeedButton_26: -8031613755694807382
+      DialogueSpeedButton_27: -7941401946423434550
+      DialogueSpeedButton_28: -3596741663769424011
+      DialogueSpeedButton_29: -8040833828036278668
+      DialogueSpeedButton_3: -8361727083394920216
+      DialogueSpeedButton_30: 3612236623688536522
+      DialogueSpeedButton_31: 5768881951153749959
+      DialogueSpeedButton_32: 6476343861506521658
+      DialogueSpeedButton_33: 7116194224620774523
+      DialogueSpeedButton_34: -2674495803396092771
+      DialogueSpeedButton_35: -1593073689873547126
+      DialogueSpeedButton_36: -118096037281972524
+      DialogueSpeedButton_37: -1030278085332386060
+      DialogueSpeedButton_38: -5148645330848656521
+      DialogueSpeedButton_39: 9070155705220780326
+      DialogueSpeedButton_4: -822754745585139806
+      DialogueSpeedButton_40: 8635059497802999009
+      DialogueSpeedButton_41: 5461503276053562558
+      DialogueSpeedButton_42: 5566523241495640319
+      DialogueSpeedButton_43: 5124935154854307459
+      DialogueSpeedButton_44: -8809247378682891003
+      DialogueSpeedButton_45: 3994644348404880063
+      DialogueSpeedButton_46: 6726495262457407709
+      DialogueSpeedButton_47: 4099879840315432568
+      DialogueSpeedButton_48: 6571758838298055421
+      DialogueSpeedButton_49: -1327482545953324554
+      DialogueSpeedButton_5: -3276378621577107150
+      DialogueSpeedButton_6: -4479088167830185246
+      DialogueSpeedButton_7: 4637414847738901576
+      DialogueSpeedButton_8: 1467725408349840635
+      DialogueSpeedButton_9: 4357220943723573936
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

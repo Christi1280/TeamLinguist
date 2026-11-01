@@ -4424,6 +4424,17 @@ Sprite:
   m_Bones: []
   m_ScriptableObjects: []
   m_SpriteID: 
+--- !u!114 &140981589 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 265986302447237770, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
+  m_PrefabInstance: {fileID: 800151076}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &142479869
 GameObject:
   m_ObjectHideFlags: 0
@@ -40911,6 +40922,8 @@ MonoBehaviour:
   phoneDialogueAudioSource: {fileID: 0}
   tooltipPanel: {fileID: 586375492}
   tooltipText: {fileID: 1928596123}
+  dialogueSpeedButton: {fileID: 1134803993}
+  dialogueSpeedButtonText: {fileID: 140981589}
 --- !u!82 &1095102474
 AudioSource:
   m_ObjectHideFlags: 0
@@ -41822,6 +41835,17 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
+--- !u!114 &1134803993 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3582221855889947611, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
+  m_PrefabInstance: {fileID: 800151076}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1135691195
 MonoBehaviour:
   m_ObjectHideFlags: 0

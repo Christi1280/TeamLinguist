@@ -20,6 +20,12 @@ public class DialogueController : MonoBehaviour
     private NPCDialogue currentDialogueData;
     private NPC currentNPC;
 
+    [Header("Dialogue Speed Button")]
+    [SerializeField] private Button dialogueSpeedButton;
+    [SerializeField] private TMP_Text dialogueSpeedButtonText;
+
+    private const string DialogueSpeedKey = "DialogueSpeed";
+
 
     void Awake()
     {
@@ -33,6 +39,46 @@ public class DialogueController : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        if (dialogueSpeedButton != null)
+        {
+            dialogueSpeedButton.onClick.AddListener(ToggleDialogueSpeed);
+        }
+
+        UpdateDialogueSpeedButton();
+    }
+
+    public void ToggleDialogueSpeed()
+    {
+        int currentSpeed = PlayerPrefs.GetInt(DialogueSpeedKey, 0);
+
+        // Toggle between Normal (0) and Slowed (1).
+        int newSpeed = currentSpeed == 0 ? 1 : 0;
+
+        PlayerPrefs.SetInt(DialogueSpeedKey, newSpeed);
+        PlayerPrefs.Save();
+
+        UpdateDialogueSpeedButton();
+
+        // Replay the current line using the newly selected audio.
+        if (currentNPC != null)
+        {
+            currentNPC.ReplayAudio();
+        }
+    }
+
+    private void UpdateDialogueSpeedButton()
+    {
+        if (dialogueSpeedButtonText == null)
+            return;
+
+        int speed = PlayerPrefs.GetInt(DialogueSpeedKey, 0);
+
+        dialogueSpeedButtonText.text =
+            speed == 0 ? "1.0×" : "0.75×";
+    }
+
     void Update()
     {
         CheckHoverDefinition();
@@ -41,6 +87,19 @@ public class DialogueController : MonoBehaviour
     public void ShowDialogueUI(bool show)
     {
         dialoguePanel.SetActive(show);
+
+        if (show)
+        {
+            UpdateDialogueSpeedButton();
+
+            // Speed controls should not appear during cutscenes.
+            if (dialogueSpeedButton != null)
+            {
+                dialogueSpeedButton.gameObject.SetActive(
+                    currentNPC != null
+                );
+            }
+        }
 
         if (!show && tooltipPanel != null)
         {

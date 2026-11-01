@@ -1,4 +1,3 @@
-
 using TMPro;
 using UnityEngine;
 
@@ -8,14 +7,26 @@ public class DialogueSpeedSetting : MonoBehaviour
 
     private const string SpeedKey = "DialogueSpeed";
 
-    private void Start()
+    private void OnEnable()
     {
+        if (speedDropdown == null)
+            return;
+
         int savedSpeed = PlayerPrefs.GetInt(SpeedKey, 0);
 
         speedDropdown.SetValueWithoutNotify(savedSpeed);
         speedDropdown.RefreshShownValue();
 
+        speedDropdown.onValueChanged.RemoveListener(ChangeSpeed);
         speedDropdown.onValueChanged.AddListener(ChangeSpeed);
+    }
+
+    private void OnDisable()
+    {
+        if (speedDropdown != null)
+        {
+            speedDropdown.onValueChanged.RemoveListener(ChangeSpeed);
+        }
     }
 
     private void ChangeSpeed(int index)
