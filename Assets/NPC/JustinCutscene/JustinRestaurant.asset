@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30d76daee4cf2114a941827c5e2208b5, type: 3}
+  m_Name: JustinRestaurant
+  m_EditorClassIdentifier: 
+  npcName: Justin
+  npcPortrait: {fileID: 21300000, guid: e556253d927940c44b781287de136d09, type: 3}
+  dialogueLines:
+  - 'Funny, because you''re usually the one getting us into trouble. '
+  - 'Yeah, yeah. You''re late, by the way. '
+  - 'Alright. Now tell me. What did you drag me all the way out here for? '
+  - ' ...A book? '
+  - 'Am I supposed to know who that is? '
+  - Okay... and?
+  - 'And you think this book is going to lead us to them? '
+  - 'Where did you even get this? '
+  - 'Uh-huh. '
+  - 'What''s that supposed to be? '
+  - 'A cipher disc? '
+  - 'So you''ve tried using it? '
+  - 'Maybe you''re supposed to follow the instructions. '
+  - 'These. '
+  - 'You didn''t notice? '
+  - 'Alright. Let me take a look. '
+  autoProgressLines: 
+  endDialogueLines: 
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  voicePitch: 1
+  dialogueAudioClips:
+  - {fileID: 8300000, guid: e5f006a42df37384b9b523ccde6cbaf3, type: 3}
+  - {fileID: 8300000, guid: bdb6f66eec0834845bf9ad6d71e2d8b2, type: 3}
+  - {fileID: 8300000, guid: cf2ff2394d2e84b488a14f56169720a7, type: 3}
+  - {fileID: 8300000, guid: b76cbece003d8d244a0555eea47c5a29, type: 3}
+  - {fileID: 8300000, guid: 0942f7b0cc4bdac4381835f5829797c1, type: 3}
+  - {fileID: 8300000, guid: fed9d1b921fcfe44e8e4876a3b336e6d, type: 3}
+  - {fileID: 8300000, guid: 01d421946a537f840ab90c0e70bff7d1, type: 3}
+  - {fileID: 8300000, guid: cc267eeb3a30ea54baaf62f410a8550d, type: 3}
+  - {fileID: 8300000, guid: 3e5dfe0ca967a6a4180959f90b75f7a9, type: 3}
+  - {fileID: 8300000, guid: 27c91622f40c8bd49ab3e899022755d5, type: 3}
+  - {fileID: 8300000, guid: 317a5e020738437479573d63d4f70684, type: 3}
+  - {fileID: 8300000, guid: 7cfd10944cfdd8d468bb1f0ac357dad9, type: 3}
+  - {fileID: 8300000, guid: 5b7ae8e3509de64449765c30d218d7bb, type: 3}
+  - {fileID: 8300000, guid: 5673946e8a8b05d4fb9f8a4462528639, type: 3}
+  - {fileID: 8300000, guid: a9caf31b2378c49428393bbd964f7efa, type: 3}
+  - {fileID: 8300000, guid: 3df82ed24cb81b244ba07b0f8b82cfa7, type: 3}
+  slowedDialogueAudioClips: []
+  choices: []
+  hoverDefinitions: []
+  keyPhrases: []

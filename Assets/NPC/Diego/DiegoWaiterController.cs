@@ -24,6 +24,7 @@ public class DiegoWaiterController : MonoBehaviour
     [Header("Cutscene")]
     [SerializeField] private PlayableDirector cutsceneDirector;
 
+    private bool cutsceneTriggered;
     private bool menuHasBeenShown;
     private bool returningWithFood;
 
@@ -126,6 +127,14 @@ public class DiegoWaiterController : MonoBehaviour
         // Diego has returned from the kitchen.
         if (returningWithFood)
         {
+            // Prevent the ending sequence from triggering twice.
+            if (cutsceneTriggered)
+            {
+                return;
+            }
+
+            cutsceneTriggered = true;
+
             if (soupOnTable != null)
             {
                 soupOnTable.SetActive(true);

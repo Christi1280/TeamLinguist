@@ -24,6 +24,9 @@ public class DialogueController : MonoBehaviour
     [SerializeField] private Button dialogueSpeedButton;
     [SerializeField] private TMP_Text dialogueSpeedButtonText;
 
+    [Header("Replay Audio Button")]
+    [SerializeField] private Button replayAudioButton;
+
     private const string DialogueSpeedKey = "DialogueSpeed";
 
 
@@ -92,12 +95,17 @@ public class DialogueController : MonoBehaviour
         {
             UpdateDialogueSpeedButton();
 
-            // Speed controls should not appear during cutscenes.
+            // Only show these controls during interactive NPC dialogue.
+            bool isInteractiveDialogue = currentNPC != null;
+
             if (dialogueSpeedButton != null)
             {
-                dialogueSpeedButton.gameObject.SetActive(
-                    currentNPC != null
-                );
+                dialogueSpeedButton.gameObject.SetActive(isInteractiveDialogue);
+            }
+
+            if (replayAudioButton != null)
+            {
+                replayAudioButton.gameObject.SetActive(isInteractiveDialogue);
             }
         }
 

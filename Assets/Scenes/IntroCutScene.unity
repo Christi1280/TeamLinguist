@@ -657,6 +657,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1035711355 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3582221855889947611, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
+  m_PrefabInstance: {fileID: 2032104399}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1065370162
 GameObject:
   m_ObjectHideFlags: 0
@@ -1010,6 +1021,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1375545636 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 636702230409379858, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
+  m_PrefabInstance: {fileID: 2032104399}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1584421550
 GameObject:
   m_ObjectHideFlags: 0
@@ -1884,6 +1906,20 @@ MonoBehaviour:
   phoneDialogueAudioSource: {fileID: 2036643988}
   tooltipPanel: {fileID: 0}
   tooltipText: {fileID: 0}
+  dialogueSpeedButton: {fileID: 1035711355}
+  dialogueSpeedButtonText: {fileID: 1892653887}
+  replayAudioButton: {fileID: 1375545636}
+--- !u!114 &1892653887 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 265986302447237770, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
+  m_PrefabInstance: {fileID: 2032104399}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1970334998
 GameObject:
   m_ObjectHideFlags: 0

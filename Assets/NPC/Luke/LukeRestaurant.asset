@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30d76daee4cf2114a941827c5e2208b5, type: 3}
+  m_Name: LukeRestaurant
+  m_EditorClassIdentifier: 
+  npcName: Luke
+  npcPortrait: {fileID: 21300000, guid: 879771316d3537d4b8a631d56dd98ff2, type: 3}
+  dialogueLines:
+  - There he is! My favorite troublemaker!
+  - And yet, you keep coming back!
+  - Yeah sorry about that. But trust me, it's worth it.
+  - " Un caf\xE9, por favor."
+  - This.
+  - ' Not just any book. This belonged to Alejandro Vargas. '
+  - 'Alejandro Vargas! The legendary explorer! '
+  - 'According to the legend, Vargas hid three priceless treasures somewhere around
+    Valdoria before he died. '
+  - 'Exactly! It''s his journal. His notes, his maps, everything! '
+  - ' Long story. The important thing is, I found it. '
+  - 'That''s the part I can''t figure out. '
+  - ' It was with the journal. Some kind of cipher disc, I think. '
+  - ' Yeah. Look at the symbols. They''re the same ones Vargas drew in his journal. '
+  - ' For hours. I keep turning the rings, but nothing happens. '
+  - 'What instructions? '
+  - Wait, those are instructions?
+  - I've just been focused on the disc to be honest.
+  autoProgressLines: 
+  endDialogueLines: 
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  voicePitch: 1
+  dialogueAudioClips:
+  - {fileID: 8300000, guid: cbd38904d939f8549a958dda5427bdef, type: 3}
+  - {fileID: 8300000, guid: 728b9575480bb554182ca19ab6a660f3, type: 3}
+  - {fileID: 8300000, guid: 27a41a60a7fa49b4aadbeea9450bcc64, type: 3}
+  - {fileID: 8300000, guid: eee54dccac40aca4b9d915a48a1096e3, type: 3}
+  - {fileID: 8300000, guid: 573ee3ba1814138408fa641c31fa9369, type: 3}
+  - {fileID: 8300000, guid: 5ba6c55f256ac78409189be64dd14649, type: 3}
+  - {fileID: 8300000, guid: 5c90030758977a042ba7a9e0d6f4dd98, type: 3}
+  - {fileID: 8300000, guid: 1d04b051f3fe67840b2ef490a2b45200, type: 3}
+  - {fileID: 8300000, guid: 24daf3a6ea0e71a4294bae04d2bc71f7, type: 3}
+  - {fileID: 8300000, guid: f3f68b3b1f6f66f4f9fae9456616b0eb, type: 3}
+  - {fileID: 8300000, guid: c27838410c41b3b439182c01a92c12c9, type: 3}
+  - {fileID: 8300000, guid: b0d403d3382b7f04a936b4e18acb8790, type: 3}
+  - {fileID: 8300000, guid: 074d60e5624b6bb4884f1172b76daf7f, type: 3}
+  - {fileID: 8300000, guid: f3e55985d6476904381fc13fb68151cb, type: 3}
+  - {fileID: 8300000, guid: c5f9a6c8516465842b614689ed141ec0, type: 3}
+  - {fileID: 8300000, guid: 92fe26dba01e8d94cabb4161dfb86684, type: 3}
+  - {fileID: 8300000, guid: 6616036149910684494b038640e811fc, type: 3}
+  slowedDialogueAudioClips: []
+  choices: []
+  hoverDefinitions: []
+  keyPhrases: []
