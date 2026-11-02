@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class DiegoWaiterController : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class DiegoWaiterController : MonoBehaviour
 
     [Header("Ending")]
     [SerializeField] private float soupDisplayTime = 2f;
+
+    [Header("Cutscene")]
+    [SerializeField] private PlayableDirector cutsceneDirector;
 
     private bool menuHasBeenShown;
     private bool returningWithFood;
@@ -56,6 +60,9 @@ public class DiegoWaiterController : MonoBehaviour
         // Dialogue 1 ended.
         if (!menuHasBeenShown)
         {
+            // Save vocabulary from Diego's first conversation.
+            LearnDiegoPhrases(diegoDialogue1);
+
             menuHasBeenShown = true;
 
             if (npc != null && diegoDialogue2 != null)
@@ -72,9 +79,32 @@ public class DiegoWaiterController : MonoBehaviour
         }
 
         // Dialogue 2 ended.
+        LearnDiegoPhrases(diegoDialogue2);
+
         if (waypointMover != null)
         {
             waypointMover.StartMoving();
+        }
+    }
+
+    private void LearnDiegoPhrases(NPCDialogue dialogueData)
+    {
+        if (dialogueData == null ||
+            GameProgressManager.Instance == null)
+        {
+            return;
+        }
+
+        // Add the dialogue's key phrases to persistent progress.
+        GameProgressManager.Instance.LearnPhrases(dialogueData);
+
+        // Update the journal UI immediately.
+        JournalManager journalManager =
+            FindFirstObjectByType<JournalManager>();
+
+        if (journalManager != null)
+        {
+            journalManager.RefreshJournal();
         }
     }
 
@@ -142,9 +172,16 @@ public class DiegoWaiterController : MonoBehaviour
         // Give the player time to see the soup.
         yield return new WaitForSeconds(soupDisplayTime);
 
-        if (screenFader != null)
+        if (cutsceneDirector != null)
         {
-            screenFader.FadeToBlack();
+            cutsceneDirector.time = 0;
+            cutsceneDirector.Play();
+        }
+        else
+        {
+            Debug.LogWarning(
+                "DiegoWaiterController: Cutscene Director is not assigned."
+            );
         }
     }
 }
