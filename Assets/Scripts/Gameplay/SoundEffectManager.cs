@@ -1,61 +1,120 @@
+
 using UnityEngine;
 using UnityEngine.UI;
 
 public class SoundEffectManager : MonoBehaviour
 {
-    private static SoundEffectManager Instance;
+    public static SoundEffectManager Instance { get; private set; }
 
-    private static AudioSource audioSource;
-    private static AudioSource randomPitchAudioSource;
-    private static SoundEffectLibrary soundEffectLibrary;
+    private AudioSource audioSource;
+    private AudioSource randomPitchAudioSource;
+    private SoundEffectLibrary soundEffectLibrary;
+
     [SerializeField] private Slider sfxSlider;
+
+    private const string VolumeKey = "SFXVolume";
 
     private void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            AudioSource[] audioSources = GetComponents<AudioSource>();
-            audioSource = audioSources[0];
-            randomPitchAudioSource = audioSources[1];
-            soundEffectLibrary = GetComponent<SoundEffectLibrary>();
-            //DontDestroyOnLoad(gameObject);
-        }
-        else
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+
+        // Keep this manager alive between scenes.
+        DontDestroyOnLoad(gameObject);
+
+        AudioSource[] audioSources = GetComponents<AudioSource>();
+
+        if (audioSources.Length < 2)
+        {
+            Debug.LogError(
+                "SoundEffectManager requires two AudioSource components."
+            );
+            return;
+        }
+
+        audioSource = audioSources[0];
+        randomPitchAudioSource = audioSources[1];
+
+        soundEffectLibrary = GetComponent<SoundEffectLibrary>();
+
+        // Restore the player's saved sound effect volume.
+        SetVolume(PlayerPrefs.GetFloat(VolumeKey, 1f));
+    }
+
+    private void Start()
+    {
+        if (sfxSlider != null)
+        {
+            sfxSlider.SetValueWithoutNotify(
+                PlayerPrefs.GetFloat(VolumeKey, 1f)
+            );
+
+            sfxSlider.onValueChanged.AddListener(SetVolume);
         }
     }
 
     public static void Play(string soundName, bool randomPitch = false)
     {
-        AudioClip audioClip = soundEffectLibrary.GetRandomClip(soundName);
-        if(audioClip != null)
+        if (Instance == null)
         {
-            if (randomPitch)
-            {
-                randomPitchAudioSource.pitch = Random.Range(1f, 1.5f);
-                randomPitchAudioSource.PlayOneShot(audioClip);
-            } else
-            {
-                audioSource.PlayOneShot(audioClip);
-            }     
+            Debug.LogWarning(
+                $"Cannot play '{soundName}': SoundEffectManager is missing."
+            );
+            return;
         }
-    }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        sfxSlider.onValueChanged.AddListener(delegate { OnValueChanged(); });
+
+        if (Instance.soundEffectLibrary == null)
+            return;
+
+        AudioClip clip =
+            Instance.soundEffectLibrary.GetRandomClip(soundName);
+
+        if (clip == null)
+        {
+            Debug.LogWarning(
+                $"Sound effect '{soundName}' was not found."
+            );
+            return;
+        }
+
+        if (randomPitch)
+        {
+            if (Instance.randomPitchAudioSource == null)
+                return;
+
+            Instance.randomPitchAudioSource.pitch =
+                Random.Range(0.9f, 1.1f);
+
+            Instance.randomPitchAudioSource.PlayOneShot(clip);
+        }
+        else
+        {
+            if (Instance.audioSource == null)
+                return;
+
+            Instance.audioSource.PlayOneShot(clip);
+        }
     }
 
     public static void SetVolume(float volume)
     {
-        audioSource.volume = volume;
-        randomPitchAudioSource.volume = volume;
-    }
+        volume = Mathf.Clamp01(volume);
 
-    public void OnValueChanged()
-    {
-        SetVolume(sfxSlider.value);
+        if (Instance == null)
+            return;
+
+        if (Instance.audioSource != null)
+            Instance.audioSource.volume = volume;
+
+        if (Instance.randomPitchAudioSource != null)
+            Instance.randomPitchAudioSource.volume = volume;
+
+        PlayerPrefs.SetFloat(VolumeKey, volume);
+        PlayerPrefs.Save();
     }
 }

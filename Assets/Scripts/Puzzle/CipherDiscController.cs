@@ -1,5 +1,7 @@
+
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CipherDiscController : MonoBehaviour
 {
@@ -17,11 +19,25 @@ public class CipherDiscController : MonoBehaviour
     [SerializeField] private float rotationStep = 45f;
     [SerializeField] private float rotationDuration = 0.25f;
 
+    [Header("Solution Angles")]
+    [SerializeField] private float outerSolutionAngle = 225f;
+    [SerializeField] private float middleSolutionAngle = 270f;
+    [SerializeField] private float innerSolutionAngle = 225f;
+
+    [Header("Paper Dispensing")]
+    [SerializeField] private Transform cluePaper;
+    [SerializeField] private float dispenseDistance = 2f;
+    [SerializeField] private float dispenseDuration = 1.5f;
+
+    [Header("Puzzle Completion")]
+    [SerializeField] private UnityEvent onPuzzleSolved;
+
     private Transform[] rings;
     private GameObject[] highlights;
 
     private int selectedRing = 0;
     private bool isRotating;
+    private bool isSolved;
 
     private void Start()
     {
@@ -44,7 +60,8 @@ public class CipherDiscController : MonoBehaviour
 
     public void SelectRing(int index)
     {
-        if (index < 0 || index >= rings.Length)
+        if (isSolved || isRotating ||
+            index < 0 || index >= rings.Length)
             return;
 
         selectedRing = index;
@@ -70,13 +87,18 @@ public class CipherDiscController : MonoBehaviour
 
     private void RotateSelectedRing(float degrees)
     {
-        if (isRotating || rings[selectedRing] == null)
+        if (isSolved || isRotating ||
+            rings[selectedRing] == null)
             return;
 
-        StartCoroutine(AnimateRotation(rings[selectedRing], degrees));
+        StartCoroutine(
+            AnimateRotation(rings[selectedRing], degrees)
+        );
     }
 
-    private IEnumerator AnimateRotation(Transform ring, float degrees)
+    private IEnumerator AnimateRotation(
+        Transform ring,
+        float degrees)
     {
         isRotating = true;
 
@@ -89,27 +111,143 @@ public class CipherDiscController : MonoBehaviour
         {
             elapsed += Time.deltaTime;
 
-            float t = Mathf.Clamp01(elapsed / rotationDuration);
+            float t = Mathf.Clamp01(
+                elapsed / rotationDuration
+            );
 
-            // Ease-out: starts quickly and slows toward the end.
+            // Ease-out rotation.
             t = 1f - Mathf.Pow(1f - t, 3f);
 
-            float angle = Mathf.Lerp(startAngle, targetAngle, t);
+            float angle = Mathf.Lerp(
+                startAngle,
+                targetAngle,
+                t
+            );
 
-            ring.localRotation = Quaternion.Euler(0f, 0f, angle);
+            ring.localRotation =
+                Quaternion.Euler(0f, 0f, angle);
 
             yield return null;
         }
 
-        ring.localRotation = Quaternion.Euler(0f, 0f, targetAngle);
+        ring.localRotation =
+            Quaternion.Euler(0f, 0f, targetAngle);
 
         isRotating = false;
+
+        CheckSolution();
+    }
+
+    private void CheckSolution()
+    {
+        if (isSolved)
+            return;
+
+        Debug.Log(
+            $"Current Ring Angles — Outer: {outerRing.localEulerAngles.z}, " +
+            $"Middle: {middleRing.localEulerAngles.z}, " +
+            $"Inner: {innerRing.localEulerAngles.z}"
+        );
+
+        bool outerCorrect = IsAngleCorrect(
+            outerRing.localEulerAngles.z,
+            outerSolutionAngle
+        );
+
+        bool middleCorrect = IsAngleCorrect(
+            middleRing.localEulerAngles.z,
+            middleSolutionAngle
+        );
+
+        bool innerCorrect = IsAngleCorrect(
+            innerRing.localEulerAngles.z,
+            innerSolutionAngle
+        );
+
+        if (outerCorrect && middleCorrect && innerCorrect)
+        {
+            SolvePuzzle();
+        }
+    }
+
+    private bool IsAngleCorrect(
+        float currentAngle,
+        float targetAngle)
+    {
+        return Mathf.Abs(
+            Mathf.DeltaAngle(currentAngle, targetAngle)
+        ) < 1f;
+    }
+
+    private void SolvePuzzle()
+    {
+        isSolved = true;
+
+        // Hide all selection highlights.
+        foreach (GameObject highlight in highlights)
+        {
+            if (highlight != null)
+            {
+                highlight.SetActive(false);
+            }
+        }
+
+        Debug.Log("Cipher Disc Puzzle Solved!");
+
+        // Dispense the paper containing the bridge location.
+        if (cluePaper != null)
+        {
+            StartCoroutine(DispensePaper());
+        }
+        else
+        {
+            // Still trigger completion if no paper is assigned.
+            onPuzzleSolved?.Invoke();
+        }
+    }
+
+    private IEnumerator DispensePaper()
+    {
+        Vector3 startPosition = cluePaper.localPosition;
+        Vector3 endPosition =
+            startPosition + Vector3.down * dispenseDistance;
+
+        float elapsed = 0f;
+
+        while (elapsed < dispenseDuration)
+        {
+            elapsed += Time.deltaTime;
+
+            float t = Mathf.Clamp01(
+                elapsed / dispenseDuration
+            );
+
+            // Ease-out movement.
+            t = 1f - Mathf.Pow(1f - t, 3f);
+
+            cluePaper.localPosition = Vector3.Lerp(
+                startPosition,
+                endPosition,
+                t
+            );
+
+            yield return null;
+        }
+
+        cluePaper.localPosition = endPosition;
+
+        Debug.Log("Clue paper fully dispensed.");
+
+        // Trigger any actions after the paper finishes dispensing.
+        onPuzzleSolved?.Invoke();
     }
 
     private void Update()
     {
-        // Temporary keyboard controls.
+        if (isSolved)
+            return;
 
+        // Temporary keyboard controls.
         if (Input.GetKeyDown(KeyCode.Alpha1))
             SelectRing(0);
 

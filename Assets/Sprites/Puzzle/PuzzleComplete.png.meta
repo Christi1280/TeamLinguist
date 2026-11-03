@@ -1,0 +1,2301 @@
+fileFormatVersion: 2
+guid: ecd77505e5bc217498e546c151bdf132
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3321908882807076681
+    second: PuzzleComplete_0
+  - first:
+      213: -1087447904359261563
+    second: PuzzleComplete_1
+  - first:
+      213: -8408480438702857216
+    second: PuzzleComplete_2
+  - first:
+      213: 9199131162238167728
+    second: PuzzleComplete_3
+  - first:
+      213: -4083890402605018347
+    second: PuzzleComplete_4
+  - first:
+      213: 376024945418345570
+    second: PuzzleComplete_5
+  - first:
+      213: 3007430857722938636
+    second: PuzzleComplete_6
+  - first:
+      213: 7380800539233602230
+    second: PuzzleComplete_7
+  - first:
+      213: -8559394950120355689
+    second: PuzzleComplete_8
+  - first:
+      213: 1157039008595002676
+    second: PuzzleComplete_9
+  - first:
+      213: -4990513410590792758
+    second: PuzzleComplete_10
+  - first:
+      213: -7678544406206324537
+    second: PuzzleComplete_11
+  - first:
+      213: 3006938895353505720
+    second: PuzzleComplete_12
+  - first:
+      213: -6522306504229483842
+    second: PuzzleComplete_13
+  - first:
+      213: -7314180009459492707
+    second: PuzzleComplete_14
+  - first:
+      213: 6825076782099164700
+    second: PuzzleComplete_15
+  - first:
+      213: -6160704278102824877
+    second: PuzzleComplete_16
+  - first:
+      213: 2179727523468627416
+    second: PuzzleComplete_17
+  - first:
+      213: -2134149405878845034
+    second: PuzzleComplete_18
+  - first:
+      213: 6894074124616692815
+    second: PuzzleComplete_19
+  - first:
+      213: 8373286249426653831
+    second: PuzzleComplete_20
+  - first:
+      213: -631778610427659099
+    second: PuzzleComplete_21
+  - first:
+      213: -5294302663920727246
+    second: PuzzleComplete_22
+  - first:
+      213: -6167522739600903678
+    second: PuzzleComplete_23
+  - first:
+      213: -1215702312389865339
+    second: PuzzleComplete_24
+  - first:
+      213: 5210743807783689970
+    second: PuzzleComplete_25
+  - first:
+      213: -2634481758759682577
+    second: PuzzleComplete_26
+  - first:
+      213: -1834777321461483685
+    second: PuzzleComplete_27
+  - first:
+      213: -6434274185462231069
+    second: PuzzleComplete_28
+  - first:
+      213: 3503912086244654420
+    second: PuzzleComplete_29
+  - first:
+      213: 3085721175953394756
+    second: PuzzleComplete_30
+  - first:
+      213: -7829720905784884620
+    second: PuzzleComplete_31
+  - first:
+      213: -5756055238288100747
+    second: PuzzleComplete_32
+  - first:
+      213: -5775294420870841179
+    second: PuzzleComplete_33
+  - first:
+      213: 447425341863526587
+    second: PuzzleComplete_34
+  - first:
+      213: -1613902852835493810
+    second: PuzzleComplete_35
+  - first:
+      213: 7820691022251758196
+    second: PuzzleComplete_36
+  - first:
+      213: 3149130100537160498
+    second: PuzzleComplete_37
+  - first:
+      213: -3021733609918245620
+    second: PuzzleComplete_38
+  - first:
+      213: 9189465256636069945
+    second: PuzzleComplete_39
+  - first:
+      213: -4350104823898660416
+    second: PuzzleComplete_40
+  - first:
+      213: 5165338486026938047
+    second: PuzzleComplete_41
+  - first:
+      213: 2256856269033775056
+    second: PuzzleComplete_42
+  - first:
+      213: 4995220782859945807
+    second: PuzzleComplete_43
+  - first:
+      213: 477856401634146500
+    second: PuzzleComplete_44
+  - first:
+      213: -2819633493244273706
+    second: PuzzleComplete_45
+  - first:
+      213: -9082751489599553502
+    second: PuzzleComplete_46
+  - first:
+      213: 4802396129529460886
+    second: PuzzleComplete_47
+  - first:
+      213: -6118457312955357765
+    second: PuzzleComplete_48
+  - first:
+      213: -339568919475586423
+    second: PuzzleComplete_49
+  - first:
+      213: -4267066109448333473
+    second: PuzzleComplete_50
+  - first:
+      213: 7756312840512997208
+    second: PuzzleComplete_51
+  - first:
+      213: 7653628159705847942
+    second: PuzzleComplete_52
+  - first:
+      213: -2774417849442842795
+    second: PuzzleComplete_53
+  - first:
+      213: -7394959045291004439
+    second: PuzzleComplete_54
+  - first:
+      213: -5214551237173505306
+    second: PuzzleComplete_55
+  - first:
+      213: -3286115858493521506
+    second: PuzzleComplete_56
+  - first:
+      213: 6942074404455547899
+    second: PuzzleComplete_57
+  - first:
+      213: -4427163052531555072
+    second: PuzzleComplete_58
+  - first:
+      213: 833229086054529623
+    second: PuzzleComplete_59
+  - first:
+      213: -6503012164699157000
+    second: PuzzleComplete_60
+  - first:
+      213: -1565736938992377757
+    second: PuzzleComplete_61
+  - first:
+      213: 2480752967533621042
+    second: PuzzleComplete_62
+  - first:
+      213: -7098709029157218559
+    second: PuzzleComplete_63
+  - first:
+      213: -6269897174357028553
+    second: PuzzleComplete_64
+  - first:
+      213: 1804031912346304176
+    second: PuzzleComplete_65
+  - first:
+      213: -2310476654976095917
+    second: PuzzleComplete_66
+  - first:
+      213: 3189524538167003669
+    second: PuzzleComplete_67
+  - first:
+      213: -7324371664097029828
+    second: PuzzleComplete_68
+  - first:
+      213: 8334209134892792273
+    second: PuzzleComplete_69
+  - first:
+      213: -3763410843577823023
+    second: PuzzleComplete_70
+  - first:
+      213: -6441416286460898299
+    second: PuzzleComplete_71
+  - first:
+      213: 8077689151759062243
+    second: PuzzleComplete_72
+  - first:
+      213: 9109480136243550809
+    second: PuzzleComplete_73
+  - first:
+      213: 3344213172015033792
+    second: PuzzleComplete_74
+  - first:
+      213: -1335761377516009190
+    second: PuzzleComplete_75
+  - first:
+      213: 4834586086680868146
+    second: PuzzleComplete_76
+  - first:
+      213: -6106202336458282349
+    second: PuzzleComplete_77
+  - first:
+      213: -5816083430954747383
+    second: PuzzleComplete_78
+  - first:
+      213: -4649154261715073833
+    second: PuzzleComplete_79
+  - first:
+      213: 6336511221871605257
+    second: PuzzleComplete_80
+  - first:
+      213: 764667910743865158
+    second: PuzzleComplete_81
+  - first:
+      213: -6144365487895170270
+    second: PuzzleComplete_82
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PuzzleComplete_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 1525
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8c118a87536e1d0800000000000000
+      internalID: -3321908882807076681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_1
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 967
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a5cec74eb98e0f0800000000000000
+      internalID: -1087447904359261563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_2
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 943
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004ab4e47931f4b80800000000000000
+      internalID: -8408480438702857216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_3
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 945
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0baae6f8d01e9af70800000000000000
+      internalID: 9199131162238167728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_4
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 943
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513d913f05b1357c0800000000000000
+      internalID: -4083890402605018347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_5
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 951
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c985212b8e73500800000000000000
+      internalID: 376024945418345570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_6
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 927
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05cf195e6a8cb920800000000000000
+      internalID: 3007430857722938636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_7
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 927
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bac70b3cfedd6660800000000000000
+      internalID: 7380800539233602230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_8
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 932
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798cdc974abe63980800000000000000
+      internalID: -8559394950120355689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_9
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 925
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435439a19d0ae0010800000000000000
+      internalID: 1157039008595002676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_10
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 929
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3a9e27e722ebab0800000000000000
+      internalID: -4990513410590792758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_11
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 925
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c062049b84507590800000000000000
+      internalID: -7678544406206324537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_12
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 893
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7e9de6efacab920800000000000000
+      internalID: 3006938895353505720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_13
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 907
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba8e238acc1c75a0800000000000000
+      internalID: -6522306504229483842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_14
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 911
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9857e89800de7a90800000000000000
+      internalID: -7314180009459492707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_15
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 921
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e69c92c2b87be50800000000000000
+      internalID: 6825076782099164700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_16
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 907
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358a3719918c08aa0800000000000000
+      internalID: -6160704278102824877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_17
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 901
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd4d7742a2ff3e10800000000000000
+      internalID: 2179727523468627416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_18
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 919
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6910bfc2c6af162e0800000000000000
+      internalID: -2134149405878845034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_19
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 907
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f447df4d3ebacaf50800000000000000
+      internalID: 6894074124616692815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_20
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 903
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7821db3fa73e33470800000000000000
+      internalID: 8373286249426653831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_21
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 913
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acf4cc73b87b37f0800000000000000
+      internalID: -631778610427659099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_22
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 911
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bc99f07cbd686b0800000000000000
+      internalID: -5294302663920727246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_23
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 893
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202b1f9cebe886aa0800000000000000
+      internalID: -6167522739600903678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_24
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 231
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580916d1035f02fe0800000000000000
+      internalID: -1215702312389865339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_25
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 207
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe538ea2e7405840800000000000000
+      internalID: 5210743807783689970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 145
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fedf1e96cc0707bd0800000000000000
+      internalID: -2634481758759682577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_27
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 175
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5778584fbf8986e0800000000000000
+      internalID: -1834777321461483685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_28
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 162
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efce04f7bdd4b6a0800000000000000
+      internalID: -6434274185462231069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_29
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 141
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d7fc85a7560a030800000000000000
+      internalID: 3503912086244654420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_30
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 135
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c4a988f0fa2da20800000000000000
+      internalID: 3085721175953394756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_31
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 143
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4720e30e15e375390800000000000000
+      internalID: -7829720905784884620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_32
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572bf46f1426e10b0800000000000000
+      internalID: -5756055238288100747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_33
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 145
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acb2b2b2580adfa0800000000000000
+      internalID: -5775294420870841179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_34
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 143
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb088455af2953600800000000000000
+      internalID: 447425341863526587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_35
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 143
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4830caf7e34a99e0800000000000000
+      internalID: -1613902852835493810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_36
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 115
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47217678c0da88c60800000000000000
+      internalID: 7820691022251758196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_37
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 131
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233f1024425f3bb20800000000000000
+      internalID: 3149130100537160498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_38
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 129
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05d6f6aa45a016d0800000000000000
+      internalID: -3021733609918245620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_39
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 127
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938369986f9878f70800000000000000
+      internalID: 9189465256636069945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_40
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 83
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1aec3e5b251a3c0800000000000000
+      internalID: -4350104823898660416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_41
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 127
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb62a446cf7fea740800000000000000
+      internalID: 5165338486026938047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_42
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 111
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df1fd0c1d6f15f10800000000000000
+      internalID: 2256856269033775056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_43
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 93
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47040116d6925540800000000000000
+      internalID: 4995220782859945807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_44
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 102
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8bc019ddfa1a600800000000000000
+      internalID: 477856401634146500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_45
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 81
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db9166e646aed8d0800000000000000
+      internalID: -2819633493244273706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_46
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 106
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220c44784a593f180800000000000000
+      internalID: -9082751489599553502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_47
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 89
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698705be5d985a240800000000000000
+      internalID: 4802396129529460886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 81
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5a7e7ad7fd61ba0800000000000000
+      internalID: -6118457312955357765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_49
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 110
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98af4e9eddb994bf0800000000000000
+      internalID: -339568919475586423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_50
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 85
+        width: 57
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5759393bf558c4c0800000000000000
+      internalID: -4267066109448333473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_51
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 81
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85704990f65f3ab60800000000000000
+      internalID: 7756312840512997208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_52
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 103
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6889136b246273a60800000000000000
+      internalID: 7653628159705847942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_53
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 79
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557c4795aa94f79d0800000000000000
+      internalID: -2774417849442842795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_54
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 111
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed2ed0bde3df5990800000000000000
+      internalID: -7394959045291004439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_55
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 111
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e21335174132a7b0800000000000000
+      internalID: -5214551237173505306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_56
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 111
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9147bb890f5562d0800000000000000
+      internalID: -3286115858493521506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_57
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 77
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf387e1e3e3375060800000000000000
+      internalID: 6942074404455547899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_58
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 105
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0056f1be8ae8f82c0800000000000000
+      internalID: -4427163052531555072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_59
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 99
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75abdca6079309b00800000000000000
+      internalID: 833229086054529623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_60
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 93
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd001104e8a0c5a0800000000000000
+      internalID: -6503012164699157000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_61
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 94
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360e6a3bc82654ae0800000000000000
+      internalID: -1565736938992377757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_62
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 79
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f665d2ea76d6220800000000000000
+      internalID: 2480752967533621042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_63
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 83
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107d931afb15c7d90800000000000000
+      internalID: -7098709029157218559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_64
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 85
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73159304db9dcf8a0800000000000000
+      internalID: -6269897174357028553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_65
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 96
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bebed25775390910800000000000000
+      internalID: 1804031912346304176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_66
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 93
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359215649b98fefd0800000000000000
+      internalID: -2310476654976095917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_67
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 85
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a06db2ba7734c20800000000000000
+      internalID: 3189524538167003669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_68
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 77
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c315f8617ca9a5a90800000000000000
+      internalID: -7324371664097029828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_69
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 75
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9b9193d0f09a370800000000000000
+      internalID: 8334209134892792273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_70
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 79
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0d0b4f6cda5cbc0800000000000000
+      internalID: -3763410843577823023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_71
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 89
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504151bf30e7b96a0800000000000000
+      internalID: -6441416286460898299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_72
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 91
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e410a07c77b91070800000000000000
+      internalID: 8077689151759062243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_73
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 74
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a16497bef5b6e70800000000000000
+      internalID: 9109480136243550809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_74
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 79
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd632b5928096e20800000000000000
+      internalID: 3344213172015033792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_75
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 81
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19c874ba1c667de0800000000000000
+      internalID: -1335761377516009190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_76
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 70
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235b8ac5e66e71340800000000000000
+      internalID: 4834586086680868146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_77
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 77
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a6eb8b359624ba0800000000000000
+      internalID: -6106202336458282349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_78
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 75
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a38e93fee194fa0800000000000000
+      internalID: -5816083430954747383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_79
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 63
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4ca7cc4d2ea7fb0800000000000000
+      internalID: -4649154261715073833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_80
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 69
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906feee426fcfe750800000000000000
+      internalID: 6336511221871605257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_81
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 73
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6473707d965ac9a00800000000000000
+      internalID: 764667910743865158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleComplete_82
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 63
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223b6db9424dabaa0800000000000000
+      internalID: -6144365487895170270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PuzzleComplete_0: -3321908882807076681
+      PuzzleComplete_1: -1087447904359261563
+      PuzzleComplete_10: -4990513410590792758
+      PuzzleComplete_11: -7678544406206324537
+      PuzzleComplete_12: 3006938895353505720
+      PuzzleComplete_13: -6522306504229483842
+      PuzzleComplete_14: -7314180009459492707
+      PuzzleComplete_15: 6825076782099164700
+      PuzzleComplete_16: -6160704278102824877
+      PuzzleComplete_17: 2179727523468627416
+      PuzzleComplete_18: -2134149405878845034
+      PuzzleComplete_19: 6894074124616692815
+      PuzzleComplete_2: -8408480438702857216
+      PuzzleComplete_20: 8373286249426653831
+      PuzzleComplete_21: -631778610427659099
+      PuzzleComplete_22: -5294302663920727246
+      PuzzleComplete_23: -6167522739600903678
+      PuzzleComplete_24: -1215702312389865339
+      PuzzleComplete_25: 5210743807783689970
+      PuzzleComplete_26: -2634481758759682577
+      PuzzleComplete_27: -1834777321461483685
+      PuzzleComplete_28: -6434274185462231069
+      PuzzleComplete_29: 3503912086244654420
+      PuzzleComplete_3: 9199131162238167728
+      PuzzleComplete_30: 3085721175953394756
+      PuzzleComplete_31: -7829720905784884620
+      PuzzleComplete_32: -5756055238288100747
+      PuzzleComplete_33: -5775294420870841179
+      PuzzleComplete_34: 447425341863526587
+      PuzzleComplete_35: -1613902852835493810
+      PuzzleComplete_36: 7820691022251758196
+      PuzzleComplete_37: 3149130100537160498
+      PuzzleComplete_38: -3021733609918245620
+      PuzzleComplete_39: 9189465256636069945
+      PuzzleComplete_4: -4083890402605018347
+      PuzzleComplete_40: -4350104823898660416
+      PuzzleComplete_41: 5165338486026938047
+      PuzzleComplete_42: 2256856269033775056
+      PuzzleComplete_43: 4995220782859945807
+      PuzzleComplete_44: 477856401634146500
+      PuzzleComplete_45: -2819633493244273706
+      PuzzleComplete_46: -9082751489599553502
+      PuzzleComplete_47: 4802396129529460886
+      PuzzleComplete_48: -6118457312955357765
+      PuzzleComplete_49: -339568919475586423
+      PuzzleComplete_5: 376024945418345570
+      PuzzleComplete_50: -4267066109448333473
+      PuzzleComplete_51: 7756312840512997208
+      PuzzleComplete_52: 7653628159705847942
+      PuzzleComplete_53: -2774417849442842795
+      PuzzleComplete_54: -7394959045291004439
+      PuzzleComplete_55: -5214551237173505306
+      PuzzleComplete_56: -3286115858493521506
+      PuzzleComplete_57: 6942074404455547899
+      PuzzleComplete_58: -4427163052531555072
+      PuzzleComplete_59: 833229086054529623
+      PuzzleComplete_6: 3007430857722938636
+      PuzzleComplete_60: -6503012164699157000
+      PuzzleComplete_61: -1565736938992377757
+      PuzzleComplete_62: 2480752967533621042
+      PuzzleComplete_63: -7098709029157218559
+      PuzzleComplete_64: -6269897174357028553
+      PuzzleComplete_65: 1804031912346304176
+      PuzzleComplete_66: -2310476654976095917
+      PuzzleComplete_67: 3189524538167003669
+      PuzzleComplete_68: -7324371664097029828
+      PuzzleComplete_69: 8334209134892792273
+      PuzzleComplete_7: 7380800539233602230
+      PuzzleComplete_70: -3763410843577823023
+      PuzzleComplete_71: -6441416286460898299
+      PuzzleComplete_72: 8077689151759062243
+      PuzzleComplete_73: 9109480136243550809
+      PuzzleComplete_74: 3344213172015033792
+      PuzzleComplete_75: -1335761377516009190
+      PuzzleComplete_76: 4834586086680868146
+      PuzzleComplete_77: -6106202336458282349
+      PuzzleComplete_78: -5816083430954747383
+      PuzzleComplete_79: -4649154261715073833
+      PuzzleComplete_8: -8559394950120355689
+      PuzzleComplete_80: 6336511221871605257
+      PuzzleComplete_81: 764667910743865158
+      PuzzleComplete_82: -6144365487895170270
+      PuzzleComplete_9: 1157039008595002676
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
