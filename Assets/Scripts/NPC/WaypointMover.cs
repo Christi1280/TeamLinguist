@@ -313,4 +313,49 @@ public class WaypointMover : MonoBehaviour
         animator.SetFloat("LastInputX", lastInputX);
         animator.SetFloat("LastInputY", lastInputY);
     }
+
+    public void FaceDirection(Vector2 direction)
+    {
+        if (direction.sqrMagnitude < 0.001f)
+            return;
+
+        direction.Normalize();
+
+        lastInputX = direction.x;
+        lastInputY = direction.y;
+
+        if (animator == null)
+            animator = GetComponent<Animator>();
+
+        if (animator != null)
+        {
+            animator.SetBool("IsWalking", false);
+
+            animator.SetFloat("InputX", direction.x);
+            animator.SetFloat("InputY", direction.y);
+
+            animator.SetFloat("LastInputX", direction.x);
+            animator.SetFloat("LastInputY", direction.y);
+        }
+    }
+
+    public void FaceUp()
+    {
+        FaceDirection(Vector2.up);
+    }
+
+    public void FaceDown()
+    {
+        FaceDirection(Vector2.down);
+    }
+
+    public void FaceLeft()
+    {
+        FaceDirection(Vector2.left);
+    }
+
+    public void FaceRight()
+    {
+        FaceDirection(Vector2.right);
+    }
 }

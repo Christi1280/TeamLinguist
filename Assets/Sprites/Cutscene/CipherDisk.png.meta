@@ -1,0 +1,1547 @@
+fileFormatVersion: 2
+guid: e5d3172b74d532943b12f29aeddd96ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2944493723160066129
+    second: CipherDisk_0
+  - first:
+      213: 2233980252931291867
+    second: CipherDisk_1
+  - first:
+      213: 2764556598869579530
+    second: CipherDisk_2
+  - first:
+      213: -5253084932011773784
+    second: CipherDisk_3
+  - first:
+      213: -8214700990437112232
+    second: CipherDisk_4
+  - first:
+      213: -8279399829712858009
+    second: CipherDisk_5
+  - first:
+      213: 7863812104902990963
+    second: CipherDisk_6
+  - first:
+      213: -903891323564312772
+    second: CipherDisk_7
+  - first:
+      213: -4729140430732065740
+    second: CipherDisk_8
+  - first:
+      213: -5625019600586645816
+    second: CipherDisk_9
+  - first:
+      213: -2996302028765920128
+    second: CipherDisk_10
+  - first:
+      213: 2238391468003852782
+    second: CipherDisk_11
+  - first:
+      213: -2493405822151703899
+    second: CipherDisk_12
+  - first:
+      213: -2815457235127152890
+    second: CipherDisk_13
+  - first:
+      213: -3157736990356092188
+    second: CipherDisk_14
+  - first:
+      213: -2496896584241143914
+    second: CipherDisk_15
+  - first:
+      213: -4322274251448065525
+    second: CipherDisk_16
+  - first:
+      213: 2758697664293243070
+    second: CipherDisk_17
+  - first:
+      213: -1149588316303746778
+    second: CipherDisk_18
+  - first:
+      213: 1592807041977521258
+    second: CipherDisk_19
+  - first:
+      213: -5443489083245466093
+    second: CipherDisk_20
+  - first:
+      213: 5192972019234380662
+    second: CipherDisk_21
+  - first:
+      213: 6418231090231169206
+    second: CipherDisk_22
+  - first:
+      213: 7019508066658147419
+    second: CipherDisk_23
+  - first:
+      213: -6238829367088925340
+    second: CipherDisk_24
+  - first:
+      213: -2341473769023194928
+    second: CipherDisk_25
+  - first:
+      213: -4619661904011618083
+    second: CipherDisk_26
+  - first:
+      213: -7585771558160304617
+    second: CipherDisk_27
+  - first:
+      213: 4205403738701045815
+    second: CipherDisk_28
+  - first:
+      213: -6181581586119055535
+    second: CipherDisk_29
+  - first:
+      213: -5480101043996620168
+    second: CipherDisk_30
+  - first:
+      213: -2976806647234555075
+    second: CipherDisk_31
+  - first:
+      213: -3785971910779407378
+    second: CipherDisk_32
+  - first:
+      213: -6500893803244368892
+    second: CipherDisk_33
+  - first:
+      213: -2971108074415003127
+    second: CipherDisk_34
+  - first:
+      213: 7140037566760757654
+    second: CipherDisk_35
+  - first:
+      213: -241006660518664648
+    second: CipherDisk_36
+  - first:
+      213: 7293190810053563390
+    second: CipherDisk_37
+  - first:
+      213: -1271530172989664276
+    second: CipherDisk_38
+  - first:
+      213: 4212575534037400810
+    second: CipherDisk_39
+  - first:
+      213: -2459102652671843013
+    second: CipherDisk_40
+  - first:
+      213: 1282379360493108471
+    second: CipherDisk_41
+  - first:
+      213: -8474841991036283114
+    second: CipherDisk_42
+  - first:
+      213: -2096941817618251181
+    second: CipherDisk_43
+  - first:
+      213: -3541238836482269685
+    second: CipherDisk_44
+  - first:
+      213: -4843208784928704298
+    second: CipherDisk_45
+  - first:
+      213: 4218060483180706924
+    second: CipherDisk_46
+  - first:
+      213: -5480553503285598645
+    second: CipherDisk_47
+  - first:
+      213: -812946948572785610
+    second: CipherDisk_48
+  - first:
+      213: -3636227014413839318
+    second: CipherDisk_49
+  - first:
+      213: 5947399066846775993
+    second: CipherDisk_50
+  - first:
+      213: -1626530323793430196
+    second: CipherDisk_51
+  - first:
+      213: -4251326452792719112
+    second: CipherDisk_52
+  - first:
+      213: -2597623553111478566
+    second: CipherDisk_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CipherDisk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1521
+        height: 1016
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158b25cc071fcd820800000000000000
+      internalID: 2944493723160066129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_1
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 991
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdaf4333431b00f10800000000000000
+      internalID: 2233980252931291867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 733
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a075515549dad5620800000000000000
+      internalID: 2764556598869579530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_3
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 709
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a03b7c161b4917b0800000000000000
+      internalID: -5253084932011773784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 677
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85642f8f8f48ffd80800000000000000
+      internalID: -8214700990437112232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_5
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 677
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764198498b9a91d80800000000000000
+      internalID: -8279399829712858009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_6
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 597
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cd825f17fd12d60800000000000000
+      internalID: 7863812104902990963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_7
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 623
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37346751abb473f0800000000000000
+      internalID: -903891323564312772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_8
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 579
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434074595d7be5eb0800000000000000
+      internalID: -4729140430732065740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_9
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 575
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce5c64d97aefe1b0800000000000000
+      internalID: -5625019600586645816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 543
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08400af0e2ffa66d0800000000000000
+      internalID: -2996302028765920128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_11
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 511
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee182ae3e2d501f10800000000000000
+      internalID: 2238391468003852782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_12
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 527
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2c1c98d94a56dd0800000000000000
+      internalID: -2493405822151703899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_13
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 503
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f41f3cf8c7de8d0800000000000000
+      internalID: -2815457235127152890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 479
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eac6bb00f67d24d0800000000000000
+      internalID: -3157736990356092188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 489
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f9b6729cd395dd0800000000000000
+      internalID: -2496896584241143914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_16
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 465
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02ee9cf7723404c0800000000000000
+      internalID: -4322274251448065525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_17
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 450
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb806e2d8ecd84620800000000000000
+      internalID: 2758697664293243070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_18
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 445
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62996c06487db00f0800000000000000
+      internalID: -1149588316303746778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 447
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a649fccc099ca1610800000000000000
+      internalID: 1592807041977521258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 447
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31eef660587d474b0800000000000000
+      internalID: -5443489083245466093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_21
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 411
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b1207b984211840800000000000000
+      internalID: 5192972019234380662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 421
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0d89bdb23221950800000000000000
+      internalID: 6418231090231169206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_23
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 401
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5cd52b456d4a6160800000000000000
+      internalID: 7019508066658147419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 379
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465b360deb93b69a0800000000000000
+      internalID: -6238829367088925340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_25
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 366
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d83a72430a618fd0800000000000000
+      internalID: -2341473769023194928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_26
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 349
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd89bfc69f9a3efb0800000000000000
+      internalID: -4619661904011618083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_27
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 334
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716f79085fce9b690800000000000000
+      internalID: -7585771558160304617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_28
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 319
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730206e4b689c5a30800000000000000
+      internalID: 4205403738701045815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_29
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 308
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15727418c4c963aa0800000000000000
+      internalID: -6181581586119055535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_30
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 303
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a8553a225c2f3b0800000000000000
+      internalID: -5480101043996620168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_31
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 295
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33109a402240b6d0800000000000000
+      internalID: -2976806647234555075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_32
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 301
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3f2682b96857bc0800000000000000
+      internalID: -3785971910779407378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_33
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 293
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cc417778f28c5a0800000000000000
+      internalID: -6500893803244368892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_34
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 257
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ae23ba2f084c6d0800000000000000
+      internalID: -2971108074415003127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_35
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 275
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69928b16652861360800000000000000
+      internalID: 7140037566760757654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_36
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 263
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836284b18b5c7acf0800000000000000
+      internalID: -241006660518664648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_37
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 255
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3d268966e963560800000000000000
+      internalID: 7293190810053563390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_38
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 239
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce392c56b0e9a5ee0800000000000000
+      internalID: -1271530172989664276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_39
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 235
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecfcc70123167a30800000000000000
+      internalID: 4212575534037400810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_40
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 235
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3526419a238fddd0800000000000000
+      internalID: -2459102652671843013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_41
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 224
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fcfb79eb3debc110800000000000000
+      internalID: 1282379360493108471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 219
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617d7bc5c10536a80800000000000000
+      internalID: -8474841991036283114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_43
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 208
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352c336e68a26e2e0800000000000000
+      internalID: -2096941817618251181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_44
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 201
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e18ae5a0efadec0800000000000000
+      internalID: -3541238836482269685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_45
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 191
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8f541454779ccb0800000000000000
+      internalID: -4843208784928704298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_46
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c391549af898a30800000000000000
+      internalID: 4218060483180706924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_47
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 175
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46a32040a921f3b0800000000000000
+      internalID: -5480553503285598645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_48
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 136
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634d415be05d7b4f0800000000000000
+      internalID: -812946948572785610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_49
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 151
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a241f23cbc6898dc0800000000000000
+      internalID: -3636227014413839318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_50
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 134
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba44ecc0f7698250800000000000000
+      internalID: 5947399066846775993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_51
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 91
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4934e9c9476d69e0800000000000000
+      internalID: -1626530323793430196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_52
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 53
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8811d9d114005c0800000000000000
+      internalID: -4251326452792719112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CipherDisk_53
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 18
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade2a98242363fbd0800000000000000
+      internalID: -2597623553111478566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CipherDisk_0: 2944493723160066129
+      CipherDisk_1: 2233980252931291867
+      CipherDisk_10: -2996302028765920128
+      CipherDisk_11: 2238391468003852782
+      CipherDisk_12: -2493405822151703899
+      CipherDisk_13: -2815457235127152890
+      CipherDisk_14: -3157736990356092188
+      CipherDisk_15: -2496896584241143914
+      CipherDisk_16: -4322274251448065525
+      CipherDisk_17: 2758697664293243070
+      CipherDisk_18: -1149588316303746778
+      CipherDisk_19: 1592807041977521258
+      CipherDisk_2: 2764556598869579530
+      CipherDisk_20: -5443489083245466093
+      CipherDisk_21: 5192972019234380662
+      CipherDisk_22: 6418231090231169206
+      CipherDisk_23: 7019508066658147419
+      CipherDisk_24: -6238829367088925340
+      CipherDisk_25: -2341473769023194928
+      CipherDisk_26: -4619661904011618083
+      CipherDisk_27: -7585771558160304617
+      CipherDisk_28: 4205403738701045815
+      CipherDisk_29: -6181581586119055535
+      CipherDisk_3: -5253084932011773784
+      CipherDisk_30: -5480101043996620168
+      CipherDisk_31: -2976806647234555075
+      CipherDisk_32: -3785971910779407378
+      CipherDisk_33: -6500893803244368892
+      CipherDisk_34: -2971108074415003127
+      CipherDisk_35: 7140037566760757654
+      CipherDisk_36: -241006660518664648
+      CipherDisk_37: 7293190810053563390
+      CipherDisk_38: -1271530172989664276
+      CipherDisk_39: 4212575534037400810
+      CipherDisk_4: -8214700990437112232
+      CipherDisk_40: -2459102652671843013
+      CipherDisk_41: 1282379360493108471
+      CipherDisk_42: -8474841991036283114
+      CipherDisk_43: -2096941817618251181
+      CipherDisk_44: -3541238836482269685
+      CipherDisk_45: -4843208784928704298
+      CipherDisk_46: 4218060483180706924
+      CipherDisk_47: -5480553503285598645
+      CipherDisk_48: -812946948572785610
+      CipherDisk_49: -3636227014413839318
+      CipherDisk_5: -8279399829712858009
+      CipherDisk_50: 5947399066846775993
+      CipherDisk_51: -1626530323793430196
+      CipherDisk_52: -4251326452792719112
+      CipherDisk_53: -2597623553111478566
+      CipherDisk_6: 7863812104902990963
+      CipherDisk_7: -903891323564312772
+      CipherDisk_8: -4729140430732065740
+      CipherDisk_9: -5625019600586645816
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
