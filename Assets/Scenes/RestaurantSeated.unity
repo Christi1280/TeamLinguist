@@ -640,51 +640,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fluencyPointsText: {fileID: 1873889483}
   playerPageFluencyPointsText: {fileID: 0}
---- !u!1 &239192245
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 239192246}
-  - component: {fileID: 239192247}
-  m_Layer: 0
-  m_Name: KitchenWaypoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &239192246
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239192245}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.946, y: -0.19, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 661188299}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &239192247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239192245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81cf705073c805544950d6cc7a4131ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  direction: 1
 --- !u!1 &271590697
 GameObject:
   m_ObjectHideFlags: 0
@@ -695,6 +650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 271590699}
   - component: {fileID: 271590698}
+  - component: {fileID: 271590700}
   m_Layer: 0
   m_Name: RestaurantCutscene
   m_TagString: Untagged
@@ -716,7 +672,9 @@ PlayableDirector:
   m_WrapMode: 0
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: -4977350042196057874, guid: 1066475ca3d20dd408bc31527e7c6981, type: 2}
+    value: {fileID: 271590700}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &271590699
@@ -734,6 +692,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &271590700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271590697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 610d38b4508476542bea4c4c0f330040, type: 2}
+    - {fileID: 11400000, guid: c5f8d0d3a2ee9914e8022e78a0d85f9f, type: 2}
+    - {fileID: 11400000, guid: 11ea49b3e2393bf448dfcce0495b9d03, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1976603891}
+          m_TargetAssemblyTypeName: WaypointMover, Assembly-CSharp
+          m_MethodName: StartMoving
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 943027469}
+          m_TargetAssemblyTypeName: WaypointMover, Assembly-CSharp
+          m_MethodName: MoveToWaypoint
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 943027469}
+          m_TargetAssemblyTypeName: WaypointMover, Assembly-CSharp
+          m_MethodName: MoveToWaypoint
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &281560154
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,8 +777,8 @@ Transform:
   m_GameObject: {fileID: 281560154}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.62, z: 0}
-  m_LocalScale: {x: 4.7109303, y: 4.7109303, z: 4.7109303}
+  m_LocalPosition: {x: 11.91, y: -1.53, z: 0}
+  m_LocalScale: {x: 5.2, y: 5.2, z: 5.2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1976603882}
@@ -1568,6 +1586,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 370919283}
     m_Modifications:
+    - target: {fileID: 247792629023866694, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1095102473}
+    - target: {fileID: 247792629023866694, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CloseDialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 247792629023866694, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DialogueController, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 636702230409379858, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1786,7 +1816,7 @@ Transform:
   m_GameObject: {fileID: 590367039}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3813855, y: -2.87, z: 0}
+  m_LocalPosition: {x: -0.3813855, y: -4.33, z: 0}
   m_LocalScale: {x: 0.368312, y: 0.368312, z: 0.368312}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1905,8 +1935,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1912365532}
-  - {fileID: 239192246}
+  - {fileID: 1334096579}
   m_Father: {fileID: 281560155}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &747090431 stripped
@@ -2312,6 +2341,7 @@ MonoBehaviour:
   kitchenWaitTime: 2
   soupDisplayTime: 2
   cutsceneDirector: {fileID: 271590698}
+  departureDelay: 0.5
 --- !u!1 &1012194795
 GameObject:
   m_ObjectHideFlags: 0
@@ -2447,6 +2477,7 @@ MonoBehaviour:
   tooltipText: {fileID: 339494412791015970}
   dialogueSpeedButton: {fileID: 20622395}
   dialogueSpeedButtonText: {fileID: 855104834}
+  replayAudioButton: {fileID: 1200770196}
 --- !u!82 &1095102474
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2544,6 +2575,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1200770196 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 636702230409379858, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
+  m_PrefabInstance: {fileID: 575998950}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1275546121 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3749398225470745235, guid: a06014208ae4d694b81382fa039da6fa, type: 3}
@@ -2554,6 +2596,51 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3496212304617483137, guid: a06014208ae4d694b81382fa039da6fa, type: 3}
   m_PrefabInstance: {fileID: 392288951}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1334096578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1334096579}
+  - component: {fileID: 1334096580}
+  m_Layer: 0
+  m_Name: Waypoint0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1334096579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334096578}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.31, y: 0.13, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 661188299}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1334096580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334096578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81cf705073c805544950d6cc7a4131ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: 1
 --- !u!1 &1385006170
 GameObject:
   m_ObjectHideFlags: 0
@@ -3263,51 +3350,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1087.1, y: 1087.1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1912365531
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1912365532}
-  - component: {fileID: 1912365533}
-  m_Layer: 0
-  m_Name: TableWaypoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1912365532
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912365531}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.26, y: -0.19, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 661188299}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1912365533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912365531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81cf705073c805544950d6cc7a4131ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  direction: 1
 --- !u!1 &1916267435
 GameObject:
   m_ObjectHideFlags: 0
@@ -3511,11 +3553,10 @@ GameObject:
   - component: {fileID: 1976603890}
   - component: {fileID: 1976603889}
   - component: {fileID: 1976603888}
-  - component: {fileID: 1976603887}
   - component: {fileID: 1976603886}
   - component: {fileID: 1976603885}
   - component: {fileID: 1976603884}
-  - component: {fileID: 1976603883}
+  - component: {fileID: 1976603891}
   m_Layer: 0
   m_Name: Luke
   m_TagString: Untagged
@@ -3532,34 +3573,12 @@ Transform:
   m_GameObject: {fileID: 1976603881}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.83, y: -0.08, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 281560155}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1976603883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1976603881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3332dfe200ee0e844b1682cf7e32db68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npc: {fileID: 1976603888}
-  menuPanel: {fileID: 1882903336}
-  waypointMover: {fileID: 1976603887}
-  soupOnTable: {fileID: 590367039}
-  screenFader: {fileID: 467811540}
-  diegoDialogue1: {fileID: 11400000, guid: 98752de594a4dda43bd2be72dbaa59ad, type: 2}
-  diegoDialogue2: {fileID: 11400000, guid: f63776832a9123c4c805b3f8d0f06a1a, type: 2}
-  kitchenWaitTime: 2
-  soupDisplayTime: 2
-  cutsceneDirector: {fileID: 0}
 --- !u!95 &1976603884
 Animator:
   serializedVersion: 7
@@ -3612,58 +3631,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Library: []
   m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 109e34b75d61e964f90ab5a1b17fe0df, type: 3}
---- !u!114 &1976603887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1976603881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc0df5bda06675c4b91c76c1339d1c27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypointParent: {fileID: 661188299}
-  moveSpeed: 2
-  waitTime: 0
-  startAutomatically: 1
-  loopWaypoints: 0
-  obstacleCheckDistance: 0.5
-  obstacleCheckRadius: 0.25
-  onFirstWaypointReached:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1976603883}
-        m_TargetAssemblyTypeName: DiegoWaiterController, Assembly-CSharp
-        m_MethodName: HandleTableReached
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onWaypointReached:
-    m_PersistentCalls:
-      m_Calls: []
-  onPathCompleted:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1976603883}
-        m_TargetAssemblyTypeName: DiegoWaiterController, Assembly-CSharp
-        m_MethodName: HandleKitchenReached
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1976603888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3679,19 +3646,7 @@ MonoBehaviour:
   dialogueData: {fileID: 11400000, guid: 98752de594a4dda43bd2be72dbaa59ad, type: 2}
   onDialogueEnded:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1976603883}
-        m_TargetAssemblyTypeName: DiegoWaiterController, Assembly-CSharp
-        m_MethodName: HandleDialogueEnded
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!61 &1976603889
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3782,7 +3737,7 @@ SpriteRenderer:
   m_SortingLayerID: 1685077947
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 341046444, guid: 1681b08b553e20345a84cb5733d221a6, type: 3}
+  m_Sprite: {fileID: -350908408369970039, guid: 1681b08b553e20345a84cb5733d221a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3793,6 +3748,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1976603891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976603881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc0df5bda06675c4b91c76c1339d1c27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypointParent: {fileID: 661188299}
+  moveSpeed: 4
+  waitTime: 0
+  startAutomatically: 0
+  loopWaypoints: 0
+  obstacleCheckDistance: 0.5
+  obstacleCheckRadius: 0.25
+  onFirstWaypointReached:
+    m_PersistentCalls:
+      m_Calls: []
+  onWaypointReached:
+    m_PersistentCalls:
+      m_Calls: []
+  onPathCompleted:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2013768765
 GameObject:
   m_ObjectHideFlags: 0

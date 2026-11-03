@@ -24,6 +24,8 @@ public class DiegoWaiterController : MonoBehaviour
     [Header("Cutscene")]
     [SerializeField] private PlayableDirector cutsceneDirector;
 
+    [Header("After Soup Delivery")]
+    [SerializeField] private float departureDelay = 0.5f;
     private bool cutsceneTriggered;
     private bool menuHasBeenShown;
     private bool returningWithFood;
@@ -124,10 +126,9 @@ public class DiegoWaiterController : MonoBehaviour
 
     public void HandleTableReached()
     {
-        // Diego has returned from the kitchen.
+        // Diego has returned with Justin's soup.
         if (returningWithFood)
         {
-            // Prevent the ending sequence from triggering twice.
             if (cutsceneTriggered)
             {
                 return;
@@ -140,12 +141,13 @@ public class DiegoWaiterController : MonoBehaviour
                 soupOnTable.SetActive(true);
             }
 
+            // Start the cutscene and send Diego away.
             StartCoroutine(FinishRestaurantSequence());
 
             return;
         }
 
-        // Diego is arriving at the table for the first time.
+        // Diego's first arrival at Justin's table.
         if (npc != null)
         {
             npc.StartDialogueAutomatically();
@@ -178,8 +180,19 @@ public class DiegoWaiterController : MonoBehaviour
 
     private IEnumerator FinishRestaurantSequence()
     {
-        // Give the player time to see the soup.
-        yield return new WaitForSeconds(soupDisplayTime);
+        // Brief pause after placing the soup.
+        yield return new WaitForSeconds(departureDelay);
+
+        // Send Diego back toward the kitchen.
+        if (waypointMover != null)
+        {
+            waypointMover.MoveToWaypoint(1);
+        }
+
+        // Wait until the cutscene should begin.
+        yield return new WaitForSeconds(
+            Mathf.Max(0f, soupDisplayTime - departureDelay)
+        );
 
         if (cutsceneDirector != null)
         {
