@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 6c290cf01a101ab4b84ce6957ee6ed2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1659914871022926560
+    second: JournalOpen_0
+  - first:
+      213: -1543318669832738030
+    second: JournalOpen_1
+  - first:
+      213: 2118581340198479861
+    second: JournalOpen_2
+  - first:
+      213: 4029262165058412831
+    second: JournalOpen_3
+  - first:
+      213: -3445293671025706903
+    second: JournalOpen_4
+  - first:
+      213: -7651944924611460562
+    second: JournalOpen_5
+  - first:
+      213: -6355020299968349194
+    second: JournalOpen_6
+  - first:
+      213: -5305795490934983515
+    second: JournalOpen_7
+  - first:
+      213: -3237521847154229505
+    second: JournalOpen_8
+  - first:
+      213: -6114527635830475370
+    second: JournalOpen_9
+  - first:
+      213: -6887633691183374257
+    second: JournalOpen_10
+  - first:
+      213: -6261249451538731253
+    second: JournalOpen_11
+  - first:
+      213: -2704732078881896786
+    second: JournalOpen_12
+  - first:
+      213: 2756159187056011454
+    second: JournalOpen_13
+  - first:
+      213: -9015934770001496976
+    second: JournalOpen_14
+  - first:
+      213: 4551269847819902535
+    second: JournalOpen_15
+  - first:
+      213: 4339590935999600374
+    second: JournalOpen_16
+  - first:
+      213: -2761537854475876985
+    second: JournalOpen_17
+  - first:
+      213: 7971207951780283963
+    second: JournalOpen_18
+  - first:
+      213: -3094953215552845504
+    second: JournalOpen_19
+  - first:
+      213: -5851453250777533697
+    second: JournalOpen_20
+  - first:
+      213: 3220782335662023885
+    second: JournalOpen_21
+  - first:
+      213: 2275849034176809998
+    second: JournalOpen_22
+  - first:
+      213: -123520261751271854
+    second: JournalOpen_23
+  - first:
+      213: -6451782138650566139
+    second: JournalOpen_24
+  - first:
+      213: 2220147780806492176
+    second: JournalOpen_25
+  - first:
+      213: -2554180217775351652
+    second: JournalOpen_26
+  - first:
+      213: -8625836910570202479
+    second: JournalOpen_27
+  - first:
+      213: 1854842521875195049
+    second: JournalOpen_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JournalOpen_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 98
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eab5b4d7c3390710800000000000000
+      internalID: 1659914871022926560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 876
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b246db8d7059ae0800000000000000
+      internalID: -1543318669832738030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 1667
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f72d421186b66d10800000000000000
+      internalID: 2118581340198479861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_3
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 852
+        width: 50
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f116a375790dae730800000000000000
+      internalID: 4029262165058412831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_4
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 838
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9687c9ff8abdf20d0800000000000000
+      internalID: -3445293671025706903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_5
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 813
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e224eaff1a4dec590800000000000000
+      internalID: -7651944924611460562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_6
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 819
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb7dff15be6ec7a0800000000000000
+      internalID: -6355020299968349194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_7
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 805
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a473ffbc170e56b0800000000000000
+      internalID: -5305795490934983515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 751
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe3ecb78030213d0800000000000000
+      internalID: -3237521847154229505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_9
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 755
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695f309e285d42ba0800000000000000
+      internalID: -6114527635830475370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_10
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 709
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40a00e66a53a60a0800000000000000
+      internalID: -6887633691183374257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_11
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 733
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0facee1cc29b19a0800000000000000
+      internalID: -6261249451538731253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_12
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 687
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea604a9218cd67ad0800000000000000
+      internalID: -2704732078881896786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_13
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 696
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb827e88d28df3620800000000000000
+      internalID: 2756159187056011454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_14
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 690
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074b7fb5817f0e280800000000000000
+      internalID: -9015934770001496976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_15
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 698
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e504c10db592f30800000000000000
+      internalID: 4551269847819902535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_16
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 684
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6d2c2d6f2593c30800000000000000
+      internalID: 4339590935999600374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 373
+        width: 25
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785cb2ed3fb0da9d0800000000000000
+      internalID: -2761537854475876985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 419
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3602ac166b6f9e60800000000000000
+      internalID: 7971207951780283963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 406
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049058eb2748c05d0800000000000000
+      internalID: -3094953215552845504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 407
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2b99f45467bcea0800000000000000
+      internalID: -5851453250777533697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_21
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 370
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4ecf7487482bc20800000000000000
+      internalID: 3220782335662023885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 102
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c468c73a0759f10800000000000000
+      internalID: 2275849034176809998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_23
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 311
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e80c3f9fa294ef0800000000000000
+      internalID: -123520261751271854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_24
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 223
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502e581f35aa676a0800000000000000
+      internalID: -6451782138650566139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_25
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 15
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010c7dfc4ac8fce10800000000000000
+      internalID: 2220147780806492176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_26
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 54
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c989b23ef9abd8cd0800000000000000
+      internalID: -2554180217775351652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_27
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 54
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a920f080fda4880800000000000000
+      internalID: -8625836910570202479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JournalOpen_28
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 39
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a429ae3279bdb910800000000000000
+      internalID: 1854842521875195049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      JournalOpen_0: 1659914871022926560
+      JournalOpen_1: -1543318669832738030
+      JournalOpen_10: -6887633691183374257
+      JournalOpen_11: -6261249451538731253
+      JournalOpen_12: -2704732078881896786
+      JournalOpen_13: 2756159187056011454
+      JournalOpen_14: -9015934770001496976
+      JournalOpen_15: 4551269847819902535
+      JournalOpen_16: 4339590935999600374
+      JournalOpen_17: -2761537854475876985
+      JournalOpen_18: 7971207951780283963
+      JournalOpen_19: -3094953215552845504
+      JournalOpen_2: 2118581340198479861
+      JournalOpen_20: -5851453250777533697
+      JournalOpen_21: 3220782335662023885
+      JournalOpen_22: 2275849034176809998
+      JournalOpen_23: -123520261751271854
+      JournalOpen_24: -6451782138650566139
+      JournalOpen_25: 2220147780806492176
+      JournalOpen_26: -2554180217775351652
+      JournalOpen_27: -8625836910570202479
+      JournalOpen_28: 1854842521875195049
+      JournalOpen_3: 4029262165058412831
+      JournalOpen_4: -3445293671025706903
+      JournalOpen_5: -7651944924611460562
+      JournalOpen_6: -6355020299968349194
+      JournalOpen_7: -5305795490934983515
+      JournalOpen_8: -3237521847154229505
+      JournalOpen_9: -6114527635830475370
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
