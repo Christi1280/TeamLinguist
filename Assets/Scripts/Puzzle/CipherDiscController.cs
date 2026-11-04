@@ -143,11 +143,6 @@ public class CipherDiscController : MonoBehaviour
         if (isSolved)
             return;
 
-        Debug.Log(
-            $"Current Ring Angles — Outer: {outerRing.localEulerAngles.z}, " +
-            $"Middle: {middleRing.localEulerAngles.z}, " +
-            $"Inner: {innerRing.localEulerAngles.z}"
-        );
 
         bool outerCorrect = IsAngleCorrect(
             outerRing.localEulerAngles.z,
@@ -238,8 +233,17 @@ public class CipherDiscController : MonoBehaviour
 
         Debug.Log("Clue paper fully dispensed.");
 
+        if (GameProgressManager.Instance != null)
+        {
+            GameProgressManager.Instance.CompleteCipherPuzzle();
+        }
+
         // Trigger any actions after the paper finishes dispensing.
         onPuzzleSolved?.Invoke();
+
+        yield return new WaitForSeconds(2f);
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene("RestaurantSeated2");
     }
 
     private void Update()

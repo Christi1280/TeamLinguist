@@ -1,3 +1,4 @@
+
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,6 +16,9 @@ public class GameProgressManager : MonoBehaviour
     [Range(0, 100)]
     [SerializeField] private int moduleProgress = 0;
 
+    [Header("Cipher Disc Puzzle")]
+    [SerializeField] private bool cipherPuzzleCompleted = false;
+
     [Header("Journal")]
     [SerializeField]
     private List<KeyPhrase> learnedPhrases =
@@ -23,6 +27,7 @@ public class GameProgressManager : MonoBehaviour
     public int FluencyPoints => fluencyPoints;
     public string CurrentObjective => currentObjective;
     public int ModuleProgress => moduleProgress;
+    public bool CipherPuzzleCompleted => cipherPuzzleCompleted;
     public IReadOnlyList<KeyPhrase> LearnedPhrases => learnedPhrases;
 
     private void Awake()
@@ -34,7 +39,6 @@ public class GameProgressManager : MonoBehaviour
         }
 
         Instance = this;
-
         DontDestroyOnLoad(gameObject);
     }
 
@@ -71,8 +75,7 @@ public class GameProgressManager : MonoBehaviour
 
     public void SetModuleProgress(int progress)
     {
-        int newProgress =
-            Mathf.Clamp(progress, 0, 100);
+        int newProgress = Mathf.Clamp(progress, 0, 100);
 
         // Normal gameplay should never move progress backward.
         if (newProgress <= moduleProgress)
@@ -83,10 +86,22 @@ public class GameProgressManager : MonoBehaviour
         moduleProgress = newProgress;
 
         Debug.Log(
-            "Module Progress: " +
-            moduleProgress +
-            "%"
+            "Module Progress: " + moduleProgress + "%"
         );
+    }
+
+    // --------------------
+    // CIPHER DISC PUZZLE
+    // --------------------
+
+    public void CompleteCipherPuzzle()
+    {
+        if (cipherPuzzleCompleted)
+            return;
+
+        cipherPuzzleCompleted = true;
+
+        Debug.Log("Cipher disc puzzle completed!");
     }
 
     // --------------------
@@ -148,10 +163,10 @@ public class GameProgressManager : MonoBehaviour
     // --------------------
 
     public void LoadProgress(
-    int savedFluencyPoints,
-    string savedObjective,
-    int savedModuleProgress,
-    List<KeyPhrase> savedLearnedPhrases)
+        int savedFluencyPoints,
+        string savedObjective,
+        int savedModuleProgress,
+        List<KeyPhrase> savedLearnedPhrases)
     {
         fluencyPoints =
             Mathf.Max(0, savedFluencyPoints);
@@ -203,6 +218,7 @@ public class GameProgressManager : MonoBehaviour
         fluencyPoints = 0;
         currentObjective = "SPEAK  TO  MATEO";
         moduleProgress = 0;
+        cipherPuzzleCompleted = false;
 
         learnedPhrases.Clear();
     }

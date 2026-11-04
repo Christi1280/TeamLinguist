@@ -1,6 +1,8 @@
+
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 
 public class DiegoWaiterController : MonoBehaviour
 {
@@ -26,6 +28,7 @@ public class DiegoWaiterController : MonoBehaviour
 
     [Header("After Soup Delivery")]
     [SerializeField] private float departureDelay = 0.5f;
+
     private bool cutsceneTriggered;
     private bool menuHasBeenShown;
     private bool returningWithFood;
@@ -63,7 +66,6 @@ public class DiegoWaiterController : MonoBehaviour
         // Dialogue 1 ended.
         if (!menuHasBeenShown)
         {
-            // Save vocabulary from Diego's first conversation.
             LearnDiegoPhrases(diegoDialogue1);
 
             menuHasBeenShown = true;
@@ -98,10 +100,8 @@ public class DiegoWaiterController : MonoBehaviour
             return;
         }
 
-        // Add the dialogue's key phrases to persistent progress.
         GameProgressManager.Instance.LearnPhrases(dialogueData);
 
-        // Update the journal UI immediately.
         JournalManager journalManager =
             FindFirstObjectByType<JournalManager>();
 
@@ -126,7 +126,6 @@ public class DiegoWaiterController : MonoBehaviour
 
     public void HandleTableReached()
     {
-        // Diego has returned with Justin's soup.
         if (returningWithFood)
         {
             if (cutsceneTriggered)
@@ -141,13 +140,10 @@ public class DiegoWaiterController : MonoBehaviour
                 soupOnTable.SetActive(true);
             }
 
-            // Start the cutscene and send Diego away.
             StartCoroutine(FinishRestaurantSequence());
-
             return;
         }
 
-        // Diego's first arrival at Justin's table.
         if (npc != null)
         {
             npc.StartDialogueAutomatically();
@@ -156,7 +152,6 @@ public class DiegoWaiterController : MonoBehaviour
 
     public void HandleKitchenReached()
     {
-        // Prevent this sequence from accidentally running twice.
         if (returningWithFood)
         {
             return;
@@ -173,23 +168,19 @@ public class DiegoWaiterController : MonoBehaviour
 
         if (waypointMover != null)
         {
-            // Waypoint 0 = Diego's table waypoint.
             waypointMover.MoveToWaypoint(0);
         }
     }
 
     private IEnumerator FinishRestaurantSequence()
     {
-        // Brief pause after placing the soup.
         yield return new WaitForSeconds(departureDelay);
 
-        // Send Diego back toward the kitchen.
         if (waypointMover != null)
         {
             waypointMover.MoveToWaypoint(1);
         }
 
-        // Wait until the cutscene should begin.
         yield return new WaitForSeconds(
             Mathf.Max(0f, soupDisplayTime - departureDelay)
         );
@@ -205,5 +196,10 @@ public class DiegoWaiterController : MonoBehaviour
                 "DiegoWaiterController: Cutscene Director is not assigned."
             );
         }
+    }
+
+    public void OpenCipherPuzzle()
+    {
+        SceneManager.LoadScene("Puzzle");
     }
 }

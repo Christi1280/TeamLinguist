@@ -119,6 +119,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &8705520
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3908412104483321512, guid: de4778c2bb2607b45b8f046f2efefd7b, type: 3}
+      propertyPath: m_Name
+      value: GameProgressManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5887671817623736286, guid: de4778c2bb2607b45b8f046f2efefd7b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1019.15125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5887671817623736286, guid: de4778c2bb2607b45b8f046f2efefd7b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 477.2088
+      objectReference: {fileID: 0}
+    - target: {fileID: 5887671817623736286, guid: de4778c2bb2607b45b8f046f2efefd7b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6595018
+      objectReference: {fileID: 0}
+    - target: {fileID: 5887671817623736286, guid: de4778c2bb2607b45b8f046f2efefd7b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5887671817623736286, guid: de4778c2bb2607b45b8f046f2efefd7b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5887671817623736286, guid: de4778c2bb2607b45b8f046f2efefd7b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5887671817623736286, guid: de4778c2bb2607b45b8f046f2efefd7b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5887671817623736286, guid: de4778c2bb2607b45b8f046f2efefd7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5887671817623736286, guid: de4778c2bb2607b45b8f046f2efefd7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5887671817623736286, guid: de4778c2bb2607b45b8f046f2efefd7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: de4778c2bb2607b45b8f046f2efefd7b, type: 3}
 --- !u!114 &20622395 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3582221855889947611, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
@@ -717,6 +774,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: a387b7b4f99079c4eb2b54e3df0a54a6, type: 2}
     - {fileID: 11400000, guid: ecf3f8e2e60231144bd470fa93324b87, type: 2}
     - {fileID: 11400000, guid: a4e8d3e24f62b25469dfe6e13858ea1b, type: 2}
+    - {fileID: 11400000, guid: c39004ce00e13744f96ad239cd395818, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -807,6 +865,20 @@ MonoBehaviour:
         - m_Target: {fileID: 1976603891}
           m_TargetAssemblyTypeName: WaypointMover, Assembly-CSharp
           m_MethodName: FaceRight
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 943027473}
+          m_TargetAssemblyTypeName: DiegoWaiterController, Assembly-CSharp
+          m_MethodName: OpenCipherPuzzle
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -4438,3 +4510,4 @@ SceneRoots:
   - {fileID: 271590699}
   - {fileID: 1506440481}
   - {fileID: 719881979}
+  - {fileID: 8705520}
