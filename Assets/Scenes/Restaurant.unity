@@ -40924,6 +40924,7 @@ MonoBehaviour:
   tooltipText: {fileID: 1928596123}
   dialogueSpeedButton: {fileID: 1134803993}
   dialogueSpeedButtonText: {fileID: 140981589}
+  replayAudioButton: {fileID: 0}
 --- !u!82 &1095102474
 AudioSource:
   m_ObjectHideFlags: 0

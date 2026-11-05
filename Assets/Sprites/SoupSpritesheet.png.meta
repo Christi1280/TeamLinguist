@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: 1976300af482dc14e8064f586bac7198
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4394281067309775399
+    second: SoupSpritesheet_0
+  - first:
+      213: -1857318357491428586
+    second: SoupSpritesheet_1
+  - first:
+      213: -194103636014381510
+    second: SoupSpritesheet_2
+  - first:
+      213: 1313530094720460802
+    second: SoupSpritesheet_3
+  - first:
+      213: 3019663817824094920
+    second: SoupSpritesheet_4
+  - first:
+      213: -6467370891517155181
+    second: SoupSpritesheet_5
+  - first:
+      213: 7263364230705930549
+    second: SoupSpritesheet_6
+  - first:
+      213: 2545208508053128220
+    second: SoupSpritesheet_7
+  - first:
+      213: -5237545565243928485
+    second: SoupSpritesheet_8
+  - first:
+      213: 2775215929499074187
+    second: SoupSpritesheet_9
+  - first:
+      213: 6822469500500148969
+    second: SoupSpritesheet_10
+  - first:
+      213: 6494210463090455735
+    second: SoupSpritesheet_11
+  - first:
+      213: -5124462242089376638
+    second: SoupSpritesheet_12
+  - first:
+      213: -6488401093955522929
+    second: SoupSpritesheet_13
+  - first:
+      213: 8451390681189998405
+    second: SoupSpritesheet_14
+  - first:
+      213: -5983735994915106342
+    second: SoupSpritesheet_15
+  - first:
+      213: -4042839207778233520
+    second: SoupSpritesheet_16
+  - first:
+      213: -7759721495927657982
+    second: SoupSpritesheet_17
+  - first:
+      213: -921450472962985965
+    second: SoupSpritesheet_18
+  - first:
+      213: 172484033744363203
+    second: SoupSpritesheet_19
+  - first:
+      213: 6764081871293806143
+    second: SoupSpritesheet_20
+  - first:
+      213: 9187316881494196192
+    second: SoupSpritesheet_21
+  - first:
+      213: 3432040133874962378
+    second: SoupSpritesheet_22
+  - first:
+      213: -4608884333737650201
+    second: SoupSpritesheet_23
+  - first:
+      213: -5958859191446999761
+    second: SoupSpritesheet_24
+  - first:
+      213: 4180507697579284567
+    second: SoupSpritesheet_25
+  - first:
+      213: 7790135158911285413
+    second: SoupSpritesheet_26
+  - first:
+      213: -698676042701050153
+    second: SoupSpritesheet_27
+  - first:
+      213: 5980833951763180379
+    second: SoupSpritesheet_28
+  - first:
+      213: 4560992466432674560
+    second: SoupSpritesheet_29
+  - first:
+      213: -3573992340008640736
+    second: SoupSpritesheet_30
+  - first:
+      213: 7585419892768025664
+    second: SoupSpritesheet_31
+  - first:
+      213: -7058507361829155328
+    second: SoupSpritesheet_32
+  - first:
+      213: -4439849995156483519
+    second: SoupSpritesheet_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SoupSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 887
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5c6c3b6a06403c0800000000000000
+      internalID: -4394281067309775399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoupSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 0
+        width: 887
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61359ea5bca7936e0800000000000000
+      internalID: -1857318357491428586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bd486ddfa123f1f48850cc4a335cc557
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SoupSpritesheet_0: -4394281067309775399
+      SoupSpritesheet_1: -1857318357491428586
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
