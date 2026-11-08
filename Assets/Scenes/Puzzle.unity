@@ -337,6 +337,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7556316583901015652, guid: 3f85786e825b63a49a98886033902675, type: 3}
+      propertyPath: soundEffectGroups.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7556316583901015652, guid: 3f85786e825b63a49a98886033902675, type: 3}
+      propertyPath: soundEffectGroups.Array.data[2].name
+      value: CipherDiscRotate
+      objectReference: {fileID: 0}
+    - target: {fileID: 7556316583901015652, guid: 3f85786e825b63a49a98886033902675, type: 3}
+      propertyPath: soundEffectGroups.Array.data[2].audioClips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7556316583901015652, guid: 3f85786e825b63a49a98886033902675, type: 3}
+      propertyPath: 'soundEffectGroups.Array.data[2].audioClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 58bac4e12728b8141882bfcd767e9015, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -710,6 +726,10 @@ PrefabInstance:
     - target: {fileID: 1335501104283709159, guid: 50b5a00d27104384894448b52af27879, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910085668960949531, guid: 50b5a00d27104384894448b52af27879, type: 3}
+      propertyPath: rotationDuration
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5548035006139876090, guid: 50b5a00d27104384894448b52af27879, type: 3}
       propertyPath: m_Name

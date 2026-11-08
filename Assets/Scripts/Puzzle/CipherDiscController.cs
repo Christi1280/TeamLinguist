@@ -90,6 +90,8 @@ public class CipherDiscController : MonoBehaviour
         if (isSolved || isRotating ||
             rings[selectedRing] == null)
             return;
+        // Play the cipher disc rotation sound.
+        SoundEffectManager.Play("CipherDiscRotate");
 
         StartCoroutine(
             AnimateRotation(rings[selectedRing], degrees)
@@ -203,6 +205,7 @@ public class CipherDiscController : MonoBehaviour
 
     private IEnumerator DispensePaper()
     {
+        cluePaper.gameObject.SetActive(true);
         Vector3 startPosition = cluePaper.localPosition;
         Vector3 endPosition =
             startPosition + Vector3.down * dispenseDistance;
