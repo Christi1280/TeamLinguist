@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: 8dfe27c0a71a4064ebc73201f4a5bd53
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7858894133983277593
+    second: DialogueFrame2_0
+  - first:
+      213: -8926660450819607043
+    second: DialogueFrame2_1
+  - first:
+      213: 3785618670288612179
+    second: DialogueFrame2_2
+  - first:
+      213: 1416750736611577995
+    second: DialogueFrame2_3
+  - first:
+      213: -1371609846503322192
+    second: DialogueFrame2_4
+  - first:
+      213: 3577431105601028768
+    second: DialogueFrame2_5
+  - first:
+      213: -1312324101306283707
+    second: DialogueFrame2_6
+  - first:
+      213: -4056453521718718126
+    second: DialogueFrame2_7
+  - first:
+      213: 2317643744873940713
+    second: DialogueFrame2_8
+  - first:
+      213: -4651785037748998691
+    second: DialogueFrame2_9
+  - first:
+      213: -2781884455626040415
+    second: DialogueFrame2_10
+  - first:
+      213: -8921225158388826416
+    second: DialogueFrame2_11
+  - first:
+      213: -2197146652353661974
+    second: DialogueFrame2_12
+  - first:
+      213: 4676183956786535391
+    second: DialogueFrame2_13
+  - first:
+      213: 8319567752754491238
+    second: DialogueFrame2_14
+  - first:
+      213: 6496310589150258286
+    second: DialogueFrame2_15
+  - first:
+      213: 1049073275854070375
+    second: DialogueFrame2_16
+  - first:
+      213: -8741021107934426804
+    second: DialogueFrame2_17
+  - first:
+      213: 8627434859071725728
+    second: DialogueFrame2_18
+  - first:
+      213: 5210892304276468292
+    second: DialogueFrame2_19
+  - first:
+      213: -5407364164977744107
+    second: DialogueFrame2_20
+  - first:
+      213: 3892147543872835671
+    second: DialogueFrame2_21
+  - first:
+      213: -3359006541899587626
+    second: DialogueFrame2_22
+  - first:
+      213: -8764676975011992734
+    second: DialogueFrame2_23
+  - first:
+      213: -7903538175395562920
+    second: DialogueFrame2_24
+  - first:
+      213: -1348158118535446133
+    second: DialogueFrame2_25
+  - first:
+      213: -6177989348502584271
+    second: DialogueFrame2_26
+  - first:
+      213: 8105546226984928812
+    second: DialogueFrame2_27
+  - first:
+      213: 2252081466291501199
+    second: DialogueFrame2_28
+  - first:
+      213: 2897342037890314748
+    second: DialogueFrame2_29
+  - first:
+      213: -8466131814819713380
+    second: DialogueFrame2_30
+  - first:
+      213: 5759488749630553959
+    second: DialogueFrame2_31
+  - first:
+      213: -1676041382373590946
+    second: DialogueFrame2_32
+  - first:
+      213: 3149043603588516163
+    second: DialogueFrame2_33
+  - first:
+      213: -8868195917446676414
+    second: DialogueFrame2_34
+  - first:
+      213: 4551106580903568742
+    second: DialogueFrame2_35
+  - first:
+      213: -4981202107155750921
+    second: DialogueFrame2_36
+  - first:
+      213: -4725487356578774797
+    second: DialogueFrame2_37
+  - first:
+      213: 1749956122885889725
+    second: DialogueFrame2_38
+  - first:
+      213: 4072909887103901664
+    second: DialogueFrame2_39
+  - first:
+      213: -816436946699965289
+    second: DialogueFrame2_40
+  - first:
+      213: -2286056030416694220
+    second: DialogueFrame2_41
+  - first:
+      213: -6544483616219451629
+    second: DialogueFrame2_42
+  - first:
+      213: 1590959512514962467
+    second: DialogueFrame2_43
+  - first:
+      213: 4395871850577902286
+    second: DialogueFrame2_44
+  - first:
+      213: 4061394666454289913
+    second: DialogueFrame2_45
+  - first:
+      213: 3444649692084602
+    second: DialogueFrame2_46
+  - first:
+      213: 1893813052375774017
+    second: DialogueFrame2_47
+  - first:
+      213: 5793567981355711327
+    second: DialogueFrame2_48
+  - first:
+      213: 361819230456784180
+    second: DialogueFrame2_49
+  - first:
+      213: 4126465201862598384
+    second: DialogueFrame2_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DialogueFrame2_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 514
+        width: 112
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed86806c699fe290800000000000000
+      internalID: -7858894133983277593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 514
+        width: 166
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df57e5e8d912e1480800000000000000
+      internalID: -8926660450819607043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 522
+        width: 186
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ba3a1af18398430800000000000000
+      internalID: 3785618670288612179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_3
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 506
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b809107e94f49a310800000000000000
+      internalID: 1416750736611577995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_4
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 568
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdcdb89c1017fce0800000000000000
+      internalID: -1371609846503322192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_5
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 569
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a248c1f2a695a130800000000000000
+      internalID: 3577431105601028768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_6
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 569
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549847fce20b9cde0800000000000000
+      internalID: -1312324101306283707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_7
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 569
+        width: 50
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251d216930594b7c0800000000000000
+      internalID: -4056453521718718126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_8
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 582
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e60e11e4bce92020800000000000000
+      internalID: 2317643744873940713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_9
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 564
+        width: 60
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd6e75872a817fb0800000000000000
+      internalID: -4651785037748998691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_10
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 570
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab9a30a3d2c469d0800000000000000
+      internalID: -2781884455626040415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_11
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 521
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0deb4f03cf0713480800000000000000
+      internalID: -8921225158388826416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_12
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 577
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3750bb2ca2281e0800000000000000
+      internalID: -2197146652353661974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_13
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 586
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb54a0888425e040800000000000000
+      internalID: 4676183956786535391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_14
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 506
+        width: 132
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fe9bbcaca057370800000000000000
+      internalID: 8319567752754491238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_15
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 539
+        width: 164
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64e8e8df08872a50800000000000000
+      internalID: 6496310589150258286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_16
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 516
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76223ae069e0f8e00800000000000000
+      internalID: 1049073275854070375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_17
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 567
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49806f3d97a1b680800000000000000
+      internalID: -8741021107934426804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_18
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 562
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0eac15b4ecab770800000000000000
+      internalID: 8627434859071725728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_19
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 554
+        width: 179
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442373731fec05840800000000000000
+      internalID: 5210892304276468292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_20
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 570
+        width: 58
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517235ff0fe25f4b0800000000000000
+      internalID: -5407364164977744107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_21
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 562
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75013f5d19fa30630800000000000000
+      internalID: 3892147543872835671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_22
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 565
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df9cdfc8596261d0800000000000000
+      internalID: -3359006541899587626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_23
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 520
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b6d5d7abc9d5680800000000000000
+      internalID: -8764676975011992734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_24
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 515
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85afeca77edf05290800000000000000
+      internalID: -7903538175395562920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_25
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 515
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81c2a385516a4de0800000000000000
+      internalID: -1348158118535446133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_26
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 520
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1344b508b6f534aa0800000000000000
+      internalID: -6177989348502584271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 2141
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26c1f1395fac7070800000000000000
+      internalID: 8105546226984928812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_28
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 470
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88bb8b5920014f10800000000000000
+      internalID: 2252081466291501199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_29
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 466
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf132419b3d653820800000000000000
+      internalID: 2897342037890314748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 474
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ea90c48f1428a80800000000000000
+      internalID: -8466131814819713380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_31
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 465
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f7691b080ddef40800000000000000
+      internalID: 5759488749630553959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_32
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 466
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5874c62e318db8e0800000000000000
+      internalID: -1676041382373590946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_33
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 478
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3490c1e1976a3bb20800000000000000
+      internalID: 3149043603588516163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_34
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 472
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240850e7cc6dde480800000000000000
+      internalID: -8868195917446676414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_35
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 455
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66523b19257c82f30800000000000000
+      internalID: 4551106580903568742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_36
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 472
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffdd8833173fdab0800000000000000
+      internalID: -4981202107155750921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_37
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 467
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0c5803942bb6eb0800000000000000
+      internalID: -4725487356578774797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_38
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 476
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe122572d7194810800000000000000
+      internalID: 1749956122885889725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_39
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 468
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef110f86f1e58830800000000000000
+      internalID: 4072909887103901664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_40
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 468
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ca1723cee6ba4f0800000000000000
+      internalID: -816436946699965289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_41
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 468
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4349f52072c4640e0800000000000000
+      internalID: -2286056030416694220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_42
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 468
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f20e043d25d25a0800000000000000
+      internalID: -6544483616219451629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_43
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 449
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324ab735f39341610800000000000000
+      internalID: 1590959512514962467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_44
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 455
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecab5d36826410d30800000000000000
+      internalID: 4395871850577902286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_45
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 71
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd8ca25ee8fc5830800000000000000
+      internalID: 4061394666454289913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_46
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 31
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79b54104ec3c0000800000000000000
+      internalID: 3444649692084602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_47
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 39
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1433bd1ffec284a10800000000000000
+      internalID: 1893813052375774017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_48
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 47
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bb8c62263e66050800000000000000
+      internalID: 5793567981355711327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_49
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 40
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43528405ca0750500800000000000000
+      internalID: 361819230456784180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueFrame2_50
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 23
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fed707fc36244930800000000000000
+      internalID: 4126465201862598384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DialogueFrame2_0: -7858894133983277593
+      DialogueFrame2_1: -8926660450819607043
+      DialogueFrame2_10: -2781884455626040415
+      DialogueFrame2_11: -8921225158388826416
+      DialogueFrame2_12: -2197146652353661974
+      DialogueFrame2_13: 4676183956786535391
+      DialogueFrame2_14: 8319567752754491238
+      DialogueFrame2_15: 6496310589150258286
+      DialogueFrame2_16: 1049073275854070375
+      DialogueFrame2_17: -8741021107934426804
+      DialogueFrame2_18: 8627434859071725728
+      DialogueFrame2_19: 5210892304276468292
+      DialogueFrame2_2: 3785618670288612179
+      DialogueFrame2_20: -5407364164977744107
+      DialogueFrame2_21: 3892147543872835671
+      DialogueFrame2_22: -3359006541899587626
+      DialogueFrame2_23: -8764676975011992734
+      DialogueFrame2_24: -7903538175395562920
+      DialogueFrame2_25: -1348158118535446133
+      DialogueFrame2_26: -6177989348502584271
+      DialogueFrame2_27: 8105546226984928812
+      DialogueFrame2_28: 2252081466291501199
+      DialogueFrame2_29: 2897342037890314748
+      DialogueFrame2_3: 1416750736611577995
+      DialogueFrame2_30: -8466131814819713380
+      DialogueFrame2_31: 5759488749630553959
+      DialogueFrame2_32: -1676041382373590946
+      DialogueFrame2_33: 3149043603588516163
+      DialogueFrame2_34: -8868195917446676414
+      DialogueFrame2_35: 4551106580903568742
+      DialogueFrame2_36: -4981202107155750921
+      DialogueFrame2_37: -4725487356578774797
+      DialogueFrame2_38: 1749956122885889725
+      DialogueFrame2_39: 4072909887103901664
+      DialogueFrame2_4: -1371609846503322192
+      DialogueFrame2_40: -816436946699965289
+      DialogueFrame2_41: -2286056030416694220
+      DialogueFrame2_42: -6544483616219451629
+      DialogueFrame2_43: 1590959512514962467
+      DialogueFrame2_44: 4395871850577902286
+      DialogueFrame2_45: 4061394666454289913
+      DialogueFrame2_46: 3444649692084602
+      DialogueFrame2_47: 1893813052375774017
+      DialogueFrame2_48: 5793567981355711327
+      DialogueFrame2_49: 361819230456784180
+      DialogueFrame2_5: 3577431105601028768
+      DialogueFrame2_50: 4126465201862598384
+      DialogueFrame2_6: -1312324101306283707
+      DialogueFrame2_7: -4056453521718718126
+      DialogueFrame2_8: 2317643744873940713
+      DialogueFrame2_9: -4651785037748998691
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

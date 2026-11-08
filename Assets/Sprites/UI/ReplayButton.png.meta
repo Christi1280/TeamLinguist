@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: 5fce4102092f1dd459b4406b820d1269
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7479827218119406675
+    second: ReplayButton_0
+  - first:
+      213: -8382286416077403205
+    second: ReplayButton_1
+  - first:
+      213: 5332907018136189547
+    second: ReplayButton_2
+  - first:
+      213: 3946247622739364964
+    second: ReplayButton_3
+  - first:
+      213: 6243617578392370409
+    second: ReplayButton_4
+  - first:
+      213: -8997314788540474883
+    second: ReplayButton_5
+  - first:
+      213: 8361623809816859886
+    second: ReplayButton_6
+  - first:
+      213: 7670206768551242374
+    second: ReplayButton_7
+  - first:
+      213: 7394993914618988013
+    second: ReplayButton_8
+  - first:
+      213: -2715126589740596937
+    second: ReplayButton_9
+  - first:
+      213: 7299927882381951623
+    second: ReplayButton_10
+  - first:
+      213: 6231451237931551677
+    second: ReplayButton_11
+  - first:
+      213: 2790284079163942895
+    second: ReplayButton_12
+  - first:
+      213: 9206895492098450696
+    second: ReplayButton_13
+  - first:
+      213: -3147375048294579437
+    second: ReplayButton_14
+  - first:
+      213: -330782020823039109
+    second: ReplayButton_15
+  - first:
+      213: -910460161365093527
+    second: ReplayButton_16
+  - first:
+      213: -447782481269580976
+    second: ReplayButton_17
+  - first:
+      213: -4978990688769756026
+    second: ReplayButton_18
+  - first:
+      213: 8169826772954702743
+    second: ReplayButton_19
+  - first:
+      213: -7005470375811322386
+    second: ReplayButton_20
+  - first:
+      213: 3511028158248882649
+    second: ReplayButton_21
+  - first:
+      213: 671453500881409343
+    second: ReplayButton_22
+  - first:
+      213: -5254881118309610258
+    second: ReplayButton_23
+  - first:
+      213: -2637543985088773003
+    second: ReplayButton_24
+  - first:
+      213: -4254237644656705392
+    second: ReplayButton_25
+  - first:
+      213: 1676133866705140762
+    second: ReplayButton_26
+  - first:
+      213: -6192054865329946033
+    second: ReplayButton_27
+  - first:
+      213: 3816360914007543439
+    second: ReplayButton_28
+  - first:
+      213: -7264394480468868150
+    second: ReplayButton_29
+  - first:
+      213: -1763329813669417077
+    second: ReplayButton_30
+  - first:
+      213: -2354202181083141269
+    second: ReplayButton_31
+  - first:
+      213: -2552637085596494533
+    second: ReplayButton_32
+  - first:
+      213: 6711019461682888017
+    second: ReplayButton_33
+  - first:
+      213: -4111362504415070618
+    second: ReplayButton_34
+  - first:
+      213: 1422228399584056410
+    second: ReplayButton_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ReplayButton_0
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 922
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3543e4d993fadc760800000000000000
+      internalID: 7479827218119406675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_1
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 945
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbcf147ae22cab80800000000000000
+      internalID: -8382286416077403205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_2
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 927
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6af1349daa420a40800000000000000
+      internalID: 5332907018136189547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_3
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 945
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c0c150e43e3c630800000000000000
+      internalID: 3946247622739364964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_4
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 929
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec36718b19c5a650800000000000000
+      internalID: 6243617578392370409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_5
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 949
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df91da0aedd132380800000000000000
+      internalID: -8997314788540474883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_6
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 893
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee41591ad847a0470800000000000000
+      internalID: 8361623809816859886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_7
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 933
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a2b41ea6c027a60800000000000000
+      internalID: 7670206768551242374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_8
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 906
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de54a05f8cb40a660800000000000000
+      internalID: 7394993914618988013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 31
+        width: 315
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7314b4280cee15ad0800000000000000
+      internalID: -2715126589740596937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 365
+        height: 872
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782885b7bbd8e4560800000000000000
+      internalID: 7299927882381951623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_11
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 913
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb0410a2ef8a7650800000000000000
+      internalID: 6231451237931551677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_12
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 930
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7aef0269419b620800000000000000
+      internalID: 2790284079163942895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_13
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 835
+        width: 139
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8056caa7ba675cf70800000000000000
+      internalID: 9206895492098450696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_14
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 839
+        width: 191
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313497fa1174254d0800000000000000
+      internalID: -3147375048294579437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_15
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 815
+        width: 121
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73c1ce2183d86bf0800000000000000
+      internalID: -330782020823039109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_16
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 817
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96350bb9e456d53f0800000000000000
+      internalID: -910460161365093527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_17
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 815
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b984ba43829c9f0800000000000000
+      internalID: -447782481269580976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_18
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 23
+        width: 749
+        height: 787
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684b6ef295217eab0800000000000000
+      internalID: -4978990688769756026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_19
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 525
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793e0761a2e016170800000000000000
+      internalID: 8169826772954702743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_20
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 343
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed6e3d4fc197ce90800000000000000
+      internalID: -7005470375811322386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_21
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 241
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d191d8f18da9b030800000000000000
+      internalID: 3511028158248882649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_22
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 231
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f359a3bc66b715900800000000000000
+      internalID: 671453500881409343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_23
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 211
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec8f36e679e217b0800000000000000
+      internalID: -5254881118309610258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_24
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 158
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574c05948bf856bd0800000000000000
+      internalID: -2637543985088773003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_25
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 143
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0908420f669e5f4c0800000000000000
+      internalID: -4254237644656705392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_26
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 157
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c36f80fd2d24710800000000000000
+      internalID: 1676133866705140762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_27
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 159
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42874a28e6611aa0800000000000000
+      internalID: -6192054865329946033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_28
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 161
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8eca16080076f430800000000000000
+      internalID: 3816360914007543439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_29
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 93
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3485b55bfaf2b90800000000000000
+      internalID: -7264394480468868150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_30
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 102
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fe06280e46787e0800000000000000
+      internalID: -1763329813669417077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_31
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 119
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6be613e691345fd0800000000000000
+      internalID: -2354202181083141269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_32
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 111
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3558885816339cd0800000000000000
+      internalID: -2552637085596494533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_33
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 119
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d7756d4a4522d50800000000000000
+      internalID: 6711019461682888017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_34
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 111
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666ba7dc59181f6c0800000000000000
+      internalID: -4111362504415070618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReplayButton_35
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 119
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a541ea2b135ccb310800000000000000
+      internalID: 1422228399584056410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ReplayButton_0: 7479827218119406675
+      ReplayButton_1: -8382286416077403205
+      ReplayButton_10: 7299927882381951623
+      ReplayButton_11: 6231451237931551677
+      ReplayButton_12: 2790284079163942895
+      ReplayButton_13: 9206895492098450696
+      ReplayButton_14: -3147375048294579437
+      ReplayButton_15: -330782020823039109
+      ReplayButton_16: -910460161365093527
+      ReplayButton_17: -447782481269580976
+      ReplayButton_18: -4978990688769756026
+      ReplayButton_19: 8169826772954702743
+      ReplayButton_2: 5332907018136189547
+      ReplayButton_20: -7005470375811322386
+      ReplayButton_21: 3511028158248882649
+      ReplayButton_22: 671453500881409343
+      ReplayButton_23: -5254881118309610258
+      ReplayButton_24: -2637543985088773003
+      ReplayButton_25: -4254237644656705392
+      ReplayButton_26: 1676133866705140762
+      ReplayButton_27: -6192054865329946033
+      ReplayButton_28: 3816360914007543439
+      ReplayButton_29: -7264394480468868150
+      ReplayButton_3: 3946247622739364964
+      ReplayButton_30: -1763329813669417077
+      ReplayButton_31: -2354202181083141269
+      ReplayButton_32: -2552637085596494533
+      ReplayButton_33: 6711019461682888017
+      ReplayButton_34: -4111362504415070618
+      ReplayButton_35: 1422228399584056410
+      ReplayButton_4: 6243617578392370409
+      ReplayButton_5: -8997314788540474883
+      ReplayButton_6: 8361623809816859886
+      ReplayButton_7: 7670206768551242374
+      ReplayButton_8: 7394993914618988013
+      ReplayButton_9: -2715126589740596937
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

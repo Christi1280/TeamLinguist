@@ -30,9 +30,7 @@ MonoBehaviour:
   - ' It was with the journal. Some kind of cipher disc, I think. '
   - ' Yeah. Look at the symbols. They''re the same ones Vargas drew in his journal. '
   - ' For hours. I keep turning the rings, but nothing happens. '
-  - 'What instructions? '
-  - Wait, those are instructions?
-  - I've just been focused on the disc to be honest.
+  - What instructions?
   autoProgressLines: 
   endDialogueLines: 
   autoProgressDelay: 1.5
@@ -55,8 +53,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 074d60e5624b6bb4884f1172b76daf7f, type: 3}
   - {fileID: 8300000, guid: f3e55985d6476904381fc13fb68151cb, type: 3}
   - {fileID: 8300000, guid: c5f9a6c8516465842b614689ed141ec0, type: 3}
-  - {fileID: 8300000, guid: 92fe26dba01e8d94cabb4161dfb86684, type: 3}
-  - {fileID: 8300000, guid: 6616036149910684494b038640e811fc, type: 3}
   slowedDialogueAudioClips: []
   choices: []
   hoverDefinitions: []

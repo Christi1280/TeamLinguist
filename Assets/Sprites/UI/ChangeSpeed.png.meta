@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: d205b81f4da2c95418b1359e567cceca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7534609958005968925
+    second: ChangeSpeed_0
+  - first:
+      213: -1219215311190438112
+    second: ChangeSpeed_1
+  - first:
+      213: 1812874071048512211
+    second: ChangeSpeed_2
+  - first:
+      213: 4154272729123180263
+    second: ChangeSpeed_3
+  - first:
+      213: 7754804261653378944
+    second: ChangeSpeed_4
+  - first:
+      213: -7842179093496997919
+    second: ChangeSpeed_5
+  - first:
+      213: 4762293757345402061
+    second: ChangeSpeed_6
+  - first:
+      213: 7730843161609266773
+    second: ChangeSpeed_7
+  - first:
+      213: -8578570047390251647
+    second: ChangeSpeed_8
+  - first:
+      213: -486330444576507630
+    second: ChangeSpeed_9
+  - first:
+      213: -2982566550045424795
+    second: ChangeSpeed_10
+  - first:
+      213: -1798655572821435948
+    second: ChangeSpeed_11
+  - first:
+      213: 2676631735523186187
+    second: ChangeSpeed_12
+  - first:
+      213: -2839482306566696962
+    second: ChangeSpeed_13
+  - first:
+      213: -4105923204094796041
+    second: ChangeSpeed_14
+  - first:
+      213: -5971108211119351794
+    second: ChangeSpeed_15
+  - first:
+      213: 2770310155832938236
+    second: ChangeSpeed_16
+  - first:
+      213: 3680654169770286616
+    second: ChangeSpeed_17
+  - first:
+      213: 109725778861441869
+    second: ChangeSpeed_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChangeSpeed_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 89
+        width: 1221
+        height: 847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efeeebc920bf6790800000000000000
+      internalID: -7534609958005968925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_1
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 835
+        width: 86
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fc6c7522a741fe0800000000000000
+      internalID: -1219215311190438112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_2
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 911
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2ec53dc5f982910800000000000000
+      internalID: 1812874071048512211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 839
+        width: 43
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eeca7f6901f6a930800000000000000
+      internalID: 4154272729123180263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_4
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 833
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087f886a3699e9b60800000000000000
+      internalID: 7754804261653378944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_5
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 833
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7dd130aabfa2390800000000000000
+      internalID: -7842179093496997919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_6
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 831
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc02aac0f0171240800000000000000
+      internalID: 4762293757345402061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_7
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 809
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5566afd45e8794b60800000000000000
+      internalID: 7730843161609266773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 369
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1858f7c3efbc2f880800000000000000
+      internalID: -8578570047390251647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_9
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 323
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2193f8f89053049f0800000000000000
+      internalID: -486330444576507630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_10
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 207
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5638499668bcb96d0800000000000000
+      internalID: -2982566550045424795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_11
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 145
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d993b44944e907e0800000000000000
+      internalID: -1798655572821435948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_12
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 147
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06956ec16e452520800000000000000
+      internalID: 2676631735523186187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_13
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 127
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effc51be2e12898d0800000000000000
+      internalID: -2839482306566696962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_14
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 113
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe55e89994d407c0800000000000000
+      internalID: -4105923204094796041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_15
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 113
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0810d0e7bc522da0800000000000000
+      internalID: -5971108211119351794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_16
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 113
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe4414b86e127620800000000000000
+      internalID: 2770310155832938236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_17
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 113
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ed73a677f441330800000000000000
+      internalID: 3680654169770286616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChangeSpeed_18
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 111
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d434db7b303d58100800000000000000
+      internalID: 109725778861441869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChangeSpeed_0: -7534609958005968925
+      ChangeSpeed_1: -1219215311190438112
+      ChangeSpeed_10: -2982566550045424795
+      ChangeSpeed_11: -1798655572821435948
+      ChangeSpeed_12: 2676631735523186187
+      ChangeSpeed_13: -2839482306566696962
+      ChangeSpeed_14: -4105923204094796041
+      ChangeSpeed_15: -5971108211119351794
+      ChangeSpeed_16: 2770310155832938236
+      ChangeSpeed_17: 3680654169770286616
+      ChangeSpeed_18: 109725778861441869
+      ChangeSpeed_2: 1812874071048512211
+      ChangeSpeed_3: 4154272729123180263
+      ChangeSpeed_4: 7754804261653378944
+      ChangeSpeed_5: -7842179093496997919
+      ChangeSpeed_6: 4762293757345402061
+      ChangeSpeed_7: 7730843161609266773
+      ChangeSpeed_8: -8578570047390251647
+      ChangeSpeed_9: -486330444576507630
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -11,7 +11,6 @@ public class DiegoWaiterController : MonoBehaviour
     [SerializeField] private GameObject menuPanel;
     [SerializeField] private WaypointMover waypointMover;
     [SerializeField] private GameObject soupOnTable;
-    [SerializeField] private ScreenFader screenFader;
 
     [Header("Dialogue")]
     [SerializeField] private NPCDialogue diegoDialogue1;
@@ -20,14 +19,8 @@ public class DiegoWaiterController : MonoBehaviour
     [Header("Kitchen Return")]
     [SerializeField] private float kitchenWaitTime = 2f;
 
-    [Header("Ending")]
-    [SerializeField] private float soupDisplayTime = 2f;
-
     [Header("Cutscene")]
     [SerializeField] private PlayableDirector cutsceneDirector;
-
-    [Header("After Soup Delivery")]
-    [SerializeField] private float departureDelay = 0.5f;
 
     private bool cutsceneTriggered;
     private bool menuHasBeenShown;
@@ -63,7 +56,7 @@ public class DiegoWaiterController : MonoBehaviour
 
     public void HandleDialogueEnded()
     {
-        // Dialogue 1 ended.
+        // First dialogue completed: show the menu.
         if (!menuHasBeenShown)
         {
             LearnDiegoPhrases(diegoDialogue1);
@@ -83,7 +76,7 @@ public class DiegoWaiterController : MonoBehaviour
             return;
         }
 
-        // Dialogue 2 ended.
+        // Second dialogue completed: Diego goes to the kitchen.
         LearnDiegoPhrases(diegoDialogue2);
 
         if (waypointMover != null)
@@ -126,24 +119,39 @@ public class DiegoWaiterController : MonoBehaviour
 
     public void HandleTableReached()
     {
+        // Diego returns with Justin's soup.
         if (returningWithFood)
         {
             if (cutsceneTriggered)
-            {
                 return;
-            }
 
             cutsceneTriggered = true;
 
+            // Place the soup on the table.
             if (soupOnTable != null)
             {
                 soupOnTable.SetActive(true);
             }
 
-            StartCoroutine(FinishRestaurantSequence());
+            // Start the opening cutscene.
+            if (cutsceneDirector != null)
+            {
+                cutsceneDirector.time = 0;
+                cutsceneDirector.Play();
+
+                Debug.Log("Restaurant cutscene started.");
+            }
+            else
+            {
+                Debug.LogWarning(
+                    "DiegoWaiterController: Cutscene Director is not assigned."
+                );
+            }
+
             return;
         }
 
+        // Diego's first arrival at the table.
         if (npc != null)
         {
             npc.StartDialogueAutomatically();
@@ -153,9 +161,7 @@ public class DiegoWaiterController : MonoBehaviour
     public void HandleKitchenReached()
     {
         if (returningWithFood)
-        {
             return;
-        }
 
         returningWithFood = true;
 
@@ -169,32 +175,6 @@ public class DiegoWaiterController : MonoBehaviour
         if (waypointMover != null)
         {
             waypointMover.MoveToWaypoint(0);
-        }
-    }
-
-    private IEnumerator FinishRestaurantSequence()
-    {
-        yield return new WaitForSeconds(departureDelay);
-
-        if (waypointMover != null)
-        {
-            waypointMover.MoveToWaypoint(1);
-        }
-
-        yield return new WaitForSeconds(
-            Mathf.Max(0f, soupDisplayTime - departureDelay)
-        );
-
-        if (cutsceneDirector != null)
-        {
-            cutsceneDirector.time = 0;
-            cutsceneDirector.Play();
-        }
-        else
-        {
-            Debug.LogWarning(
-                "DiegoWaiterController: Cutscene Director is not assigned."
-            );
         }
     }
 

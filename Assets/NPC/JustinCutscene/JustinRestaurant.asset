@@ -28,8 +28,6 @@ MonoBehaviour:
   - 'A cipher disc? '
   - 'So you''ve tried using it? '
   - 'Maybe you''re supposed to follow the instructions. '
-  - 'These. '
-  - 'You didn''t notice? '
   - 'Alright. Let me take a look. '
   autoProgressLines: 
   endDialogueLines: 
@@ -52,8 +50,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7cfd10944cfdd8d468bb1f0ac357dad9, type: 3}
   - {fileID: 8300000, guid: 5b7ae8e3509de64449765c30d218d7bb, type: 3}
   - {fileID: 8300000, guid: 5673946e8a8b05d4fb9f8a4462528639, type: 3}
-  - {fileID: 8300000, guid: a9caf31b2378c49428393bbd964f7efa, type: 3}
-  - {fileID: 8300000, guid: 3df82ed24cb81b244ba07b0f8b82cfa7, type: 3}
   slowedDialogueAudioClips: []
   choices: []
   hoverDefinitions: []
