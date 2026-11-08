@@ -1906,26 +1906,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1095102473}
-    - target: {fileID: 247792629023866694, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CloseDialogue
-      objectReference: {fileID: 0}
-    - target: {fileID: 247792629023866694, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: DialogueController, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 636702230409379858, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 943027470}
-    - target: {fileID: 636702230409379858, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ReplayAudio
-      objectReference: {fileID: 0}
-    - target: {fileID: 636702230409379858, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: NPC, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 1740927572964087864, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2009,10 +1993,6 @@ PrefabInstance:
     - target: {fileID: 3778191617400358281, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
       propertyPath: m_Name
       value: DialoguePanel (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3778191617400358281, guid: 9ac0718519bddcb479ae6f75eaa749bd, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

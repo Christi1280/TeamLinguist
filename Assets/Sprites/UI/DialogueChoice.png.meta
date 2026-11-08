@@ -1,0 +1,4303 @@
+fileFormatVersion: 2
+guid: 5b70cd51d5577a14a9585c3821947c74
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8814663883737564374
+    second: DialogueChoice_0
+  - first:
+      213: 5467412831602174610
+    second: DialogueChoice_1
+  - first:
+      213: 3174403819323239079
+    second: DialogueChoice_2
+  - first:
+      213: -2567797513784949924
+    second: DialogueChoice_3
+  - first:
+      213: -3790890470340242556
+    second: DialogueChoice_4
+  - first:
+      213: -6683663867594004073
+    second: DialogueChoice_5
+  - first:
+      213: -3874761025405715365
+    second: DialogueChoice_6
+  - first:
+      213: 2436818113483544180
+    second: DialogueChoice_7
+  - first:
+      213: 5604723262230170974
+    second: DialogueChoice_8
+  - first:
+      213: -3472465789122891521
+    second: DialogueChoice_9
+  - first:
+      213: -8713765967728367049
+    second: DialogueChoice_10
+  - first:
+      213: -7372195330221184034
+    second: DialogueChoice_11
+  - first:
+      213: -2099784397271924302
+    second: DialogueChoice_12
+  - first:
+      213: 7196765900816080920
+    second: DialogueChoice_13
+  - first:
+      213: 4201204004732463171
+    second: DialogueChoice_14
+  - first:
+      213: 2422494258820936434
+    second: DialogueChoice_15
+  - first:
+      213: 6090991352425849627
+    second: DialogueChoice_16
+  - first:
+      213: 5480696168899049808
+    second: DialogueChoice_17
+  - first:
+      213: -1931206925845708383
+    second: DialogueChoice_18
+  - first:
+      213: -5956342697357329127
+    second: DialogueChoice_19
+  - first:
+      213: -6408943486257553623
+    second: DialogueChoice_20
+  - first:
+      213: -3875555826559396753
+    second: DialogueChoice_21
+  - first:
+      213: -5402216548508009171
+    second: DialogueChoice_22
+  - first:
+      213: -3832638664599385003
+    second: DialogueChoice_23
+  - first:
+      213: 7439670384269594419
+    second: DialogueChoice_24
+  - first:
+      213: -7785729961819196945
+    second: DialogueChoice_25
+  - first:
+      213: -1181368158825877283
+    second: DialogueChoice_26
+  - first:
+      213: 4825495925485635285
+    second: DialogueChoice_27
+  - first:
+      213: 4060784046991093945
+    second: DialogueChoice_28
+  - first:
+      213: -8346409048624009987
+    second: DialogueChoice_29
+  - first:
+      213: -1273741280505426104
+    second: DialogueChoice_30
+  - first:
+      213: 8561839527033106256
+    second: DialogueChoice_31
+  - first:
+      213: -7631292939621429085
+    second: DialogueChoice_32
+  - first:
+      213: 4998071508877249103
+    second: DialogueChoice_33
+  - first:
+      213: -9129876223034008321
+    second: DialogueChoice_34
+  - first:
+      213: 1964048585034102956
+    second: DialogueChoice_35
+  - first:
+      213: -2926462128622187254
+    second: DialogueChoice_36
+  - first:
+      213: 8277945579959690793
+    second: DialogueChoice_37
+  - first:
+      213: -1820597917885504075
+    second: DialogueChoice_38
+  - first:
+      213: -9081761490431893270
+    second: DialogueChoice_39
+  - first:
+      213: -2016265351880419957
+    second: DialogueChoice_40
+  - first:
+      213: -7896594366741947901
+    second: DialogueChoice_41
+  - first:
+      213: -1013680828079840613
+    second: DialogueChoice_42
+  - first:
+      213: 9011496610509527610
+    second: DialogueChoice_43
+  - first:
+      213: -5452815542604770524
+    second: DialogueChoice_44
+  - first:
+      213: 8800704756665695965
+    second: DialogueChoice_45
+  - first:
+      213: -5430112324828333486
+    second: DialogueChoice_46
+  - first:
+      213: 3197691806822629269
+    second: DialogueChoice_47
+  - first:
+      213: -8512505238645306854
+    second: DialogueChoice_48
+  - first:
+      213: 5708245231980170284
+    second: DialogueChoice_49
+  - first:
+      213: -5085198361180825604
+    second: DialogueChoice_50
+  - first:
+      213: 8237405926097840297
+    second: DialogueChoice_51
+  - first:
+      213: 1587869915910785510
+    second: DialogueChoice_52
+  - first:
+      213: 4729347637814582148
+    second: DialogueChoice_53
+  - first:
+      213: 6096497996492954723
+    second: DialogueChoice_54
+  - first:
+      213: 3151404429310028882
+    second: DialogueChoice_55
+  - first:
+      213: 6422913315907249431
+    second: DialogueChoice_56
+  - first:
+      213: -8122374173191521597
+    second: DialogueChoice_57
+  - first:
+      213: -1123079369783707840
+    second: DialogueChoice_58
+  - first:
+      213: -5724671802017258219
+    second: DialogueChoice_59
+  - first:
+      213: 6893154042908583685
+    second: DialogueChoice_60
+  - first:
+      213: 662082533913472867
+    second: DialogueChoice_61
+  - first:
+      213: 8742900190584631854
+    second: DialogueChoice_62
+  - first:
+      213: 7063759473945193094
+    second: DialogueChoice_63
+  - first:
+      213: -8463072599731737334
+    second: DialogueChoice_64
+  - first:
+      213: -3777064570324306294
+    second: DialogueChoice_65
+  - first:
+      213: 5484345813903601711
+    second: DialogueChoice_66
+  - first:
+      213: 1221600251066828411
+    second: DialogueChoice_67
+  - first:
+      213: 8219267048092930456
+    second: DialogueChoice_68
+  - first:
+      213: -8696984781992127183
+    second: DialogueChoice_69
+  - first:
+      213: -568086417476716243
+    second: DialogueChoice_70
+  - first:
+      213: -2913961589207009378
+    second: DialogueChoice_71
+  - first:
+      213: 8167983174419918786
+    second: DialogueChoice_72
+  - first:
+      213: -4476011453523097615
+    second: DialogueChoice_73
+  - first:
+      213: 3345109920227700726
+    second: DialogueChoice_74
+  - first:
+      213: 2946906225187170308
+    second: DialogueChoice_75
+  - first:
+      213: -5721991016528626652
+    second: DialogueChoice_76
+  - first:
+      213: 5233271148890708508
+    second: DialogueChoice_77
+  - first:
+      213: -8005074231352856129
+    second: DialogueChoice_78
+  - first:
+      213: -2523850576395145121
+    second: DialogueChoice_79
+  - first:
+      213: 5706675265289958877
+    second: DialogueChoice_80
+  - first:
+      213: 2207529644810675514
+    second: DialogueChoice_81
+  - first:
+      213: -134340801008963605
+    second: DialogueChoice_82
+  - first:
+      213: -639547038139692255
+    second: DialogueChoice_83
+  - first:
+      213: -1612301949459385278
+    second: DialogueChoice_84
+  - first:
+      213: 6476060618688605939
+    second: DialogueChoice_85
+  - first:
+      213: 6432237888189552539
+    second: DialogueChoice_86
+  - first:
+      213: -3499247815609584648
+    second: DialogueChoice_87
+  - first:
+      213: -8690000865943592970
+    second: DialogueChoice_88
+  - first:
+      213: 3725108297736920439
+    second: DialogueChoice_89
+  - first:
+      213: -2645547109573269448
+    second: DialogueChoice_90
+  - first:
+      213: 1912424120878016712
+    second: DialogueChoice_91
+  - first:
+      213: -7248504903290904409
+    second: DialogueChoice_92
+  - first:
+      213: 224957010263584176
+    second: DialogueChoice_93
+  - first:
+      213: 8930587522824206923
+    second: DialogueChoice_94
+  - first:
+      213: -4408973583156527722
+    second: DialogueChoice_95
+  - first:
+      213: 8511809852716122529
+    second: DialogueChoice_96
+  - first:
+      213: 7739047653154300396
+    second: DialogueChoice_97
+  - first:
+      213: -3082102623779885045
+    second: DialogueChoice_98
+  - first:
+      213: -3252485682577761205
+    second: DialogueChoice_99
+  - first:
+      213: 6866461725196281592
+    second: DialogueChoice_100
+  - first:
+      213: -3236025790067817940
+    second: DialogueChoice_101
+  - first:
+      213: 1564696709161376510
+    second: DialogueChoice_102
+  - first:
+      213: 7158246746718480776
+    second: DialogueChoice_103
+  - first:
+      213: 7654668968642978810
+    second: DialogueChoice_104
+  - first:
+      213: -1304783974063737302
+    second: DialogueChoice_105
+  - first:
+      213: 5595013699499272577
+    second: DialogueChoice_106
+  - first:
+      213: 4257949600848320176
+    second: DialogueChoice_107
+  - first:
+      213: 5329107111178109394
+    second: DialogueChoice_108
+  - first:
+      213: -6253775732384353874
+    second: DialogueChoice_109
+  - first:
+      213: -6242275690590959674
+    second: DialogueChoice_110
+  - first:
+      213: 2130181101521400973
+    second: DialogueChoice_111
+  - first:
+      213: -8502861080653426600
+    second: DialogueChoice_112
+  - first:
+      213: -5842825338444315823
+    second: DialogueChoice_113
+  - first:
+      213: 6943823236958685915
+    second: DialogueChoice_114
+  - first:
+      213: -92813546901392824
+    second: DialogueChoice_115
+  - first:
+      213: 2797397787490426084
+    second: DialogueChoice_116
+  - first:
+      213: -648996905805299721
+    second: DialogueChoice_117
+  - first:
+      213: 8251938888443980021
+    second: DialogueChoice_118
+  - first:
+      213: -4932138676121090317
+    second: DialogueChoice_119
+  - first:
+      213: 6853941655159263541
+    second: DialogueChoice_120
+  - first:
+      213: -7851813419933881978
+    second: DialogueChoice_121
+  - first:
+      213: -2697953613492795988
+    second: DialogueChoice_122
+  - first:
+      213: -4423729586048753157
+    second: DialogueChoice_123
+  - first:
+      213: -5110824207024233169
+    second: DialogueChoice_124
+  - first:
+      213: -3370165543913970342
+    second: DialogueChoice_125
+  - first:
+      213: -194091357881676076
+    second: DialogueChoice_126
+  - first:
+      213: -3206150536032719688
+    second: DialogueChoice_127
+  - first:
+      213: 3572968592014780045
+    second: DialogueChoice_128
+  - first:
+      213: -5578382710985128550
+    second: DialogueChoice_129
+  - first:
+      213: 2866867958956968254
+    second: DialogueChoice_130
+  - first:
+      213: 4686131762058559212
+    second: DialogueChoice_131
+  - first:
+      213: 4886902674924891853
+    second: DialogueChoice_132
+  - first:
+      213: 634843720658816457
+    second: DialogueChoice_133
+  - first:
+      213: -1456911373051237214
+    second: DialogueChoice_134
+  - first:
+      213: -2572355073153434931
+    second: DialogueChoice_135
+  - first:
+      213: 8627442403176660210
+    second: DialogueChoice_136
+  - first:
+      213: 6690805000094877056
+    second: DialogueChoice_137
+  - first:
+      213: 1178831946868398456
+    second: DialogueChoice_138
+  - first:
+      213: -2729151768468666439
+    second: DialogueChoice_139
+  - first:
+      213: 4437040932171273234
+    second: DialogueChoice_140
+  - first:
+      213: -2691830384395221419
+    second: DialogueChoice_141
+  - first:
+      213: 7695590384666106802
+    second: DialogueChoice_142
+  - first:
+      213: 7759791248472969818
+    second: DialogueChoice_143
+  - first:
+      213: 2851124610827781515
+    second: DialogueChoice_144
+  - first:
+      213: -6755816482367408945
+    second: DialogueChoice_145
+  - first:
+      213: -7873804262996064770
+    second: DialogueChoice_146
+  - first:
+      213: -5252570940274577051
+    second: DialogueChoice_147
+  - first:
+      213: 996097858479218614
+    second: DialogueChoice_148
+  - first:
+      213: -50222881759119958
+    second: DialogueChoice_149
+  - first:
+      213: -3135492495990208044
+    second: DialogueChoice_150
+  - first:
+      213: 8431202790137978524
+    second: DialogueChoice_151
+  - first:
+      213: -4358922960012191376
+    second: DialogueChoice_152
+  - first:
+      213: -8590332071245136573
+    second: DialogueChoice_153
+  - first:
+      213: -9001908749576340373
+    second: DialogueChoice_154
+  - first:
+      213: -8193449321237763166
+    second: DialogueChoice_155
+  - first:
+      213: -179370446136237426
+    second: DialogueChoice_156
+  - first:
+      213: -8131020080082973502
+    second: DialogueChoice_157
+  - first:
+      213: 1946457611092188548
+    second: DialogueChoice_158
+  - first:
+      213: 3809656672474610658
+    second: DialogueChoice_159
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DialogueChoice_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 554
+        width: 321
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b7b5b56e50ca580800000000000000
+      internalID: -8814663883737564374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_1
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 554
+        width: 257
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a6f04b00720eb40800000000000000
+      internalID: 5467412831602174610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_2
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 632
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aaa768747fbd0c20800000000000000
+      internalID: 3174403819323239079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_3
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 691
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5387b714c95d5cd0800000000000000
+      internalID: -2567797513784949924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_4
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 667
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483d4f4c33d046bc0800000000000000
+      internalID: -3790890470340242556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_5
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 546
+        width: 125
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79922fdbf1bde33a0800000000000000
+      internalID: -6683663867594004073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_6
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 536
+        width: 124
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5cf92370651a3ac0800000000000000
+      internalID: -3874761025405715365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_7
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 554
+        width: 82
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4769c64d92151d120800000000000000
+      internalID: 2436818113483544180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_8
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 562
+        width: 254
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d0995ac1af7cd40800000000000000
+      internalID: 5604723262230170974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_9
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 659
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff032a043c25fcfc0800000000000000
+      internalID: -3472465789122891521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_10
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 638
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73aa9a5150c721780800000000000000
+      internalID: -8713765967728367049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_11
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 580
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb6f5f1863b0b990800000000000000
+      internalID: -7372195330221184034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 524
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b103bf37311cd2e0800000000000000
+      internalID: -2099784397271924302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 578
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81069c9e47c00e360800000000000000
+      internalID: 7196765900816080920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_14
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 574
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348e60b88ccad4a30800000000000000
+      internalID: 4201204004732463171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_15
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 570
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2f17781bd6e9120800000000000000
+      internalID: 2422494258820936434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 573
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13a1531d5c878450800000000000000
+      internalID: 6090991352425849627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 549
+        width: 81
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059721da0285f0c40800000000000000
+      internalID: 5480696168899049808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_18
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 577
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1413d6889f235e0800000000000000
+      internalID: -1931206925845708383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_19
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 578
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d3683ffd1d65da0800000000000000
+      internalID: -5956342697357329127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_20
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 554
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f9014fadbde07a0800000000000000
+      internalID: -6408943486257553623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_21
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 558
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f645bb26282473ac0800000000000000
+      internalID: -3875555826559396753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_22
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 560
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d717adba87705b0800000000000000
+      internalID: -5402216548508009171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_23
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 562
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c4024d07bbfcac0800000000000000
+      internalID: -3832638664599385003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_24
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 562
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f02642cc40f3760800000000000000
+      internalID: 7439670384269594419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_25
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 554
+        width: 83
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1b6aca9d783f390800000000000000
+      internalID: -7785729961819196945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_26
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 570
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0f9303befea9fe0800000000000000
+      internalID: -1181368158825877283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_27
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 546
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d68aa74afa97f240800000000000000
+      internalID: 4825495925485635285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_28
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 554
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b03a76639dca5830800000000000000
+      internalID: 4060784046991093945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_29
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 578
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfce8a201399b2c80800000000000000
+      internalID: -8346409048624009987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_30
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 564
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f09bfcd03c25ee0800000000000000
+      internalID: -1273741280505426104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 2172
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fe4b0ffa3c1d670800000000000000
+      internalID: 8561839527033106256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_32
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 550
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a01be4f083381690800000000000000
+      internalID: -7631292939621429085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 558
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a01a07e87bc5540800000000000000
+      internalID: 4998071508877249103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_34
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 561
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcd5c282f92c4180800000000000000
+      internalID: -9129876223034008321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_35
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 562
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8f09838c3b14b10800000000000000
+      internalID: 1964048585034102956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_36
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 562
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d47d6f23e1367d0800000000000000
+      internalID: -2926462128622187254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_37
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 530
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926238385ab21e270800000000000000
+      internalID: 8277945579959690793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_38
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 540
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b56e91f6dfebb6e0800000000000000
+      internalID: -1820597917885504075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_39
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 562
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae02cfbaa0a17f180800000000000000
+      internalID: -9081761490431893270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_40
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 558
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b855d385859c404e0800000000000000
+      internalID: -2016265351880419957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_41
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 560
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30adefae249a96290800000000000000
+      internalID: -7896594366741947901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_42
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 553
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b926da658aeaee1f0800000000000000
+      internalID: -1013680828079840613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_43
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 548
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a9e0c1c644f0d70800000000000000
+      internalID: 9011496610509527610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_44
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 546
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423505d7725b354b0800000000000000
+      internalID: -5452815542604770524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_45
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 530
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde362a1952622a70800000000000000
+      internalID: 8800704756665695965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_46
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 529
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25af22c4c9d54a4b0800000000000000
+      internalID: -5430112324828333486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_47
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 519
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ff6d691cb706c20800000000000000
+      internalID: 3197691806822629269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_48
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 533
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a05ed26918dd980800000000000000
+      internalID: -8512505238645306854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_49
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 540
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ccefe7bc2c73f40800000000000000
+      internalID: 5708245231980170284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_50
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 537
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf71b65780fbd69b0800000000000000
+      internalID: -5085198361180825604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_51
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 548
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a862cfcb05215270800000000000000
+      internalID: 8237405926097840297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_52
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 542
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9446f864f390610800000000000000
+      internalID: 1587869915910785510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_53
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 524
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b55439e9402a140800000000000000
+      internalID: 4729347637814582148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_54
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 530
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cd7de80ac1b9450800000000000000
+      internalID: 6096497996492954723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_55
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 530
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ced90b1a90cbb20800000000000000
+      internalID: 3151404429310028882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_56
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 524
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71527c971a5c22950800000000000000
+      internalID: 6422913315907249431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_57
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 526
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cabc1249b7874f80800000000000000
+      internalID: -8122374173191521597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_58
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 522
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047f87573450a60f0800000000000000
+      internalID: -1123079369783707840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_59
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 532
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515e011a351ed80b0800000000000000
+      internalID: -5724671802017258219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_60
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 522
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5072d9d941769af50800000000000000
+      internalID: 6893154042908583685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_61
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 522
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f27e58e80303900800000000000000
+      internalID: 662082533913472867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_62
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 517
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22fd76c665055970800000000000000
+      internalID: 8742900190584631854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_63
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 530
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68aad4fe0d3870260800000000000000
+      internalID: 7063759473945193094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_64
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 522
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0de5a05f402d8a80800000000000000
+      internalID: -8463072599731737334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_65
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 524
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a863b18f8cb259bc0800000000000000
+      internalID: -3777064570324306294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_66
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 524
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20ff1fd57f4c1c40800000000000000
+      internalID: 5484345813903601711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_67
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 525
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76cd5eb4fef3f010800000000000000
+      internalID: 1221600251066828411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_68
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 524
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89117ab25d3b01270800000000000000
+      internalID: 8219267048092930456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_69
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 200
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135916c5b6a1e4780800000000000000
+      internalID: -8696984781992127183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_70
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 204
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d297394c960cd18f0800000000000000
+      internalID: -568086417476716243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_71
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 204
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97fe2a9f578f87d0800000000000000
+      internalID: -2913961589207009378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_72
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 198
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfaaaadb618a5170800000000000000
+      internalID: 8167983174419918786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_73
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 207
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f70d264c4302e1c0800000000000000
+      internalID: -4476011453523097615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_74
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 194
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffaec1dfb73c6e20800000000000000
+      internalID: 3345109920227700726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_75
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 208
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4082ba2399385e820800000000000000
+      internalID: 2946906225187170308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_76
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 208
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cb5d3ac776790b0800000000000000
+      internalID: -5721991016528626652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_77
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 202
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a5ee2026050a840800000000000000
+      internalID: 5233271148890708508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_78
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 206
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb17497366348e090800000000000000
+      internalID: -8005074231352856129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_79
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 194
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f507dcfc54b79fcd0800000000000000
+      internalID: -2523850576395145121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_80
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 196
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5bd142bee223f40800000000000000
+      internalID: 5706675265289958877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_81
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 194
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35a5161488b2ae10800000000000000
+      internalID: 2207529644810675514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_82
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 200
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befe405d0c9b22ef0800000000000000
+      internalID: -134340801008963605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_83
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 192
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bc7867b5fdf17f0800000000000000
+      internalID: -639547038139692255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_84
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 194
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244bdc75be3ff99e0800000000000000
+      internalID: -1612301949459385278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_85
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 200
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fea4d032d69fd950800000000000000
+      internalID: 6476060618688605939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_86
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 176
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97d854a746e34950800000000000000
+      internalID: 6432237888189552539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_87
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 194
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f37789c6ac207fc0800000000000000
+      internalID: -3499247815609584648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_88
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 192
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff5897014ae66780800000000000000
+      internalID: -8690000865943592970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_89
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 184
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d1874a24e32b330800000000000000
+      internalID: 3725108297736920439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_90
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 168
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838e259abe0294bd0800000000000000
+      internalID: -2645547109573269448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_91
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8a2d00b9b4a8a10800000000000000
+      internalID: 1912424120878016712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_92
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 184
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a02ba6d133286b90800000000000000
+      internalID: -7248504903290904409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_93
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 176
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdae7e75353f1300800000000000000
+      internalID: 224957010263584176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_94
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 175
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4af8752902dfeb70800000000000000
+      internalID: 8930587522824206923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_95
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 160
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dbfd7c2ed20d2c0800000000000000
+      internalID: -4408973583156527722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_96
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 176
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a180daa6f5002670800000000000000
+      internalID: 8511809852716122529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_97
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 184
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1251a56de966b60800000000000000
+      internalID: 7739047653154300396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_98
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 164
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00fc4c4efb2a35d0800000000000000
+      internalID: -3082102623779885045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_99
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 156
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c98ec0189dcd2d0800000000000000
+      internalID: -3252485682577761205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_100
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 166
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6e32a1f829a4f50800000000000000
+      internalID: 6866461725196281592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_101
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 166
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22410b60b35713d0800000000000000
+      internalID: -3236025790067817940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_102
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 161
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa59caed5be6b510800000000000000
+      internalID: 1564696709161376510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_103
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 172
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88920c87d73375360800000000000000
+      internalID: 7158246746718480776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_104
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 170
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3ab2deed8da3a60800000000000000
+      internalID: 7654668968642978810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_105
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 158
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26fe4d73e974ede0800000000000000
+      internalID: -1304783974063737302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_106
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 160
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1892918e05b75ad40800000000000000
+      internalID: 5595013699499272577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_107
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 167
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b694163a96471b30800000000000000
+      internalID: 4257949600848320176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_108
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 158
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d187cbceaac4f940800000000000000
+      internalID: 5329107111178109394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_109
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 155
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1b546fa102639a0800000000000000
+      internalID: -6253775732384353874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_110
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 144
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c70548155bfe59a0800000000000000
+      internalID: -6242275690590959674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_111
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 150
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84fe67fc6cef8d10800000000000000
+      internalID: 2130181101521400973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_112
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 150
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8509821b5e4cff980800000000000000
+      internalID: -8502861080653426600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_113
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 120
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1530061bf4d1aeea0800000000000000
+      internalID: -5842825338444315823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_114
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 144
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda860ea17a6d5060800000000000000
+      internalID: 6943823236958685915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_115
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 146
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8423992229246bef0800000000000000
+      internalID: -92813546901392824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_116
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 134
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec94da677a52d620800000000000000
+      internalID: 2797397787490426084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_117
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 132
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffb521b0cc4ef6f0800000000000000
+      internalID: -648996905805299721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_118
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 130
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f86fe9c2b6c48270800000000000000
+      internalID: 8251938888443980021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_119
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 132
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f646d271068d8bb0800000000000000
+      internalID: -4932138676121090317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_120
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 121
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53155032f971e1f50800000000000000
+      internalID: 6853941655159263541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_121
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 136
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68922369b41c80390800000000000000
+      internalID: -7851813419933881978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_122
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 132
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5c74f9b71fe8ad0800000000000000
+      internalID: -2697953613492795988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_123
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 128
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1ad212161cb92c0800000000000000
+      internalID: -4423729586048753157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_124
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 122
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f256ad64674b219b0800000000000000
+      internalID: -5110824207024233169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_125
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 123
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a552fb03b44ca31d0800000000000000
+      internalID: -3370165543913970342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_126
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 126
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de4d7730f27e4df0800000000000000
+      internalID: -194091357881676076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_127
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 112
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc675b03177183d0800000000000000
+      internalID: -3206150536032719688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_128
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 118
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d862ba8010cb59130800000000000000
+      internalID: 3572968592014780045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_129
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 112
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a950d8ada7a9592b0800000000000000
+      internalID: -5578382710985128550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_130
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 120
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e394497283929c720800000000000000
+      internalID: 2866867958956968254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_131
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 103
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceefc28620c780140800000000000000
+      internalID: 4686131762058559212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_132
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 97
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dceedc64714c1d340800000000000000
+      internalID: 4886902674924891853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_133
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 112
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd81c9100b6fc800800000000000000
+      internalID: 634843720658816457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_134
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 107
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aced0443d208cbe0800000000000000
+      internalID: -1456911373051237214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_135
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 101
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcaf38c90b82d4cd0800000000000000
+      internalID: -2572355073153434931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_136
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 108
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcbc71d725dab770800000000000000
+      internalID: 8627442403176660210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_137
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 105
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085001cb2b38adc50800000000000000
+      internalID: 6690805000094877056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_138
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 112
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87919f2f86d0c5010800000000000000
+      internalID: 1178831946868398456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_139
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 88
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7cb4e1dea102ad0800000000000000
+      internalID: -2729151768468666439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_140
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214dfe72839839d30800000000000000
+      internalID: 4437040932171273234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_141
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 83
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556058ef682b4aad0800000000000000
+      internalID: -2691830384395221419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_142
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 77
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb5fee8eaa3cca60800000000000000
+      internalID: 7695590384666106802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_143
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 81
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a529a60070150bb60800000000000000
+      internalID: 7759791248472969818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_144
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 83
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8583c64aba319720800000000000000
+      internalID: 2851124610827781515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_145
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4f2c004b48e32a0800000000000000
+      internalID: -6755816482367408945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_146
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 41
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5c9217db0aab290800000000000000
+      internalID: -7873804262996064770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_147
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561f4632f8e1b17b0800000000000000
+      internalID: -5252570940274577051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_148
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 71
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf5e2889b9d2dd00800000000000000
+      internalID: 996097858479218614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_149
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 81
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5b62d1e829d4ff0800000000000000
+      internalID: -50222881759119958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_150
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 63
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9c99cff2e7c74d0800000000000000
+      internalID: -3135492495990208044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_151
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 69
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ed4776446a10570800000000000000
+      internalID: 8431202790137978524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_152
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 68
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079dd2599aef183c0800000000000000
+      internalID: -4358922960012191376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_153
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 61
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34db9c6ae7209c880800000000000000
+      internalID: -8590332071245136573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_154
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 39
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c7509bfabc21380800000000000000
+      internalID: -9001908749576340373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_155
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 49
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab257ac0450b4e80800000000000000
+      internalID: -8193449321237763166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_156
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 39
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82a8d2978fb28df0800000000000000
+      internalID: -179370446136237426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_157
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 46
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc06113150d82f80800000000000000
+      internalID: -8131020080082973502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_158
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 39
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d518f62e4330b10800000000000000
+      internalID: 1946457611092188548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialogueChoice_159
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 39
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebbb072f8e9ed430800000000000000
+      internalID: 3809656672474610658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DialogueChoice_0: -8814663883737564374
+      DialogueChoice_1: 5467412831602174610
+      DialogueChoice_10: -8713765967728367049
+      DialogueChoice_100: 6866461725196281592
+      DialogueChoice_101: -3236025790067817940
+      DialogueChoice_102: 1564696709161376510
+      DialogueChoice_103: 7158246746718480776
+      DialogueChoice_104: 7654668968642978810
+      DialogueChoice_105: -1304783974063737302
+      DialogueChoice_106: 5595013699499272577
+      DialogueChoice_107: 4257949600848320176
+      DialogueChoice_108: 5329107111178109394
+      DialogueChoice_109: -6253775732384353874
+      DialogueChoice_11: -7372195330221184034
+      DialogueChoice_110: -6242275690590959674
+      DialogueChoice_111: 2130181101521400973
+      DialogueChoice_112: -8502861080653426600
+      DialogueChoice_113: -5842825338444315823
+      DialogueChoice_114: 6943823236958685915
+      DialogueChoice_115: -92813546901392824
+      DialogueChoice_116: 2797397787490426084
+      DialogueChoice_117: -648996905805299721
+      DialogueChoice_118: 8251938888443980021
+      DialogueChoice_119: -4932138676121090317
+      DialogueChoice_12: -2099784397271924302
+      DialogueChoice_120: 6853941655159263541
+      DialogueChoice_121: -7851813419933881978
+      DialogueChoice_122: -2697953613492795988
+      DialogueChoice_123: -4423729586048753157
+      DialogueChoice_124: -5110824207024233169
+      DialogueChoice_125: -3370165543913970342
+      DialogueChoice_126: -194091357881676076
+      DialogueChoice_127: -3206150536032719688
+      DialogueChoice_128: 3572968592014780045
+      DialogueChoice_129: -5578382710985128550
+      DialogueChoice_13: 7196765900816080920
+      DialogueChoice_130: 2866867958956968254
+      DialogueChoice_131: 4686131762058559212
+      DialogueChoice_132: 4886902674924891853
+      DialogueChoice_133: 634843720658816457
+      DialogueChoice_134: -1456911373051237214
+      DialogueChoice_135: -2572355073153434931
+      DialogueChoice_136: 8627442403176660210
+      DialogueChoice_137: 6690805000094877056
+      DialogueChoice_138: 1178831946868398456
+      DialogueChoice_139: -2729151768468666439
+      DialogueChoice_14: 4201204004732463171
+      DialogueChoice_140: 4437040932171273234
+      DialogueChoice_141: -2691830384395221419
+      DialogueChoice_142: 7695590384666106802
+      DialogueChoice_143: 7759791248472969818
+      DialogueChoice_144: 2851124610827781515
+      DialogueChoice_145: -6755816482367408945
+      DialogueChoice_146: -7873804262996064770
+      DialogueChoice_147: -5252570940274577051
+      DialogueChoice_148: 996097858479218614
+      DialogueChoice_149: -50222881759119958
+      DialogueChoice_15: 2422494258820936434
+      DialogueChoice_150: -3135492495990208044
+      DialogueChoice_151: 8431202790137978524
+      DialogueChoice_152: -4358922960012191376
+      DialogueChoice_153: -8590332071245136573
+      DialogueChoice_154: -9001908749576340373
+      DialogueChoice_155: -8193449321237763166
+      DialogueChoice_156: -179370446136237426
+      DialogueChoice_157: -8131020080082973502
+      DialogueChoice_158: 1946457611092188548
+      DialogueChoice_159: 3809656672474610658
+      DialogueChoice_16: 6090991352425849627
+      DialogueChoice_17: 5480696168899049808
+      DialogueChoice_18: -1931206925845708383
+      DialogueChoice_19: -5956342697357329127
+      DialogueChoice_2: 3174403819323239079
+      DialogueChoice_20: -6408943486257553623
+      DialogueChoice_21: -3875555826559396753
+      DialogueChoice_22: -5402216548508009171
+      DialogueChoice_23: -3832638664599385003
+      DialogueChoice_24: 7439670384269594419
+      DialogueChoice_25: -7785729961819196945
+      DialogueChoice_26: -1181368158825877283
+      DialogueChoice_27: 4825495925485635285
+      DialogueChoice_28: 4060784046991093945
+      DialogueChoice_29: -8346409048624009987
+      DialogueChoice_3: -2567797513784949924
+      DialogueChoice_30: -1273741280505426104
+      DialogueChoice_31: 8561839527033106256
+      DialogueChoice_32: -7631292939621429085
+      DialogueChoice_33: 4998071508877249103
+      DialogueChoice_34: -9129876223034008321
+      DialogueChoice_35: 1964048585034102956
+      DialogueChoice_36: -2926462128622187254
+      DialogueChoice_37: 8277945579959690793
+      DialogueChoice_38: -1820597917885504075
+      DialogueChoice_39: -9081761490431893270
+      DialogueChoice_4: -3790890470340242556
+      DialogueChoice_40: -2016265351880419957
+      DialogueChoice_41: -7896594366741947901
+      DialogueChoice_42: -1013680828079840613
+      DialogueChoice_43: 9011496610509527610
+      DialogueChoice_44: -5452815542604770524
+      DialogueChoice_45: 8800704756665695965
+      DialogueChoice_46: -5430112324828333486
+      DialogueChoice_47: 3197691806822629269
+      DialogueChoice_48: -8512505238645306854
+      DialogueChoice_49: 5708245231980170284
+      DialogueChoice_5: -6683663867594004073
+      DialogueChoice_50: -5085198361180825604
+      DialogueChoice_51: 8237405926097840297
+      DialogueChoice_52: 1587869915910785510
+      DialogueChoice_53: 4729347637814582148
+      DialogueChoice_54: 6096497996492954723
+      DialogueChoice_55: 3151404429310028882
+      DialogueChoice_56: 6422913315907249431
+      DialogueChoice_57: -8122374173191521597
+      DialogueChoice_58: -1123079369783707840
+      DialogueChoice_59: -5724671802017258219
+      DialogueChoice_6: -3874761025405715365
+      DialogueChoice_60: 6893154042908583685
+      DialogueChoice_61: 662082533913472867
+      DialogueChoice_62: 8742900190584631854
+      DialogueChoice_63: 7063759473945193094
+      DialogueChoice_64: -8463072599731737334
+      DialogueChoice_65: -3777064570324306294
+      DialogueChoice_66: 5484345813903601711
+      DialogueChoice_67: 1221600251066828411
+      DialogueChoice_68: 8219267048092930456
+      DialogueChoice_69: -8696984781992127183
+      DialogueChoice_7: 2436818113483544180
+      DialogueChoice_70: -568086417476716243
+      DialogueChoice_71: -2913961589207009378
+      DialogueChoice_72: 8167983174419918786
+      DialogueChoice_73: -4476011453523097615
+      DialogueChoice_74: 3345109920227700726
+      DialogueChoice_75: 2946906225187170308
+      DialogueChoice_76: -5721991016528626652
+      DialogueChoice_77: 5233271148890708508
+      DialogueChoice_78: -8005074231352856129
+      DialogueChoice_79: -2523850576395145121
+      DialogueChoice_8: 5604723262230170974
+      DialogueChoice_80: 5706675265289958877
+      DialogueChoice_81: 2207529644810675514
+      DialogueChoice_82: -134340801008963605
+      DialogueChoice_83: -639547038139692255
+      DialogueChoice_84: -1612301949459385278
+      DialogueChoice_85: 6476060618688605939
+      DialogueChoice_86: 6432237888189552539
+      DialogueChoice_87: -3499247815609584648
+      DialogueChoice_88: -8690000865943592970
+      DialogueChoice_89: 3725108297736920439
+      DialogueChoice_9: -3472465789122891521
+      DialogueChoice_90: -2645547109573269448
+      DialogueChoice_91: 1912424120878016712
+      DialogueChoice_92: -7248504903290904409
+      DialogueChoice_93: 224957010263584176
+      DialogueChoice_94: 8930587522824206923
+      DialogueChoice_95: -4408973583156527722
+      DialogueChoice_96: 8511809852716122529
+      DialogueChoice_97: 7739047653154300396
+      DialogueChoice_98: -3082102623779885045
+      DialogueChoice_99: -3252485682577761205
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
