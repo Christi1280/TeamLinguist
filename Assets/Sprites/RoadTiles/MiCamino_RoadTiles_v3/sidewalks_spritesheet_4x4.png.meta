@@ -410,7 +410,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sidewalks_spritesheet_4x4_0: -6306953599242354376
+      sidewalks_spritesheet_4x4_1: 710071672274203442
+      sidewalks_spritesheet_4x4_10: -7730602935288622232
+      sidewalks_spritesheet_4x4_2: -2847478965002919840
+      sidewalks_spritesheet_4x4_3: -7173150542912714045
+      sidewalks_spritesheet_4x4_4: 2164954036581676330
+      sidewalks_spritesheet_4x4_5: 3358203057749972645
+      sidewalks_spritesheet_4x4_6: 2664940814647534523
+      sidewalks_spritesheet_4x4_7: -5501226393337559458
+      sidewalks_spritesheet_4x4_8: 284349091180611054
+      sidewalks_spritesheet_4x4_9: -8412683962226116213
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

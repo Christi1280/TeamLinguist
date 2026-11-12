@@ -410,7 +410,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      roads_spritesheet_4x4_0: 6970702478807350250
+      roads_spritesheet_4x4_1: -5617257137340098892
+      roads_spritesheet_4x4_10: -1656867917331067664
+      roads_spritesheet_4x4_2: -4574762802676998428
+      roads_spritesheet_4x4_3: 5881054686784719371
+      roads_spritesheet_4x4_4: 5295553635760704615
+      roads_spritesheet_4x4_5: -3700529369861905364
+      roads_spritesheet_4x4_6: 4879511445270665256
+      roads_spritesheet_4x4_7: -1809270983004147063
+      roads_spritesheet_4x4_8: -6256020720736382055
+      roads_spritesheet_4x4_9: 2792234190419571065
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

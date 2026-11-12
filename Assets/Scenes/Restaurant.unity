@@ -60594,7 +60594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 199818402278794106, guid: 40a86d307ae2a1b48ba76fec6de209a8, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 258.9949
+      value: 292.3123
       objectReference: {fileID: 0}
     - target: {fileID: 199818402278794106, guid: 40a86d307ae2a1b48ba76fec6de209a8, type: 3}
       propertyPath: m_SizeDelta.y
@@ -60630,7 +60630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 199818402278794106, guid: 40a86d307ae2a1b48ba76fec6de209a8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -417.67017
+      value: -401.01147
       objectReference: {fileID: 0}
     - target: {fileID: 199818402278794106, guid: 40a86d307ae2a1b48ba76fec6de209a8, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -60651,6 +60651,34 @@ PrefabInstance:
     - target: {fileID: 4408328566695685705, guid: 40a86d307ae2a1b48ba76fec6de209a8, type: 3}
       propertyPath: m_Name
       value: TooltipPanel 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8792440682449380650, guid: 40a86d307ae2a1b48ba76fec6de209a8, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8792440682449380650, guid: 40a86d307ae2a1b48ba76fec6de209a8, type: 3}
+      propertyPath: m_margin.w
+      value: -3.325714
+      objectReference: {fileID: 0}
+    - target: {fileID: 8792440682449380650, guid: 40a86d307ae2a1b48ba76fec6de209a8, type: 3}
+      propertyPath: m_margin.y
+      value: 7.0376587
+      objectReference: {fileID: 0}
+    - target: {fileID: 8792440682449380650, guid: 40a86d307ae2a1b48ba76fec6de209a8, type: 3}
+      propertyPath: m_margin.z
+      value: 124.79431
+      objectReference: {fileID: 0}
+    - target: {fileID: 8792440682449380650, guid: 40a86d307ae2a1b48ba76fec6de209a8, type: 3}
+      propertyPath: m_TextWrappingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8792440682449380650, guid: 40a86d307ae2a1b48ba76fec6de209a8, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8792440682449380650, guid: 40a86d307ae2a1b48ba76fec6de209a8, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
