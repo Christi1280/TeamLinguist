@@ -98,8 +98,11 @@ Mi Camino is a collaborative project that originally began at Georgia State Univ
 The project brings together programming, game design, level design, artwork, and educational content from multiple contributors.
 
 **Christian  — Lead Programmer**
+
 **Donovan - Programmer**
+
 **Ian  — Game Artist**
+
 **Joshua - Game Artist**
 
 ## Third-Party Assets
